@@ -15,11 +15,11 @@ body{
 /*Header*********/
 .header{
 	height: 60vh;
-	margin-top: 10px;
+	position: relative;background-color: #F9DA87;
 }
 
 .header__left{
-	background-color: lightblue;
+	
 	height: 60vh;
 }
 
@@ -28,6 +28,57 @@ body{
 	height: 60vh;
 }
 
+/*nav*/
+nav{
+	position: absolute;
+	z-index: 1;
+	width: 99%;
+}
+
+.logo{
+	background-color: #fff;
+	padding: 1.3em 1em;
+	margin-left: 2em;
+	-moz-transform: skewX(-18deg);
+ 	-ms-transform: skewX(-18deg);
+  	-webkit-transform: skewX(-18deg);
+  	transform: skewX(-18deg);
+  	z-index: 10;
+  	position: absolute;
+  	width: 75%;
+  	left:25%;
+}
+
+.logo h3{
+	 -moz-transform: skewX(18deg);
+	  -ms-transform: skewX(18deg);
+	  -webkit-transform: skewX(18deg);
+	  transform: skewX(18deg);
+	  font-size: 1.5em;
+	  margin: 0px!important;
+
+}
+
+.nav__contenido{
+	background-color: #333333;
+}
+
+nav h4{
+	color:#A8A8A8;
+	font-size: 0.8em;
+	margin-left: 4em;
+}
+
+nav ul li{
+	display: inline-block;
+	margin-right: 1em;
+	padding-top: 1em;
+}
+
+nav ul li a{
+	color:#fff;
+	font-size: 0.8em;
+}
 
 /*Middle********/
 .middle__item{
