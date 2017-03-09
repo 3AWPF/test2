@@ -7,10 +7,13 @@
 	<link rel="stylesheet" href="css/normalize.css">
 	<link rel="stylesheet" href="css/bootstrap.css">
 	<link rel="stylesheet" href="css/style.css">
+	<link rel="stylesheet" type="text/css" href="css/slick.css"/>
+	<link rel="stylesheet" type="text/css" href="css/slick-theme.css"/>
 </head>
 <body>
 
 <!-- Header -->
+<header>
 <div class="container">		
 	<div class="row">
 		<!-- nav -->
@@ -18,16 +21,16 @@
 			<nav>
 				<div class="col-md-2">
 					<div class="logo">
-						<h3>logo</h3>
+						<img src="img/logo.png" alt="logo forum">
 					</div>
 				</div>
 				<div class="col-md-10 nopadding">
 					<div class="nav__contenido">
 						<div class="row">
-							<div class="col-md-3">
-								<h4>GRANDES MOMENTOS <br>Todos los días.</h4>
+							<div class="col-md-2">
+								<h4>GRANDES MOMENTOS<br> <span>Todos los días</span></h4>
 							</div>
-							<div class="col-md-9 nopadding">
+							<div class="col-md-10 nopadding">
 								<ul>
 									<li><a href="">NOSOTROS</a></li>
 									<li><a href="">DIRECTORIO</a></li>
@@ -35,10 +38,9 @@
 									<li><a href="">NOVEDADES</a></li>
 									<li><a href="">EVENTOS</a></li>
 									<li><a href="">CONTACTO</a></li>
-									<li class="input__corto"><a href=""><input type="text"></a></li>
-									<li><a href=""><img src="img/facebook.png" alt="Facebook"></a></li>
-									<li><a href=""><img src="img/twitter.png" alt="Twitter"></a></li>
-									<li><a href=""><img src="http://placehold.it/30x30"></a></li>
+									<li class="input__corto nohover"><input type="text" ></li>
+									<li class="nohover nopadding"><a href=""><img src="img/facebook.png" alt="Facebook"></a></li>
+									<li class="nohover"><a href=""><img src="img/gicsalogo.png" alt="Gicsa"></a></li>
 								</ul>
 							</div>
 						</div>						
@@ -47,23 +49,24 @@
 			</nav>
 		</div>
 		<!-- /nav -->
-		<header class="header">
+		<div class="header">
 			<!-- Header left -->
 			<div class="col-md-8 nopadding">
 				<div class="header__left">
-					
+					<img src="img/izquierda.jpg" alt="Gicsa">
 				</div>
 			</div><!-- /Header left -->
 			<div class="col-md-4 nopadding">
 				<!-- Header-right -->	
 				<div class="header__right">
-					Lorem ipsum dolor sitd amet, consectetur adipisicing elit. At ad ut aspernatur perspiciatis, id odit doloremque nisi placeat error, aperiam quibusdam nesciunt eligendi hic qui mollitia pariatur voluptatem, consectetur blanditiis!
+					<img src="img/derecha.jpg" alt="Gicsa">
 				</div>
 				<!-- /Header-right -->	
 			</div>			
 		</header>		
 	</div>		
 </div>
+</header>
 <!-- /Header -->
 
 <!-- Middle -->
@@ -72,32 +75,73 @@
 		<div class="row">
 			<div class="middle__item">
 				<div class="col-md-8 nopadding">
+				<!-- Tiendas -->
 					<div class="stores">
 						<div class="col-md-3 nopadding">
 							<div class="stores__item">
-								
+								<img src="img/tienda1.jpg">
 							</div>
 						</div>
 						<div class="col-md-3 nopadding">
 							<div class="stores__item">
-								
-							</div>
-						</div>
-
-						<div class="col-md-3 nopadding">
-							<div class="stores__item">
-								
+								<img src="img/tienda2.jpg">
 							</div>
 						</div>
 
 						<div class="col-md-3 nopadding">
 							<div class="stores__item">
-								
+								<img src="img/tienda3.jpg">
 							</div>
+						</div>
+
+						<div class="col-md-3 nopadding">
+							<div class="stores__item">
+								<img src="img/tienda4.jpg">
+							</div>
+						</div>
+					</div>
+					<!-- /Tiendas -->
+				</div>
+				<!-- Twitter -->
+				<div class="col-md-4 nopadding">
+					<div class="middle__right">
+						Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptate beatae hic fugiat temporibus similique veniam cumque, iste reiciendis minima tempora blanditiis officia maxime nostrum sapiente. Iure, recusandae! Asperiores, se.
+					</div>
+				</div>
+				<!-- /Twitter -->
+			</div>
+			<!-- Newsletter -->
+			<div class="col-md-9">
+				<div class="newsletter">
+					<div class="newsletter__content">
+						<div class="row">
+							<div class="col-md-offset-2 col-md-6">								
+								<h4>SUSCRIBETE A NUESTRO NEWSLETTER <span>¡Y recibe todas nuestras promociones!</span></h4>
+							</div>
+							<div class="col-md-4 nopadding">
+								
+									<input type="text">
+									<a href="#">Enviar</a>
+																
+							</div>
+							
+						</div> 
+					</div>
+				</div>
+			</div>
+			<div class="col-md-3 nopadding">
+				<div class="apps">
+					<div class="row">
+						<div class="col-md-4 nopadding">
+							<img src="img/appstore.png" alt="">
+						</div>
+						<div class="col-md-4  ">
+							<img src="img/googleplay.png" alt="">
 						</div>
 					</div>
 				</div>
 			</div>
+			<!-- /Newsletter -->
 		</div>
 	</div>
 </section>
@@ -109,16 +153,55 @@
 		<div class="row">
 			<div class="footer__container">
 				<div class="row">
-					<div class="col-md-7">
+					<div class="col-md-5">
 						<!-- footer item -->
 						<div class="footer__item">
 							<img src="http://fakeimg.pl/100x100/00CED1/FFF/?text=img+placeholder">
 						</div><!-- footer item -->
 					</div>
 					<!-- footer item -->
-					<div class="col-md-5">
+					<div class="col-md-7">
 						<div class="footer__item">
-							Lorem ipsum dolor sit amet, consectetur adipisicing elit. At sint architecto quidem cum, nesciunt doloremque facilis reprehenderit temporibus nemo natus cumque harum ratione corporis tenetur consequatur aliquid dolorem maiores officiis!
+							<div class="row">
+								<div class="col-md-4 nopadding">
+									<ul>
+										<li>
+											<h4>FORUM Centro Comercial</h4>
+										</li>
+										<li>
+											<h4>PASEO</h4>
+										</li>
+										<li>
+											<h4>LA ISLA</h4>
+										</li>
+										<li>
+											<h4>PLAZA OUTLET</h4>
+										</li>
+										<li>
+											<h4>EXPLANADA Mallentraniment</h4>
+										</li>
+									</ul>
+								</div>
+								<div class="col-md-7 nopadding">
+									<ul class="nombres">
+										<li>
+											<h4>Buenavista | Coatzacoalcos | Cuernavaca | Tepic | Tlaquepaque</h4>
+										</li>
+										<li>
+											<h4>Buenavista | Coatzacoalcos | Cuernavaca | Tepic | Tlaquepaque</h4>
+										</li>
+										<li>
+											<h4>Buenavista | Coatzacoalcos | Cuernavaca | Tepic | Tlaquepaque</h4>
+										</li>
+										<li>
+											<h4>Buenavista | Coatzacoalcos | Cuernavaca | Tepic | Tlaquepaque</h4>
+										</li>
+										<li>
+											<h4>Buenavista | Coatzacoalcos | Cuernavaca | Tepic | Tlaquepaque</h4>
+										</li>
+									</ul>
+								</div>
+							</div>
 						</div>
 					</div><!-- /footer item -->
 				</div>
@@ -128,10 +211,38 @@
 </footer>
 <!-- /Footer -->
 
+<div class="container">
+	<div class="row">
+		
+	</div>
+</div>
 <script
   src="https://code.jquery.com/jquery-3.1.1.js"
   integrity="sha256-16cdPddA6VdVInumRGo6IbivbERE8p7CQR3HzTBuELA="
   crossorigin="anonymous"></script>
 <script src="js/bootstrap.js"></script>
+<script type="text/javascript" src="js/slick.js"></script>
+<script>$(document).ready(function(){
+  $('.stores').slick({
+		autoplay: false,
+		dots: false,
+		infinite: true,
+  		slidesToShow: 4,
+  		slidesToScroll: 1,
+  		arrows:true,
+  		autoplay:true,
+  		responsive: [
+		    {
+		      breakpoint: 768,
+		      settings: {
+		        slidesToShow: 2,
+		        slidesToScroll: 3,
+		        infinite: true,
+		        
+		      }
+    	}]
+	});
+});</script>
+
 </body>
 </html>

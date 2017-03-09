@@ -1,4 +1,14 @@
 /*Estilos Home*/
+@font-face {
+  font-family: 'Nexa bold';
+  src: local('../fonts/Nexa Bold.otf'),
+       url(../fonts/Nexa Bold.otf) format('otf');
+  font-family: 'SmallTownSkyline';
+  src: local('../fonts/SmallTownSkyline.ttf'),
+       url(../fonts/SmallTownSkyline.ttf) format('truetype');
+}
+
+
 body{
 	background-color: #333333;
 }
@@ -13,20 +23,18 @@ body{
    margin: 0 !important;
 }
 /*Header*********/
-.header{
-	background-color: #F9DA87;
-	height: 60vh;
+
+
+.header__left, .header__right{
+	background-color: lightyellow;
+	height: 55vh;
+	overflow: hidden;
+	text-align: center;
 }
 
-.header__left{
-	
-	
-}
-
-.header__right{
-	background-image: url("../img/derecha.png");
-	background-size: cover;
-	height: 59vh;
+.header__left img, .header__right img{
+	height: 100%;
+	width: 100%;
 }
 
 /*nav*/
@@ -38,23 +46,27 @@ nav{
 
 .logo{
 	background-color: #fff;
-	left:40%;
+	left:33%;
 	-moz-transform: skewX(-18deg);
  	-ms-transform: skewX(-18deg);
   	-webkit-transform: skewX(-18deg);
   	transform: skewX(-18deg);
-  	padding: 1em 1em;
+  	padding: 0.5em 1em;
+  	padding-left: 12%;
   	position: absolute;
   	width: 70%;  	
   	z-index: 10;
+  	-webkit-box-shadow: 12px 0px 3px -9px  #000;
+	-moz-box-shadow: 12px 0px 3px -9px  #000;
+	box-shadow: 12px 0px 3px -9px  #000;
 }
 
-.logo h3{
+.logo img{
 	 -moz-transform: skewX(18deg);
 	  -ms-transform: skewX(18deg);
 	  -webkit-transform: skewX(18deg);
 	  transform: skewX(18deg);
-	  font-size: 1.5em;
+	  margin-left: 1em;
 	  margin: 0px!important;
 	  text-align: center;
 
@@ -67,18 +79,30 @@ nav{
 nav h4{
 	color:#A8A8A8;
 	font-size: 0.7em;
+	font-family: 'Nexa bold';
+	font-weight: 300;
+	line-height: 1.2em;
+	margin-left: -2em;
+	margin: 10px 0;
 	text-align: center;
+}
+
+nav h4 span{
+	font-family: 'SmallTownSkyline';
+	font-size: 2em;
+	font-weight: 300;
 }
 
 nav ul{
 	margin-left: -2.5em;
-	height: 35px;
+	height: 20px;
 }
 
 nav ul li{
 	display: inline-block;
-	margin-right: 1em;
-	padding-top: 0.8em;
+	margin-right: 0.8em;	
+	font-size: 'Myriad Pro';
+	padding: 0.6em 0.4em;
 }
 
 nav ul li a{
@@ -86,28 +110,138 @@ nav ul li a{
 	font-size: 0.8em;
 }
 
+nav ul li:hover{
+	background-color: #a63c2e;
+	color:#fff;
+	-webkit-box-shadow: inset 0px -2px 5px 0px rgba(0,0,0,0.5);
+	-moz-box-shadow: inset 0px -2px 5px 0px rgba(0,0,0,0.5);
+	box-shadow: inset 0px -2px 5px 0px rgba(0,0,0,0.5);
+}
+
+nav ul > li:nth-child(8){
+	margin-right: 0.2em;
+	padding: 0.6em 0.1em;
+}
+
+.nohover:hover{
+	background-color: transparent;
+	-webkit-box-shadow: inset 0px 0px 0px 0px rgba(0,0,0,0.5);
+	-moz-box-shadow: inset 0px 0px 0px 0px rgba(0,0,0,0.5);
+	box-shadow: inset 0px 0px 0px 0px rgba(0,0,0,0.5);
+}
+
+nav ul li:hover a{
+	color:#fff;
+	text-decoration: none;
+}
+
+@-moz-document url-prefix() {
+	nav ul li{
+		margin-right: 1.32em;
+	}
+}
+
 .input__corto{
-	width: 13%;
+	padding-top: 5px;
+	width: 19%;
 }
 
 .input__corto input{
-	background-color: #717171;
 	border:0px;
+	background: #717171 url('../img/search.png')5% 50%  no-repeat;
 	width: 100%;
 }
+
 
 /*Middle********/
 .middle__item{
 	background-color: #fff;
-	height: 27vh;
+	padding-top: 0.5em;
+	height: 23vh;
 }
 
 .stores__item{
-	border:1px solid #ccc;
-	background-image: url("../img/citi.png");
-	background-size: cover;
-	height: 200px;
 	margin-right: 1px;
+}
+
+.stores__item img{
+	padding: 1px;
+	width: 100%;
+}
+
+.noright{
+	padding-right: 0!important;
+}
+
+.enlace__tiendas{
+	color:#A22E21;
+	display: block;
+	font-size: 0.8em;
+	margin-top: 0.5em;
+	text-align: right;
+	text-decoration: underline;
+}
+
+.middle__right{
+	border:1px solid blue;
+	color:#fff;
+	padding: 3em 1px;
+}
+
+.newsletter{
+	-moz-transform: skewX(18deg);
+ 	-ms-transform: skewX(18deg);
+  	-webkit-transform: skewX(18deg);
+  	transform: skewX(18deg);
+  	position: absolute;
+  	background: #333333;
+  	z-index: 10;
+  	width: 100%; -webkit-backface-visibility: hidden;
+    
+}
+
+.newsletter__content{
+	background: url("../img/newsletter.png");
+	color:#fff;
+	-moz-transform: skewX(-18deg);
+ 	-ms-transform: skewX(-18deg);
+  	-webkit-transform: skewX(-18deg);
+  	transform: skewX(-18deg);
+  	padding: 0.4em 0;  	 -webkit-backface-visibility: hidden;
+    
+}
+
+.newsletter h4{
+	font-size: 0.8em;
+	margin: 3px;
+	padding-top: 2px;
+}
+
+.newsletter input{
+	border:0px;
+	background: #717171;
+	width: 40%;
+}
+
+.newsletter a{
+	background-color: #a03021;
+	border:1px solid #c53825;
+	color:#fff;
+	text-align: center;
+	padding: 0.2em 3em;
+	margin-left: 1em;
+}
+
+.apps{
+	background-color: #fff;
+	padding-left: 5em;
+	padding-bottom: 2px;
+}
+
+.apps img{
+	margin-right: 2em;
+	
+
 }
 
 
@@ -115,5 +249,22 @@ nav ul li a{
 .footer__container{
 	background-color: #000000;
 	color:#fff;
-	height: 12vh;
+	height: 15vh;
+	padding: 10px 0;
+}
+
+.footer__item ul{
+	text-align: right;
+}
+
+.nombres{
+	text-align: left!important;
+}
+
+.footer__container ul li{
+	list-style: none;	
+}
+
+.footer__container ul li h4{
+	font-size: 0.8em;
 }

@@ -4,12 +4,32 @@
 		"selected_items":
 		[
 			[
+				"margin",
+				"margin-left"
+			],
+			[
 				"pad",
+				"padding"
+			],
+			[
+				"font",
+				"font-family"
+			],
+			[
+				"back",
+				"background-color"
+			],
+			[
+				"paddin",
 				"padding-top"
 			],
 			[
-				"margin",
-				"margin-right"
+				"padd",
+				"padding"
+			],
+			[
+				"font-s",
+				"font-size"
 			],
 			[
 				"pos",
@@ -30,10 +50,6 @@
 			[
 				"over",
 				"overflow-y"
-			],
-			[
-				"padd",
-				"padding-left"
 			],
 			[
 				"in",
@@ -84,14 +100,6 @@
 				"list-style"
 			],
 			[
-				"back",
-				"background-color"
-			],
-			[
-				"font",
-				"font-size"
-			],
-			[
 				"add_setting",
 				"add_settings_field"
 			],
@@ -131,17 +139,16 @@
 			"file": "index.html",
 			"settings":
 			{
-				"buffer_size": 3715,
+				"buffer_size": 6479,
 				"encoding": "UTF-8",
-				"line_ending": "Windows",
-				"name": "!"
+				"line_ending": "Windows"
 			}
 		},
 		{
 			"file": "css/style.css",
 			"settings":
 			{
-				"buffer_size": 1309,
+				"buffer_size": 4368,
 				"encoding": "UTF-8",
 				"line_ending": "Windows"
 			}
@@ -154,10 +161,18 @@
 	"build_varint": "",
 	"command_palette":
 	{
-		"height": 210.0,
-		"last_filter": "instal",
+		"height": 357.0,
+		"last_filter": "sync",
 		"selected_items":
 		[
+			[
+				"sync",
+				"Sync Settings: Create and Upload"
+			],
+			[
+				"insta",
+				"Package Control: Install Package"
+			],
 			[
 				"instal",
 				"Package Control: Install Package"
@@ -165,10 +180,6 @@
 			[
 				"fake",
 				"Snippet: fakeimg"
-			],
-			[
-				"insta",
-				"Package Control: Install Package"
 			],
 			[
 				"ins",
@@ -204,10 +215,20 @@
 	},
 	"expanded_folders":
 	[
-		"/E/Dropbox/MIS DESARROLLOS/Forum"
+		"/E/Dropbox/MIS DESARROLLOS/Forum",
+		"/E/Dropbox/MIS DESARROLLOS/Forum/css",
+		"/E/Dropbox/MIS DESARROLLOS/Forum/img",
+		"/E/Dropbox/MIS DESARROLLOS/Forum/js"
 	],
 	"file_history":
 	[
+		"/E/desarrollo/theme-fundacion/parts/aliados-carrusel.php",
+		"/E/Dropbox/MIS DESARROLLOS/Forum/css/slick-theme.css",
+		"/E/desarrollo/theme-fundacion/js/funciones.js",
+		"/E/Dropbox/MIS DESARROLLOS/Forum/css/style.css",
+		"/I/xampp/htdocs/fundacion/wp-content/themes/theme-fundacion/index.php",
+		"/I/xampp/htdocs/fundacion/wp-content/themes/theme-fundacion/index.html",
+		"/E/Dropbox/MIS DESARROLLOS/Forum/index.html",
 		"/C/Users/pcGrande/Desktop/index.html",
 		"/E/Dropbox/MIS DESARROLLOS/Forum/gulpfile.js",
 		"/E/desarrollo/CRMLEX/gulpfile.js",
@@ -328,14 +349,7 @@
 		"/C/Users/pcGrande/Desktop/HTML para banners nuevos/12180 24 de mayo.html",
 		"/C/Users/pcGrande/Desktop/HTML para banners nuevos/12120 24 de mayo.html",
 		"/C/Users/pcGrande/Desktop/HTML para banners nuevos/6120 24 de mayo.html",
-		"/C/Users/pcGrande/Desktop/HTML para banners nuevos/1280 24 de mayo.html",
-		"/C/Users/pcGrande/Desktop/HTML para banners nuevos/1275 10 de mayo.html",
-		"/C/Users/pcGrande/Desktop/HTML para banners nuevos/1270 24 de mayo.html",
-		"/C/Users/pcGrande/Desktop/HTML para banners nuevos/1250 26 de mayo.html",
-		"/C/Users/pcGrande/Desktop/HTML para banners nuevos/1255 24 de mayo.html",
-		"/C/Users/pcGrande/Desktop/HTML para banners nuevos/1250 24 de mayo.html",
-		"/C/Users/pcGrande/Desktop/HTML para banners nuevos/1245 24 de mayo.html",
-		"/C/Users/pcGrande/Desktop/HTML para banners nuevos/1240 24 de mayo.html"
+		"/C/Users/pcGrande/Desktop/HTML para banners nuevos/1280 24 de mayo.html"
 	],
 	"find":
 	{
@@ -423,46 +437,30 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 3715,
+						"buffer_size": 6479,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								787,
-								787
+								3148,
+								3148
 							]
 						],
 						"settings":
 						{
-							"auto_name": "!",
 							"bracket_highlighter.busy": false,
 							"bracket_highlighter.locations":
 							{
 								"close":
 								{
-									"1":
-									[
-										787,
-										788
-									]
 								},
 								"icon":
 								{
-									"1":
-									[
-										"Packages/BracketHighlighter/icons/double_quote.png",
-										"brackethighlighter.default"
-									]
 								},
 								"open":
 								{
-									"1":
-									[
-										778,
-										779
-									]
 								},
 								"unmatched":
 								{
@@ -470,11 +468,11 @@
 							},
 							"bracket_highlighter.regions":
 							[
-								"bh_unmatched",
-								"bh_unmatched_center",
-								"bh_unmatched_open",
-								"bh_unmatched_close",
-								"bh_unmatched_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content",
 								"bh_double_quote",
 								"bh_double_quote_center",
 								"bh_double_quote_open",
@@ -485,21 +483,31 @@
 								"bh_tag_open",
 								"bh_tag_close",
 								"bh_tag_content",
-								"bh_default",
-								"bh_default_center",
-								"bh_default_open",
-								"bh_default_close",
-								"bh_default_content",
-								"bh_curly",
-								"bh_curly_center",
-								"bh_curly_open",
-								"bh_curly_close",
-								"bh_curly_content",
 								"bh_c_define",
 								"bh_c_define_center",
 								"bh_c_define_open",
 								"bh_c_define_close",
 								"bh_c_define_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content",
 								"bh_round",
 								"bh_round_center",
 								"bh_round_open",
@@ -510,27 +518,18 @@
 								"bh_regex_open",
 								"bh_regex_close",
 								"bh_regex_content",
-								"bh_square",
-								"bh_square_center",
-								"bh_square_open",
-								"bh_square_close",
-								"bh_square_content",
-								"bh_single_quote",
-								"bh_single_quote_center",
-								"bh_single_quote_open",
-								"bh_single_quote_close",
-								"bh_single_quote_content",
-								"bh_angle",
-								"bh_angle_center",
-								"bh_angle_open",
-								"bh_angle_close",
-								"bh_angle_content"
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content"
 							],
 							"color_scheme": "Packages/User/Color Highlighter/themes/Boxy Tomorrow.tmTheme",
-							"syntax": "Packages/HTML/HTML.sublime-syntax"
+							"syntax": "Packages/HTML/HTML.sublime-syntax",
+							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 240.0,
+						"translation.y": 2022.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 0,
@@ -542,15 +541,15 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 1309,
+						"buffer_size": 4368,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								1076,
-								1076
+								4061,
+								4061
 							]
 						],
 						"settings":
@@ -562,8 +561,8 @@
 								{
 									"1":
 									[
-										1077,
-										1078
+										4068,
+										4069
 									]
 								},
 								"icon":
@@ -578,8 +577,8 @@
 								{
 									"1":
 									[
-										1012,
-										1013
+										4043,
+										4044
 									]
 								},
 								"unmatched":
@@ -588,11 +587,11 @@
 							},
 							"bracket_highlighter.regions":
 							[
-								"bh_unmatched",
-								"bh_unmatched_center",
-								"bh_unmatched_open",
-								"bh_unmatched_close",
-								"bh_unmatched_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content",
 								"bh_double_quote",
 								"bh_double_quote_center",
 								"bh_double_quote_open",
@@ -603,21 +602,31 @@
 								"bh_tag_open",
 								"bh_tag_close",
 								"bh_tag_content",
-								"bh_default",
-								"bh_default_center",
-								"bh_default_open",
-								"bh_default_close",
-								"bh_default_content",
-								"bh_curly",
-								"bh_curly_center",
-								"bh_curly_open",
-								"bh_curly_close",
-								"bh_curly_content",
 								"bh_c_define",
 								"bh_c_define_center",
 								"bh_c_define_open",
 								"bh_c_define_close",
 								"bh_c_define_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content",
 								"bh_round",
 								"bh_round_center",
 								"bh_round_open",
@@ -628,28 +637,17 @@
 								"bh_regex_open",
 								"bh_regex_close",
 								"bh_regex_content",
-								"bh_square",
-								"bh_square_center",
-								"bh_square_open",
-								"bh_square_close",
-								"bh_square_content",
-								"bh_single_quote",
-								"bh_single_quote_center",
-								"bh_single_quote_open",
-								"bh_single_quote_close",
-								"bh_single_quote_content",
-								"bh_angle",
-								"bh_angle_center",
-								"bh_angle_open",
-								"bh_angle_close",
-								"bh_angle_content"
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content"
 							],
 							"color_scheme": "Packages/User/Color Highlighter/themes/Boxy Tomorrow.tmTheme",
-							"open_with_edit": true,
 							"syntax": "Packages/CSS/CSS.sublime-syntax"
 						},
 						"translation.x": 0.0,
-						"translation.y": 1140.0,
+						"translation.y": 3982.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 1,
