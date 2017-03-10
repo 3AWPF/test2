@@ -13,30 +13,20 @@ body{
 	background-color: #333333;
 }
 
-.container-full {
-  margin: 0 auto;
-  width: 100%;
-}
-
 .nopadding {
    padding: 0 !important;
    margin: 0 !important;
 }
 /*Header*********/
 
-
-.header__left, .header__right{
-	background-color: lightyellow;
-	height: 60vh;
-	overflow: hidden;
-	text-align: center;
+.header{
+	background-color: red;
 }
 
-.header__left img, .header__right img{
-	height: 100%;
-	width: 100%;
+.header__right img{
+	max-width: 100%;
+	height: auto;
 }
-
 
 /*nav*/
 nav{
@@ -157,8 +147,7 @@ nav ul li:hover a{
 /*Middle********/
 .middle__item{
 	background-color: #fff;
-	padding-top: 0.5em;
-	height: 22vh;
+	padding: 0.8em 0;
 }
 
 .stores__item{
@@ -167,27 +156,15 @@ nav ul li:hover a{
 
 .stores__item img{
 	padding: 1px;
-	width: 100%;
+	max-width: 100%;
+	
 }
 
-.noright{
-	padding-right: 0!important;
-}
-
-.enlace__tiendas{
-	color:#A22E21;
-	display: block;
-	font-size: 0.8em;
-	margin-top: 0.5em;
-	text-align: right;
-	text-decoration: underline;
-}
 
 .middle__right{
-	border:1px solid blue;
+	border:3px solid #053361;
 	color:#fff;
-	padding: 3em 1px;
-	height: 19vh;
+	height: 13.05em;
 	width: 99%;
 }
 
@@ -210,7 +187,7 @@ nav ul li:hover a{
  	-ms-transform: skewX(-18deg);
   	-webkit-transform: skewX(-18deg);
   	transform: skewX(-18deg);
-  	padding: 0.4em 0;  	 -webkit-backface-visibility: hidden;
+  	padding: 0.35em 0;  	 -webkit-backface-visibility: hidden;
     
 }
 
@@ -249,7 +226,6 @@ nav ul li:hover a{
 .footer__container{
 	background-color: #000000;
 	color:#efefef;
-	height: 14vh;
 	padding: 10px 0;
 }
 
@@ -279,3 +255,4 @@ nav ul li:hover a{
 	font-size: 0.8em;
 	line-height: 1em;
 }
+
