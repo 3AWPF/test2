@@ -293,15 +293,39 @@ nav ul li:last-child{
 	line-height: 1em;
 }
 
+/********************************
+------------DIRECTORIO-----------
+*********************************/
 
+.header--directorio{
+	background-color: lightblue;
+	padding: 5em 0;
+}
+
+.footer--bottom{
+	position: absolute;
+	bottom: 0;
+	width: 100%;
+}
+
+.middle--bottom{
+	position: absolute;
+	bottom: 135.5px;
+	width: 100%;
+}
+
+
+/********************************
+-----------MEDIA QUERIES---------
+*********************************/
 @media screen and (min-width:1440px) {
-	.footer__container{
+	.footer__container--grande{
 		height: 22vh;
 	}
 }
 
 @media screen and (min-width:1600px) {
-	.footer__container{
+	.footer__container--grande{
 		height: 50vh;
 	}
 }
