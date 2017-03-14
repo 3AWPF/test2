@@ -111,7 +111,7 @@ nav ul li a{
 	font-size: 0.8em;
 }
 
-nav ul li:hover{
+nav ul li:hover, .activo{
 	background-color: #a63c2e;
 	color:#fff;
 	-webkit-box-shadow: inset 0px -3px 5px 0px rgba(0,0,0,0.5);
