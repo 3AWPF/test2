@@ -19,10 +19,6 @@ body{
 }
 /*Header*********/
 
-.header{
-	background-color: red;
-}
-
 .header__right img{
 	max-width: 100%;
 	height: auto;
@@ -60,7 +56,6 @@ nav{
 	  margin-left: 1em;
 	  margin: 0px!important;
 	  text-align: center;
-
 }
 
 .nav__contenido{
@@ -130,6 +125,9 @@ nav ul li:hover a{
 	nav ul li{
 		margin-right: 1.32em;
 	}
+	.newsletter__content {
+    	padding: 0.37em 0;
+    }
 }
 
 .input__corto{
@@ -160,7 +158,6 @@ nav ul li:hover a{
 	
 }
 
-
 .middle__right{
 	border:3px solid #053361;
 	color:#fff;
@@ -176,8 +173,7 @@ nav ul li:hover a{
   	position: absolute;
   	background: #333333;
   	z-index: 10;
-  	width: 100%; -webkit-backface-visibility: hidden;
-    
+  	width: 100%; -webkit-backface-visibility: hidden;    
 }
 
 .newsletter__content{
@@ -187,8 +183,7 @@ nav ul li:hover a{
  	-ms-transform: skewX(-18deg);
   	-webkit-transform: skewX(-18deg);
   	transform: skewX(-18deg);
-  	padding: 0.35em 0;  	 -webkit-backface-visibility: hidden;
-    
+  	padding: 0.35em 0;  	 -webkit-backface-visibility: hidden;    
 }
 
 .newsletter h4{
@@ -255,4 +250,3 @@ nav ul li:hover a{
 	font-size: 0.8em;
 	line-height: 1em;
 }
-
