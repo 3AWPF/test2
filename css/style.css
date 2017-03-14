@@ -121,15 +121,6 @@ nav ul li:hover a{
 	text-decoration: none;
 }
 
-@-moz-document url-prefix() {
-	nav ul li{
-		margin-right: 1.32em;
-	}
-	.newsletter__content {
-    	padding: 0.37em 0;
-    }
-}
-
 .input__corto{
 	padding-top: 5px;
 	width: 19%;
@@ -185,6 +176,16 @@ nav ul li:hover a{
   	transform: skewX(-18deg);
   	padding: 0.35em 0;  	 -webkit-backface-visibility: hidden;    
 }
+
+@-moz-document url-prefix() {
+	nav ul li{
+		margin-right: 1.32em;
+	}
+	.newsletter__content {
+    	padding: 0.37em 0;
+    }
+}
+
 
 .newsletter h4{
 	font-size: 0.8em;
