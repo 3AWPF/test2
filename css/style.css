@@ -23,16 +23,22 @@ header{
 	margin-top: -1px;
 }
 
+.header__left{
+	overflow:hidden;
+}
+
 .header__right img{
+	margin-top: 42px;
 	max-width: 100%;
 	height: auto;
+	padding: 0 1px;
 }
 
 /*nav*/
 nav{
 	position: absolute;
 	z-index: 1;
-	width: 99.8%;
+	width: 100%;
 }
 
 .logo{
