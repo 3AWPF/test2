@@ -440,18 +440,143 @@ nav ul li:last-child{
 	text-align: left;
 }
 
+.categoria__item a{
+	color:#fff;
+}
+
 .cargar__mas{
 	text-align: center;
 }
 
-.cargar__mas a{
+.detalle__tienda--derecha .cargar__mas a{
 	color:#A03021;
+	display: block;
 	font-size: 0.7em;
 	font-weight: 700;
+	margin-left: 12em;
+	margin-top: 2em;
 	text-decoration: underline;
-	
 }
 
+
+/********************************
+------------DIRECTORIO-----------
+*********************************/
+
+.detalle__tienda{
+	padding-top: 5em;
+}
+
+.detalle__tienda p{
+	color:#787878;
+	font-size: 0.9em;
+	line-height: 1.2em;
+	padding: 1em 0;
+}
+
+.back{
+	color:#A03021;
+	display: block;
+	font-size: 0.8em;
+	margin-bottom: 1em;
+	margin-top: 1em;
+	padding-left: 4em;
+	text-decoration: underline;
+}
+
+.tienda__title{
+	margin-top: -1em;
+}
+
+.tienda__title img{
+	margin-top:-8px;
+}
+
+.tienda__title span{
+	color:#A03021;
+	font-size: 1.8em;
+	font-weight: 600;
+	padding-top: 5px;
+}
+
+.indoor__map{
+	margin-top: 1em;
+	margin-bottom: 5.4em;
+}
+
+.tienda__title--derecha img{
+	margin-left: 2em;
+}
+
+.tienda__title--derecha h3{
+	color:#1a1a1a;
+	font-size: 2em;
+	font-weight: 500;
+	margin: 0;
+	padding: 0;
+}
+
+.tienda__title--derecha p{
+	color:#1a1a1a;
+	font-size: 1.1em;
+	font-weight: 600;
+	padding-top: 1px;
+}
+
+.detalle__tienda--derecha ul{
+	margin-left: -1.5em;
+	margin-top: -1em;
+}
+
+
+.detalle__tienda--derecha ul li{
+	color:#A0A0A0;
+	font-size: 0.9em;
+	font-weight: 500;
+	list-style: none;
+	margin-left: -1.5em;
+}
+
+.encuentras h3{
+	font-size: 0.9em;
+	font-weight: 600;
+	margin-top: -0.2em;
+}
+
+.encuentras ul{
+	margin-top: -5px;
+}
+
+.comparte{
+	margin-left: -1em;
+	margin-bottom: 5.5em;
+}
+
+.promo{
+	margin-left: -1em;
+}
+
+.promociones__item h3{
+	color:#1A1A1A;
+	font-size: 1.4em;
+	margin-top: 0.8em;
+}
+
+.promociones__item ul{
+	margin-top: 0px;
+}
+
+.promociones__item ul li{
+	color:#1a1a1a;
+	font-weight: 600;
+}
+
+.btn__promociones{
+	background-color: #A03021;
+	border-radius: 3px;
+	color:#fff;
+	padding: 0.2em 3.3em;
+}
 
 /********************************
 -----------MEDIA QUERIES---------
