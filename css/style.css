@@ -192,8 +192,18 @@ nav ul li:last-child{
 .newsletter__content{
 	background-image: url('../img/newsletter.png');
 	color:#fff;
-	padding: 0.40em 0;  	 
+	padding: 0.40em 0;  
+	-webkit-padding:0.35em 0!important;	 
+	-apple-padding:0.35em 0!important;	 
 }
+@media screen and (-webkit-min-device-pixel-ratio:0) {
+	/* Reglas de Safari 3.0 y Opera 9  */
+
+	.newsletter__content{
+		padding: 0.35em 0;  
+		 
+	}
+} 
 
 @-moz-document url-prefix() {
 	nav ul li{
@@ -448,12 +458,11 @@ nav ul li:last-child{
 	text-align: center;
 }
 
-.detalle__tienda--derecha .cargar__mas a{
+.cargar__mas a{
 	color:#A03021;
 	display: block;
 	font-size: 0.7em;
 	font-weight: 700;
-	margin-left: 12em;
 	margin-top: 2em;
 	text-decoration: underline;
 }
@@ -577,6 +586,17 @@ nav ul li:last-child{
 	color:#fff;
 	padding: 0.2em 3.3em;
 }
+
+.detalle__tienda--derecha .cargar__mas a{
+	color:#A03021;
+	display: block;
+	font-size: 0.7em;
+	font-weight: 700;
+	margin-left: 12em;
+	margin-top: 2em;
+	text-decoration: underline;
+}
+
 
 /********************************
 -----------MEDIA QUERIES---------
