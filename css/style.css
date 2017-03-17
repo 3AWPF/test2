@@ -540,9 +540,9 @@ nav ul li:last-child{
 /********************************
 -----------MEDIA QUERIES---------
 *********************************/
-@media screen and (min-width:1440px) {
-	.footer__container--grande{
-		height: 22vh;
+@media screen and (min-width:1920px) {
+	.middle--bottom{
+		margin-top: 34vh;
 	}
 }
 
@@ -553,11 +553,41 @@ nav ul li:last-child{
 	.middle--bottom{
 		margin-top: 0vh;
 	}
-
 }
 
-@media screen and (min-width:1920px) {
-	.middle--bottom{
-		margin-top: 34vh;
+@media screen and (min-width:1440px) {
+	.footer__container--grande{
+		height: 22vh;
 	}
+}
+
+@media screen and (max-width:800px) {
+	.logo{
+		left:-10%;
+		padding: 0.8em 3em;
+	}
+
+	nav{
+		background-color: #333333;
+	}
+
+	.navbar {
+    	margin-bottom: 0px;
+    }
+
+	.navbar-toggle .icon-bar {
+	    background: #fff;
+	    width: 30px;
+	    height: 4px;
+	    border-radius: 2px;
+	}
+
+	.navbar-toggle {
+	    float: left;
+	}
+	
+	.navbar-header input{
+		float: left;
+	}
+
 }
