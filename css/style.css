@@ -183,51 +183,33 @@ nav ul li:last-child{
 	max-width: 100%;
 	height: auto;
 }
-
-.newsletter{
-  	background-color: #333333;
-  	width: 100%;
+/****************/
+.news{
+	background-image: url("../img/back2.jpg");
+	background-size: cover;
+	height: 33px;
 }
 
-.newsletter__content{
-	background-image: url('../img/newsletter.png');
+.news__content{
 	color:#fff;
-	padding: 0.40em 0;  
-	-webkit-padding:0.35em 0!important;	 
-	-apple-padding:0.35em 0!important;	 
-}
-@media screen and (-webkit-min-device-pixel-ratio:0) {
-
-	.newsletter__content{
-		padding: 0.29em 0;  
-		 
-	}
-} 
-
-@-moz-document url-prefix() {
-	nav ul li{
-		margin-right: 1.32em;
-	}
-	.newsletter__content{
-		padding: 0.3em 0;  	 
-	}
 }
 
-.newsletter h4{
-	font-size: 0.7em;
+.news h4{
+	font-size: 0.73em;
 	margin: 3px;
-	padding-top: 3px;
+	padding-top: 10px;
 }
 
-.newsletter input{
+.news input{
 	border:0px;
 	background: #717171;
 	margin-left: -1em;
+	margin-top: 8px;
 	height: 20%;
-	width: 40%;
+	width: 50%;
 }
 
-.newsletter a{
+.news a{
 	background-color: #a03021;
 	border:1px solid #c53825;
 	color:#fff;
@@ -236,35 +218,11 @@ nav ul li:last-child{
 	margin-left: 1em;
 }
 
-.apps{
-	background-color: #fff;
-	padding-left: 5em;
-	-moz-transform: skewX(18deg);
- 	-ms-transform: skewX(18deg);
-  	-webkit-transform: skewX(18deg);
-  	transform: skewX(18deg);
-  	position: absolute;
-  	margin-left: -1em;
-
-  	z-index: 10;
-  	width: 100%;   	   
+.appsn img{
+	margin-left: 3em;
 }
 
-@-moz-document url-prefix() {
-	.newsletter__content {
-    	padding: 0.29em 0;
-	}
 
-}
-
-.apps img{
-	margin-right: 2em;
-	-moz-transform: skewX(-18deg);
- 	-ms-transform: skewX(-18deg);
-  	-webkit-transform: skewX(-18deg);
-  	transform: skewX(-18deg);
-	-webkit-backface-visibility: hidden;
-}
 
 /*Footer********/
 .footer__container{
@@ -307,22 +265,6 @@ nav ul li:last-child{
 .header--directorio{
 	padding: 5em 0 2em 0;
 }
-
-/*.footer--bottom{
-	position: fixed;
-	bottom: 0;
-	width: 100%;
-}
-
-.middle--bottom{
-	position: fixed;
-	bottom: 135.5px;
-	width: 100%;
-}*/
-
-/*.middle--bottom .newsletter__content{
-	padding: 0.42em 0!important;  	 
-}*/
 
 .directorio{
 	padding:5em 0 2em 0;
