@@ -197,10 +197,9 @@ nav ul li:last-child{
 	-apple-padding:0.35em 0!important;	 
 }
 @media screen and (-webkit-min-device-pixel-ratio:0) {
-	/* Reglas de Safari 3.0 y Opera 9  */
 
 	.newsletter__content{
-		padding: 0.35em 0;  
+		padding: 0.29em 0;  
 		 
 	}
 } 
@@ -240,13 +239,13 @@ nav ul li:last-child{
 .apps{
 	background-color: #fff;
 	padding-left: 5em;
-	padding-bottom: 2px;
 	-moz-transform: skewX(18deg);
  	-ms-transform: skewX(18deg);
   	-webkit-transform: skewX(18deg);
   	transform: skewX(18deg);
   	position: absolute;
   	margin-left: -1em;
+
   	z-index: 10;
   	width: 100%;   	   
 }
@@ -255,9 +254,7 @@ nav ul li:last-child{
 	.newsletter__content {
     	padding: 0.29em 0;
 	}
-	.apps{
-		margin-top: -2px;  	 
-	}
+
 }
 
 .apps img{
@@ -323,9 +320,9 @@ nav ul li:last-child{
 	width: 100%;
 }*/
 
-.middle--bottom .newsletter__content{
+/*.middle--bottom .newsletter__content{
 	padding: 0.42em 0!important;  	 
-}
+}*/
 
 .directorio{
 	padding:5em 0 2em 0;
