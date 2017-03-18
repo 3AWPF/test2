@@ -536,6 +536,47 @@ nav ul li:last-child{
 	text-decoration: underline;
 }
 
+/********************************
+------------NOSOTROS-----------
+*********************************/
+
+.nosotros__header{
+	padding-top: 7em;
+	padding-bottom: 2em;
+	text-align: right;
+}
+
+.nosotros__header p{
+	color:#1A1A1A;
+	font-size: 0.9em;
+	line-height: 1.8em;
+	padding: 4.5em 0;
+	text-align: justify;
+	width: 87%;
+}
+
+.nuestros__centros__title{
+	padding-left: 3em;
+}
+
+
+.nuestros__centros__title span{
+	color:#A03021;
+	font-size: 1.1em;
+	font-weight: 500;
+	padding-top: 1px;
+}
+
+.nuestro__centros__item{
+	text-align: center;
+}
+
+.nuestro__centros__item h4{
+	color:#A03021;
+	font-size: 0.9em;
+	font-weight: 600;
+}
+
 
 /********************************
 -----------MEDIA QUERIES---------
