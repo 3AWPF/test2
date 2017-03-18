@@ -218,11 +218,13 @@ nav ul li:last-child{
 	margin-left: 1em;
 }
 
-.appsn img{
-	margin-left: 3em;
+.appsn{
+	margin-left: 2em;
 }
 
-
+.appsn img{
+	width: 100px;
+}
 
 /*Footer********/
 .footer__container{
@@ -556,7 +558,7 @@ nav ul li:last-child{
 }
 
 .nuestros__centros__title{
-	padding-left: 3em;
+	padding-left: 2em;
 }
 
 
@@ -567,16 +569,47 @@ nav ul li:last-child{
 	padding-top: 1px;
 }
 
-.nuestro__centros__item{
+.nuestros__centros__item{
+	margin-top: 2em;
 	text-align: center;
 }
 
-.nuestro__centros__item h4{
+.nuestros__centros__item h4{
 	color:#A03021;
 	font-size: 0.9em;
-	font-weight: 600;
+	font-weight: 700;
 }
 
+.nuestros__centros__item ul{
+	margin-left: -2em;
+}
+
+.nuestros__centros__item ul li{
+	list-style: none;
+	margin-top: 5.5em;
+	margin-left: -1em;
+}
+
+.nuestros__centros__item .paseo li{
+	margin-top: 1.7em;
+}
+
+.contacto__comercial{
+	text-align: center;
+	padding: 5em 0;
+}
+
+.contacto__comercial a{
+	background-color:#A03021;
+	color:#fff;
+	font-size: 0.8em;
+	padding: 0.5em 1em;
+	text-align: center;
+}
+
+.ot{
+	margin-left: 2.7em;
+}
 
 /********************************
 -----------MEDIA QUERIES---------
@@ -627,8 +660,210 @@ nav ul li:last-child{
 	    float: left;
 	}
 	
-	.navbar-header input{
-		float: left;
+	.navbar-header{
+		margin-left: -5em;
+	}
+
+	.logogicsa{
+		padding-top: 1em;
+		margin-left: 2em;
+	}
+	
+	.search__movil{
+		padding-top: 1em;
+	}
+
+	.navbar{
+		display: block;
+	}
+
+	.navbar-collapse ul{
+		padding-top: 1.5em;
+		text-align: center;
+	}
+
+	.navbar-collapse ul li{
+		display: block;
+	}
+
+	.navbar-collapse ul li a{
+		font-size: 1.2em;
+	}
+
+	.navbar-collapse.in{
+		height: 500px;
+
+	}
+
+	.navbar-collapse ul li:hover  {
+	    background-color: #333;
+	    color: #fff;
+	    -webkit-box-shadow: inset 0px -3px 5px 0px rgba(0,0,0,0);
+	    -moz-box-shadow: inset 0px -3px 5px 0px rgba(0,0,0,0);
+	    box-shadow: inset 0px -3px 5px 0px rgba(0,0,0,0);
+	}
+
+	.navbar-collapse ul li:hover a{
+		color:#A03021;
+	} 
+
+	.icons{
+		border-top:1px solid #959595;
+		margin-top: 10px;
+		margin-left: 2em;
+		padding-top:10px;
+	}
+
+	.newsletter-movil{
+		margin-top: 2em;
+	}
+
+	.newsletter-movil h4{
+		color:#fff;
+		font-size: 1.2em
+	}
+
+	.newsletter-movil input{
+		background-color: #999999;
+		border:0px;
+		height: 30px;
+		width: 50%;
+	}
+
+	.newsletter-movil a{
+		background-color:#A03021;
+		color:#fff;
+		display: block;
+		font-size: 1em;
+		margin-top: 1em;
+		padding: 0.2em 2em;
+		text-align: center;
+		margin-left: 35%;
+		width: 30%;
+	}
+
+	.header__right img {
+	    margin-top: 0px;
+	    min-width: 100%;
+		height: auto;
+	    padding: 0px;
+	}
+	
+	.stores__item {
+	    margin-left: 20%;
+	}
+
+	.middle__right {
+	    text-align: center;
+	}
+
+	.news {
+    	background-image: url();
+    	background-color: #fff;
+    	background-size: cover;
+    	height: 33px;
+    }
+
+    .appsn{
+    	padding:1em 0;
+    }
+
+    .nombres-movil{
+    	text-align: center!important;
+    	margin-top: 1em;
+    }
+
+}
+
+
+@media screen and (max-width:480px) {
+	
+	.logo{
+		padding: 1.25em;
+	}
+
+	.logo img{
+		width: 60px;
+		margin-left: -50px;
+	}
+	
+	.navbar-header {
+    	margin-left: -4em;
+	}
+
+	.search__movil{
+		margin-left: -1.5em;
+	}
+
+	.logogicsa{
+		margin-left: 0em;
+	}
+
+	.icons {
+        margin-left: 0em;
+	}
+	
+	.icons img{
+		margin-right: 16px;
+	}
+
+	.newsletter-movil a{
+		margin-left: 15%;
+		width: 70%;
+	}
+
+	.newsletter-movil input{
+		background-color: #999999;
+		border:0px;
+		height: 30px;
+		width: 94%;
+	}
+	
+	.header__left img{
+		width: 100%;
+	}
+	
+	.stores__item {
+	    margin-left: 25%;
+	}
+
+	.appsn img {
+    	width: 150px;
+    	margin-bottom: 10px;
+	}
+
+	.footer__item img {
+    	padding-left: 0em;
+	}
+	
+	.nombres__movil{
+		text-align: center;
+	}
+
+	.nombres__movil h4{
+		border-top:2px solid #181818;
+		font-size: 1.2em;
+		margin-top: 1em;
+		padding-top: 1em;
+	}
+
+	.nombres{
+		text-align: center!important;
+	}
+	
+	.nombres li{
+		color:#B0B0B0;
+		display: inline-block;
+		margin-right: 1em;
+	}
+
+	.nombres li.sin_separador:after{
+		content:" "!important;
+	}
+
+	.nombres li:after{
+		content:"|";
+		padding-left: 1em;
 	}
 
 }
