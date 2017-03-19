@@ -242,6 +242,18 @@ nav ul li:last-child{
 	padding-top: 2em;
 }
 
+.footer--bottom{
+	position: fixed;
+	bottom: 0;
+	width: 100%;
+}
+
+.middle--bottom{
+	position: fixed;
+	bottom: 135.5px;
+	width: 100%;
+}
+
 .nombres{
 	margin-left: -1.5em;
 	text-align: left!important;
@@ -618,12 +630,14 @@ nav ul li:last-child{
 	.middle--bottom{
 		margin-top: 34vh;
 	}
+
+	.footer__container--grande{
+		height: 50vh!important;
+	}
 }
 
 @media screen and (min-width:1600px) {
-	.footer__container--grande{
-		height: 50vh;
-	}
+	
 	.middle--bottom{
 		margin-top: 0vh;
 	}
