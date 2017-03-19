@@ -242,18 +242,6 @@ nav ul li:last-child{
 	padding-top: 2em;
 }
 
-.footer--bottom{
-	position: fixed;
-	bottom: 0;
-	width: 100%;
-}
-
-.middle--bottom{
-	position: fixed;
-	bottom: 135.5px;
-	width: 100%;
-}
-
 .nombres{
 	margin-left: -1.5em;
 	text-align: left!important;
@@ -623,6 +611,86 @@ nav ul li:last-child{
 	margin-left: 2.7em;
 }
 
+
+/********************************
+------------NOVEDADES-----------
+*********************************/
+
+.novedades{
+	margin-top: 7em;
+}
+
+.novedades__item{
+	margin-top: 1.5em;
+}
+
+.novedades__info{
+	padding-top: 0.7em;
+}
+
+.novedades__info a{
+	color:#000;
+	font-size: 1.2em;
+	font-weight: 700;
+	text-decoration: underline;
+}
+
+.novedades__info h3{
+	color:#333;
+	font-size: 1.2em;
+	font-weight: 500;
+	margin-top: 5px;
+}
+
+.novedades__info h4{
+	font-size: 0.9em;
+	letter-spacing: 1px;
+	margin-top: -5px;
+}
+
+.novedades__info p{
+	font-size:0.9em;
+	line-height: 2em;
+	margin-top: 1.2em;
+	text-align: justify;
+}
+
+.novedades__info .btn__rojo{
+	background-color:#A03021;
+	color:#fff!important;
+	font-size: 1em;
+	font-weight: 500;
+	padding: 0.1em 3em;
+	text-align: center;
+	text-decoration: none;
+}
+
+.btn__rojo{
+	background-color:#A03021;
+	color:#fff!important;
+	font-size: 1em;
+	font-weight: 500;
+	padding: 0.1em 3em;
+	text-align: center;
+	text-decoration: none;
+}
+
+.novedades__compartir h4{
+	padding-top: 2.1em;
+	font-size: 0.8em;
+	letter-spacing: 0px;
+}
+
+.novedades__compartir img{
+	padding-top: 0.7em;
+}
+
+.cargar__mas__novedades{
+	margin: 2em 0;
+	text-align: center;
+}
+
+
 /********************************
 -----------MEDIA QUERIES---------
 *********************************/
@@ -646,6 +714,9 @@ nav ul li:last-child{
 @media screen and (min-width:1440px) {
 	.footer__container--grande{
 		height: 22vh;
+	}
+	.middle--bottom{
+		margin-top: 34vh;
 	}
 }
 
