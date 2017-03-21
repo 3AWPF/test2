@@ -150,7 +150,7 @@ nav ul li:last-child{
 
 .input__corto{
 	padding-top: 10px;
-	width: 19%;
+	width: 12%;
 }
 
 .input__corto input{
@@ -741,6 +741,63 @@ nav ul li:last-child{
 .compartir__detalle img:first-child{
 	margin-left: 1em;
 }
+
+
+/********************************
+------------EVENTOS LISTA-----------
+*********************************/
+
+.evento__lista{
+	margin-top: 5em;
+	margin-bottom: 2em;
+}
+
+.eventos__anteriores a{
+	color:#1a1a1a;
+	font-weight: 600;
+	text-decoration: underline;
+}
+
+.evento__lista__item{
+	margin-top: 1.5em;
+	margin-bottom: 2em;
+}
+
+.eventos__lista__detalle__title{
+	margin-top: 3em;
+}
+
+
+.evento__lista .btn__rojo {
+	padding: 0.35em 0em;
+	width: 90%;
+}
+
+.evento__lista .btn__rojo a{
+	color:#fff;
+	font-size: 1em;
+	text-align: left!important;
+}
+
+.eventos__lista__detalle__title{
+	margin-left: 2em;
+}
+
+.btn__rojo__eventos{
+	background-color:#A03021;
+	color:#fff!important;
+	font-size: 1em!important;
+	font-weight: 300;
+	padding: 0.1em 3em;
+	text-align: center;
+	text-decoration: none!important;
+}
+
+.evento__lista__item p{
+	margin-top: 2em;
+	margin-bottom: 4em;
+}
+
 
 /********************************
 -----------MEDIA QUERIES---------
