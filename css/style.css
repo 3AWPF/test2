@@ -8,7 +8,6 @@
        url(../fonts/SmallTownSkyline.ttf) format('truetype');
 }
 
-
 body{
 	background-color: #fff;
 }
@@ -175,8 +174,7 @@ nav ul li:last-child{
 
 .stores__item img{
 	padding: 1px;
-	max-width: 100%;
-	
+	max-width: 100%;	
 }
 
 .middle__right{
@@ -187,7 +185,7 @@ nav ul li:last-child{
 	max-width: 100%;
 	height: auto;
 }
-/****************/
+
 .news{
 	background-image: url("../img/back2.jpg");
 	background-size: cover;
@@ -303,7 +301,6 @@ nav ul li:last-child{
   	position: absolute;
   	padding: 0 1em;
   	width: 100%;
-
 }
 
 .search__contenido h3{
@@ -416,7 +413,6 @@ nav ul li:last-child{
 	text-decoration: underline;
 }
 
-
 /********************************
 ------------DIRECTORIO-----------
 *********************************/
@@ -485,7 +481,6 @@ nav ul li:last-child{
 	margin-left: -1.5em;
 	margin-top: -1em;
 }
-
 
 .detalle__tienda--derecha ul li{
 	color:#A0A0A0;
@@ -569,7 +564,6 @@ nav ul li:last-child{
 	padding-left: 2em;
 }
 
-
 .nuestros__centros__title span{
 	color:#A03021;
 	font-size: 1.1em;
@@ -618,7 +612,6 @@ nav ul li:last-child{
 .ot{
 	margin-left: 2.7em;
 }
-
 
 /********************************
 ------------NOVEDADES-----------
@@ -699,7 +692,7 @@ nav ul li:last-child{
 }
 
 /********************************
-------------NOVEDADES DETALLE----
+----------NOVEDADES DETALLE----
 *********************************/
 
 .novedades__detalle{
@@ -774,7 +767,6 @@ nav ul li:last-child{
 .eventos__lista__detalle__title{
 	margin-top: 3em;
 }
-
 
 .evento__lista .btn__rojo {
 	padding: 0.35em 0em;
@@ -1112,9 +1104,20 @@ nav ul li:last-child{
 		padding-left: 1em;
 	}
 
+	.up__movil img{
+		margin-left: -1.5em;
+	}
 
+	.input__search__movil input{
+		padding-top: 5px;
+		padding-left: 10px;
+		width: 100%;
+	}
+
+	footer{
+		background-color: #000;
+	}
 }
-
 
 @media screen and (max-width:480px) {
 	
@@ -1134,8 +1137,6 @@ nav ul li:last-child{
 	.search__movil{
 		margin-left: -1.5em;
 	}
-	
-
 
 	.logogicsa{
 		margin-left: 0em;
@@ -1212,6 +1213,18 @@ nav ul li:last-child{
 
 	.newsletter-movil h4 {
         font-size: 1em;
+	}
+
+}
+
+@media screen and (max-width:380px) {
+	
+	.logogicsa {
+    	margin-left: -1em;
+	}
+
+	.search__movil {
+    	margin-left: -1.5em;
 	}
 
 }
