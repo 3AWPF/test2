@@ -2,7 +2,7 @@
 @font-face {
   font-family: 'Nexa bold';
   src: local('../fonts/Nexa Bold.otf'),
-       url(../fonts/Nexa Bold.otf) format('otf');
+       url('../fonts/Nexa Bold.otf') format('otf');
   font-family: 'SmallTownSkyline';
   src: local('../fonts/SmallTownSkyline.ttf'),
        url(../fonts/SmallTownSkyline.ttf) format('truetype');
@@ -226,6 +226,10 @@ nav ul li:last-child{
 
 .appsn img{
 	width: 100px;
+}
+
+.appsnmedio{
+	display: none;
 }
 
 /*Footer********/
@@ -898,6 +902,16 @@ nav ul li:last-child{
 	.footer__container ul li h4 {
     	font-size: 0.68em;
 	}
+	
+	.appsnmedio{
+		display: block;
+	}
+
+	.appsnmedio img{
+		width: 120px;
+		margin-bottom: 10px;
+	}
+
 
 }
 
@@ -1117,6 +1131,10 @@ nav ul li:last-child{
 	footer{
 		background-color: #000;
 	}
+
+	.appsnmedio{
+		display: none;
+	}
 }
 
 @media screen and (max-width:480px) {
@@ -1226,5 +1244,9 @@ nav ul li:last-child{
 	.search__movil {
     	margin-left: -1.5em;
 	}
-
+	
+	.appsn img {
+    	width: 120px;
+    	margin-bottom: 10px;
+	}
 }
