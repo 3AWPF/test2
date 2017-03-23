@@ -1215,6 +1215,35 @@ nav ul li:last-child{
 	.selector__categoria select {
        -webkit-appearance:none;
     }
+	
+	.categoria__title span{
+		font-size: 1.2em;
+		margin-top: 5px;
+	}
+
+	.categoria__item img {
+    	border: 0px solid #c1c1c1;
+    	width: 300px;
+    }
+
+    .categoria__item__title {
+    	background-image: url(../img/logos/title_item__movil.jpg);
+   		background-size: cover;
+   		height: 50px;
+	    margin-left: 0%;
+	    width: 100%;
+	}
+
+	.categoria__item__title h4{
+		font-size: 1.8em;
+    	padding-top: 10px;
+    }
+	
+	.categoria__item p{
+	    margin-top: 0.5em;
+	    font-size: 1.2em;
+    	margin-left: 0%;
+	}
 
 
 
@@ -1332,7 +1361,7 @@ nav ul li:last-child{
 	}
 
 	.refinar__movil	h4{
-		font-size: 1.1em;
+		font-size: 1em;
 		font-weight: 500;
 	}
 
@@ -1350,14 +1379,35 @@ nav ul li:last-child{
 	}
 
 	.categoria__item{
-	    margin-left: 20%;
-	    width: 60%;
+	    margin-left: 0%;
+	    width: 100%;
 	}
 	
 	.categoria__item img {
     	border: 0px solid #c1c1c1;
+    	width: 250px;
+    }
+
+    .categoria__item__title {
+    	background-image: url(../img/logos/title_item__movil.jpg);
+   		background-size: cover;
+   		height: 35px;
+    	margin-left: 10%;
+    	width: 80%;
+	}
+
+	.categoria__item__title h4{
+		font-size: 1.3em;
+    	margin-left: 0.5em;
+    	padding-top: 7px;
     }
 	
+	.categoria__item p{
+	    margin-top: 0.5em;
+	    font-size: 0.8em;
+	    margin-left: 10.2%;
+	}
+
 	.categoria__title span{
 		font-size: 0.9em;
 	}
@@ -1377,5 +1427,10 @@ nav ul li:last-child{
 	.appsn img {
     	width: 120px;
     	margin-bottom: 10px;
+	}
+
+	.categoria__item__title {
+    	margin-left: 5%;
+    	width: 90%;
 	}
 }
