@@ -333,6 +333,10 @@ nav ul li:last-child{
 	width: 80%;
 }
 
+.refinar__movil{
+	display: none;
+}
+
 .search__contenido input::-webkit-input-placeholder { color: #c7c7c7;font-size: 0.9em; }
 .search__contenido input::-moz-placeholder { color: #c7c7c7;font-size: 0.9em; }
 .search__contenido input:-ms-input-placeholder { color: #c7c7c7;font-size: 0.9em; }
@@ -911,7 +915,20 @@ nav ul li:last-child{
 		width: 120px;
 		margin-bottom: 10px;
 	}
+	
+	/*****directorio**/
+	.search__contenido h4 {
+    	font-size: 0.8em;
+	}
+	
+	.selector__categoria select {
+        font-size: 0.9em;
+    }
 
+    .categoria__item__title {
+	    margin-left: 0%;
+    	width: 112%;
+	}
 
 }
 
@@ -1135,6 +1152,72 @@ nav ul li:last-child{
 	.appsnmedio{
 		display: none;
 	}
+
+	/*Directorio*/
+	.directorio{
+		padding: 2em 0;
+	}
+
+	.selector__categoria{
+		margin-top: 4em;
+		margin-left: 0px;
+	}
+	
+	.refinar__movil{
+		padding-top: 7em;
+		display: block;
+	}
+
+	.refinar__movil	h4{
+		font-size: 1.1em;
+		font-weight: 500;
+	}
+
+	.refinar__movil input{
+		background-color: #F7F7F7;
+		border: 1px solid #A03020;
+		padding-left: 5px;
+		margin-top: 7px;
+		width: 90%;
+	}
+
+	.categoria__title{
+		margin-left: -0.5em;
+		margin-top: -1em;
+	}
+
+	.categoria__item__title {
+	    margin-left: 15%;
+	    width: 70%;
+	}
+
+	.categoria__item p{
+		margin-left: 15%;
+	}
+
+	.categoria__item{
+	    margin-left: 20%;
+	    width: 60%;
+	}
+	
+	.categoria__item img {
+    	border: 0px solid #c1c1c1;
+    }
+	
+	.categoria__title span{
+		font-size: 0.9em;
+	}
+
+	.refinar__desktop{
+		display: none;
+	}
+
+	.selector__categoria select {
+       -webkit-appearance:none;
+    }
+
+
+
 }
 
 @media screen and (max-width:480px) {
@@ -1232,7 +1315,53 @@ nav ul li:last-child{
 	.newsletter-movil h4 {
         font-size: 1em;
 	}
+	
+	/*Directorio*/
+	.directorio{
+		padding: 2em 0;
+	}
 
+	.selector__categoria{
+		margin-top: 4em;
+		margin-left: 0px;
+	}
+	
+	.refinar__movil{
+		padding-top: 7em;
+		display: block;
+	}
+
+	.refinar__movil	h4{
+		font-size: 1.1em;
+		font-weight: 500;
+	}
+
+	.refinar__movil input{
+		background-color: #F7F7F7;
+		border: 1px solid #A03020;
+		padding-left: 5px;
+		margin-top: 7px;
+		width: 90%;
+	}
+
+	.categoria__title{
+		margin-left: -0.5em;
+		margin-top: -1em;
+	}
+
+	.categoria__item{
+	    margin-left: 20%;
+	    width: 60%;
+	}
+	
+	.categoria__item img {
+    	border: 0px solid #c1c1c1;
+    }
+	
+	.categoria__title span{
+		font-size: 0.9em;
+	}
+	
 }
 
 @media screen and (max-width:380px) {
