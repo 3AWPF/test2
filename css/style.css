@@ -174,7 +174,7 @@ nav ul li:last-child{
 
 .stores__item img{
 	padding: 1px;
-	max-width: 100%;	
+		
 }
 
 .middle__right{
@@ -514,7 +514,7 @@ nav ul li:last-child{
 }
 
 .promo{
-	margin-left: -1em;
+	margin-left: 1.2em;
 }
 
 .promociones__item h3{
@@ -930,6 +930,31 @@ nav ul li:last-child{
     	width: 112%;
 	}
 
+	/*detalle tienda*/
+	.imagen__tienda img{
+		width: 350px;
+	}
+
+	.indoor__map img{
+		width: 350px;
+	}
+
+	.comparte span{
+		font-size: 0.8em;
+	}
+
+	.tienda__title span {
+	    font-size: 1.3em;
+	}
+
+	.btn__promociones {
+  		padding: 0.2em 2em;
+  	}
+
+  	.bpromociones--largo a{
+		padding:0.2em 2.4em; 
+	}
+
 }
 
 @media screen and (max-width:800px) {
@@ -1245,7 +1270,27 @@ nav ul li:last-child{
     	margin-left: 0%;
 	}
 
+	.detalle__tienda{
+		margin-left: 18%;
+		padding-top: 1em;
+	}
 
+	.imagen__tienda{
+		margin-bottom: 1em;
+	}
+	
+	.bpromociones {
+		margin-left: 0px;
+		margin-bottom: 3px;
+	}
+
+	.detalle__tienda--derecha{
+		margin-bottom: 4em;
+	}
+
+	.imagen__tienda p{
+		display: none;
+	}
 
 }
 
@@ -1411,6 +1456,76 @@ nav ul li:last-child{
 	.categoria__title span{
 		font-size: 0.9em;
 	}
+
+	.detalle__tienda {
+    	padding-top: 1em;
+    	text-align: left;
+	}
+
+	/*detalle tienda*/
+
+	.detalle__tienda {
+    	padding-top: 1em;
+    	margin-left: 1px;
+	}
+
+	.imagen__tienda img{
+		margin-top: 1em;
+		width: 310px;
+	}
+
+	.detalle__tienda--derecha{
+		margin-top: 1em;
+	}
+
+	.tienda__title--derecha img{
+		margin-left: 0em;
+	}
+
+	.detalle__tienda--derecha ul li {
+	    font-size: 0.8em;
+	}
+
+	.comparte span{
+		font-size: 0.8em;
+	}
+
+	.tienda__title img{
+		width: 80px;
+	}
+
+	.tienda__title span{
+		font-size: 1em;
+	}
+
+	.indoor__map img{
+		width: 310px;
+	}
+
+	.promociones__item {
+		padding-bottom: 9em;
+	}
+
+	.promociones__item ul{
+		margin-left: 5px;
+	}
+
+	.promociones__item ul li{
+		font-size: 0.7em;
+	}
+
+	.bpromociones{
+		margin-bottom: 3px;
+	}
+
+	.btn__promociones{
+		margin-left: 2.5em;
+	}
+
+	.bpromociones--largo a{
+		padding:0.2em 2.4em; 
+	}
+
 	
 }
 
@@ -1433,4 +1548,24 @@ nav ul li:last-child{
     	margin-left: 5%;
     	width: 90%;
 	}
+
+	.btn__promociones {
+    	margin-left: 2.5em;
+	}
+
+	.promociones__item ul{
+		margin-left: 10px
+	}
+
+	.imagen__tienda img {
+    	
+    	width: 280px;
+	}
+
+	.indoor__map img {
+    	width: 280px;
+	}
+
+	.
+
 }
