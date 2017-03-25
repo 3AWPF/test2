@@ -928,13 +928,85 @@ nav ul li:last-child{
 	width: 100%;
 }
 
-/*Tipo A*/
-.promociones__item--tipoA{
-	border:1px solid #959595;
+.promo__item{
+	margin-bottom: 2em;
+}
+
+.promo__item__title{
+	color:#A03022;
+	font-size: 1em;
+	font-weight: 600;
+	margin-top: 2em;
+	text-align: center;
+}
+
+.promo__item__otrainfo{
+	color:#1a1a1a;
+	text-align: center;
+}
+
+.promo__item__otrainfo p{
+	font-size: 0.8em;
+	font-weight: 600;
+	padding-top: 10px;
+}
+
+.promo__item__otrainfo__enlace{
+	color:#1a1a1a;
+	display: block;
+	font-size: 0.8em;
+	text-decoration: underline;
+	margin-top: -0.5em;
+}
+
+.promo__item__botones{
+	margin-top: 10px;
+	margin-left: 2.2em;
+}
+
+.promo__item__botones .btn__rojo {
+    font-size: 0.9em;
+    padding: 0.3em 3em
+}
+
+.promo__item--tipo{
 	padding: 1.5em 1em;
 	text-align: center;
 }
 
+/*Tipo A*/
+.promo__item--A{
+	border:1px solid #959595;
+}
+
+.promo__item__descripcion{
+	font-size: 1.9em;
+}
+
+.promo__item__descripcionb{
+	font-size: 1.2em;
+	margin-top: -0.5em;
+}
+
+.promo__item__logo{
+	padding-bottom: 1em;
+}
+
+/*Tipo B*/
+.promo__item--B{
+	background-size: cover;
+	height: 260px;	
+}
+
+/*Tipo C*/
+.promo__item--C{
+	background-size: cover;
+	height: 260px;	
+}
+
+.promo__item--C .promo__item__descripcionb{
+	margin-top: 8em;
+}
 
 
 /********************************
