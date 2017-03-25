@@ -905,6 +905,39 @@ nav ul li:last-child{
 }
 
 /********************************
+-----------EVENTOS MES---------
+*********************************/
+
+.calendario{
+	padding-top: 7em;
+	padding-bottom: 2em;
+}
+
+.calendario__item{
+	border:1px solid #ccc;
+}
+
+/********************************
+-----------PROMOCIONES---------
+*********************************/
+.promociones{
+	padding-top: 7em;
+}
+
+.filtro__promociones{
+	width: 100%;
+}
+
+/*Tipo A*/
+.promociones__item--tipoA{
+	border:1px solid #959595;
+	padding: 1.5em 1em;
+	text-align: center;
+}
+
+
+
+/********************************
 -----------MEDIA QUERIES---------
 *********************************/
 @media screen and (min-width:1920px) {
@@ -1430,6 +1463,10 @@ nav ul li:last-child{
 		margin-top: 2em;
 	}
 
+	.nombre__seccion__movil{
+		margin-bottom: 4em;
+	}
+
 	.novedades__imagen img{
 		width: 550px;
 	}
@@ -1439,7 +1476,12 @@ nav ul li:last-child{
     	padding: 0 2%;
 	}
 
+	.novedades__info .btn__rojo {
+	    padding: 0.5em 4.5em;
+    }
+
 	.novedades__info p {
+		margin-bottom: 2em;
     	width: 95%;
 	}
 
@@ -1447,6 +1489,11 @@ nav ul li:last-child{
     	padding-top: 0em;
     	margin-bottom: 1em;
 	}
+
+	.cargar__mas__novedades a{
+		padding: 0.5em 4.5em;
+	}
+
 
 	/*Novedades detalle*/
 
@@ -1470,18 +1517,6 @@ nav ul li:last-child{
 
 	.eventos__lista__detalle__title {
     	margin-left: 0em;
-	}
-	
-	.novedades__info{
-		text-align: center;
-	}
-	
-	.novedades__imagen{
-		text-align: center;
-	}
-
-	.novedades__imagen img{
-		margin-left: 0.5em;
 	}
 
 	.novedades__info h4 {
@@ -1519,7 +1554,19 @@ nav ul li:last-child{
 		margin-left: 10em;
 	}
 
+	.fechas__evento ul{
+		margin-left: -2.6em;
+	}
+
 	/*Contacto*/
+
+	.contacto {
+    	margin-top: 2em;
+	}
+		
+	.contacto .search{
+		width: 112%;
+	}
 
 	.contacto__mapa{
 		text-align: center;
@@ -1548,6 +1595,10 @@ nav ul li:last-child{
 
 	.formulario form input, .formulario form select, .formulario form textarea {
    	   padding: 0.5em 0.5em;
+    }
+
+    .contacto .nombre__seccion__movil{
+    	margin-bottom: 6em;
     }
 
 }
@@ -1806,6 +1857,14 @@ nav ul li:last-child{
 	.novedades__compartir img {
     	padding-top: 0em;
     	margin-bottom: 1em;
+	}
+
+	.nombre__seccion__movil {
+	    margin-left: 1em;
+	}
+
+	.nombre__seccion__movil .search{
+		width: 103%;
 	}
 
 	/*Novedades detalle*/

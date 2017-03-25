@@ -16,8 +16,8 @@
 <header>
 <div class="container">		
 	<div class="row">
-				<!-- Menu Movil -->
-		<nav class="visible-xs navbar">
+		<!-- Menu Movil -->
+		<nav class="navbar">
 			<div class="container-fluid">
 				<div class="row">
 					<!-- Brand and toggle get grouped for better mobile display -->
@@ -39,7 +39,7 @@
 			
 					<div class="col-xs-1">
 						<div class="search__movil">
-							<img src="img/search-tablet.png" alt="">
+							<a href="#" data-toggle="collapse" data-target="#bs-example-navbar-collapse-2" aria-expanded="false"><img src="img/search-tablet.png" alt="search"></a>
 						</div>
 					</div>
 					
@@ -82,6 +82,25 @@
 								
 				    	</div><!-- /.navbar-collapse -->
 				    </div>
+
+				    <!-- Search Movil -->
+				    <div class="col-xs-12">
+				    	<div class="collapse " id="bs-example-navbar-collapse-2">
+				    		<div class="row">
+				    			<div class="col-xs-9 col-xs-offset-2">
+				    				<div class="input__search__movil">
+				    					<input type="text">
+				    				</div>
+				    			</div>
+				    			<div class="col-xs-1">
+				    				<div class="up__movil">
+				    					<a href="#" data-toggle="collapse" data-target="#bs-example-navbar-collapse-2" aria-expanded="false"><img src="img/up.jpg" alt="up"></a>
+				    				</div>
+				    			</div>
+				    		</div>
+				    	</div>
+				    </div>
+				    <!-- /Search Movil -->
 				</div>  
 			</div><!-- /.container-fluid -->
 		</nav>
@@ -89,7 +108,7 @@
 				
 		<!-- nav -->
 		<div class="col-md-12 nopadding hidden-xs">
-			<nav>				
+			<nav class="menu__principal">				
 				<div class="col-xs-4 col-md-2">
 					<div class="logo">
 						<a href="index.html"><img src="img/logo.png" alt="logo forum"></a>
@@ -108,7 +127,7 @@
 									<li><a href="promociones.html">PROMOCIONES</a></li>
 									<li><a href="novedades.html">NOVEDADES</a></li>
 									<li><a href="eventos.html">EVENTOS</a></li>
-									<li><a href="contacto.html">CONTACTO</a></li>
+									<li class="activo"><a href="contacto.html">CONTACTO</a></li>
 									<li class="input__corto nohover"><input type="text"></li>
 									<li class="nohover socialmedia"><a href=""><img src="img/facebook.png" alt="Facebook"></a></li>
 									<li class="nohover socialmedia"><a href=""><img src="img/twitter.png" alt="twitter"></a></li>
@@ -121,179 +140,29 @@
 				</div>						
 			</nav>
 		</div>		
-		<!-- /nav -->		
+		<!-- /nav -->
 	</div>		
 </div>
 </header>
 <!-- /Header -->
 
-<!-- Evento lista -->
-<section class="evento__lista">
+
+<section class="calendario">
 	<div class="container">
-		<!-- Eventos Mayo -->
 		<div class="row">
-
-			<!-- Nombre seccion movil -->
-			<div class="nombre__seccion__movil visible-xs">
-				<div class="col-xs-10">
-					<div class="directorio--search">
-						<div class="search">
-							<div class="search__contenido">
-								<div class="row">
-									<div class="col-xs-12 col-md-4">
-										<h3>EVENTOS</h3>
-									</div>
-									
-								</div>
-							</div>	
-						</div>
-					</div>
-				</div>
-			</div>
-			<!-- /Nombre seccion movil -->
-
-			<div class="col-md-offset-1 col-md-3">
-				<div class="eventos__anteriores">
-					<a href="#">¿BUSCAS EVENTOS ANTERIORES?</a>
+			<div class="col-md-12">
+				<div class="calendario__item">
+					Lorem ipsum dolor sit amet, consectetur adipisicing elit. Modi iste, porro voluptate itaque consectetur, vitae et saepe facilis quidem quas ducimus reiciendis at repudiandae aut impedit vero dolorum ipsum officia!
 				</div>
 			</div>	
-
-			<div class="col-md-offset-3 col-md-5">
-				<div class="row">
-					<div class="col-xs-offset-1 col-xs-11 col-md-8 col-md-offset-0">
-						<div class="btn__rojo">
-							<a href="#">CAMBIAR A VISTA DE CALENDARIO</a>
-						</div>
-					</div>
-					<div class="col-md-4">
-						<div class="selector__categoria filtro__mes">
-							<select>
-							  <option value="volvo">FILTRO DE MES</option>
-							  <option value="saab">Saab</option>
-							  <option value="mercedes">Mercedes</option>
-							  <option value="audi">Audi</option>
-							</select>
-						</div>
-					</div>
-				</div>				
-			</div>
 		</div>
-		
-		<div class="row">
-			<div class="col-md-offset-1 col-md-10">
-				<div class="novedades__detalle__title eventos__lista__detalle__title">
-					<img src="img/logos/title_categoria.jpg" alt="">
-					<span>EVENTOS MAYO</span>
-				</div>
-			</div>
-		</div>
-
-		<div class="row">
-			<div class="evento__lista__item">
-				<div class="col-md-offset-1 col-md-6">
-					<div class="novedades__imagen">
-						<img src="img/eventos/evento1.jpg" alt="">
-					</div>
-				</div>
-
-				<div class="col-md-4 nopadding">
-					<div class="novedades__info">
-						<h4>03/03/17</h4>
-						<a href="eventos__detalle.html">FIRMA DE AUTOGRAFOS</a>
-						
-						<p>Sed porttitor lectus nibh. Proin eget tortor risus. Mauris blandit aliquet elit, eget tincidunt nibh pulvinar a. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur arcu erat, accumsan id imperdiet et, porttitor at sem. Curabitur arcu erat, accumsan id imperdiet et, porttitor at sem. Curabitur non nulla sit amet nisl tempus convallis quis ac lectusCurabitur non nulla sit amet nisl tempus .</p>
-						<a href="#" class="btn__rojo__eventos">Ver más</a>
-						
-					</div>
-				</div>
-			</div>
-		</div>
-
-		<div class="row">
-			<div class="evento__lista__item">
-				<div class="col-md-offset-1 col-md-6">
-					<div class="novedades__imagen">
-						<img src="img/eventos/evento2.jpg" alt="">
-					</div>
-				</div>
-
-				<div class="col-md-4 nopadding">
-					<div class="novedades__info">
-						<h4>03/03/17</h4>
-						<a href="novedades__detalle.html">BAILE REGIONAL</a>
-						
-						<p>Sed porttitor lectus nibh. Proin eget tortor risus. Mauris blandit aliquet elit, eget tincidunt nibh pulvinar a. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur arcu erat, accumsan id imperdiet et, porttitor at sem. Curabitur arcu erat, accumsan id imperdiet et, porttitor at sem. Curabitur non nulla sit amet nisl tempus convallis quis ac lectusCurabitur non nulla sit amet nisl tempus .</p>
-						<a href="#" class="btn__rojo__eventos">Ver más</a>
-						
-					</div>
-				</div>
-			</div>
-		</div>
-		<!-- /Eventos Mayo -->
-
-		<!-- Eventos Junio -->
-			
-		<div class="row">
-			<div class="col-md-offset-1 col-md-10">
-				<div class="novedades__detalle__title eventos__lista__detalle__title">
-					<img src="img/logos/title_categoria.jpg" alt="">
-					<span>EVENTOS JUNIO</span>
-				</div>
-			</div>
-		</div>
-
-		<div class="row">
-			<div class="evento__lista__item">
-				<div class="col-md-offset-1 col-md-6">
-					<div class="novedades__imagen">
-						<img src="img/eventos/evento3.jpg" alt="">
-					</div>
-				</div>
-
-				<div class="col-md-4 nopadding">
-					<div class="novedades__info">
-						<h4>03/03/17</h4>
-						<a href="novedades__detalle.html">TROMPETA CLÁSICA</a>
-						
-						<p>Sed porttitor lectus nibh. Proin eget tortor risus. Mauris blandit aliquet elit, eget tincidunt nibh pulvinar a. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur arcu erat, accumsan id imperdiet et, porttitor at sem. Curabitur arcu erat, accumsan id imperdiet et, porttitor at sem. Curabitur non nulla sit amet nisl tempus convallis quis ac lectusCurabitur non nulla sit amet nisl tempus .</p>
-						<a href="#" class="btn__rojo__eventos">Ver más</a>
-						
-					</div>
-				</div>
-			</div>
-		</div>
-
-		<div class="row">
-			<div class="evento__lista__item">
-				<div class="col-md-offset-1 col-md-6">
-					<div class="novedades__imagen">
-						<img src="img/eventos/evento4.jpg" alt="">
-					</div>
-				</div>
-
-				<div class="col-md-4 nopadding">
-					<div class="novedades__info">
-						<h4>03/03/17</h4>
-						<a href="novedades__detalle.html">PRESENTACIÓN DE LIBRO</a>
-						
-						<p>Sed porttitor lectus nibh. Proin eget tortor risus. Mauris blandit aliquet elit, eget tincidunt nibh pulvinar a. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur arcu erat, accumsan id imperdiet et, porttitor at sem. Curabitur arcu erat, accumsan id imperdiet et, porttitor at sem. Curabitur non nulla sit amet nisl tempus convallis quis ac lectusCurabitur non nulla sit amet nisl tempus .</p>
-						<a href="#" class="btn__rojo__eventos">Ver más</a>
-						
-					</div>
-				</div>
-			</div>
-		</div>
-		<!-- /Eventos Junio -->
-	
-
 	</div>
 </section>
-<!-- /Evento lista -->
 
-<!-- Middle -->
-<section class="middle middle--bottom">
+
+
+<section class="apps">
 	<div class="container">
-		
 		<div class="row">
 			<!-- Ajuste para resolución 1024px-1279px - Oculto para el resto de Resoluciones-->
 			<div class="col-md-4 col-md-offset-4">
@@ -308,7 +177,7 @@
 			</div>
 			<!-- /Ajuste para resolución 1024px-1279px -->
 		</div>
-
+		
 		<div class="row">
 			<!-- Newsletter -->
 			<div class="news">
@@ -321,22 +190,22 @@
 							<div class="col-md-4 nopadding">								
 								<input type="text">
 								<a href="#">Enviar</a>																
-							</div>
-							
+							</div>							
 						</div> 
 					</div>
 				</div>
 
 				<div class="col-xs-12 col-md-3">
 					<div class="appsn">
-							<div class="col-xs-6 col-md-6 nopadding">
-								<img src="img/appstore.png" alt="">
-							</div>
-							<div class="col-xs-6 col-md-6 nopadding">
-								<img src="img/googleplay.png" alt="">
-							</div>
+						<div class="col-xs-6 col-md-6 nopadding">
+							<img src="img/appstore.png" alt="">
+						</div>
+						<div class="col-xs-6 col-md-6 nopadding">
+							<img src="img/googleplay.png" alt="">
+						</div>
 					</div>
 				</div>
+				
 			</div>
 			<!-- /Newsletter -->
 		</div>
@@ -348,7 +217,7 @@
 <footer class="footer">
 	<div class="container">
 		<div class="row">
-			<div class="footer__container ">
+			<div class="footer__container footer__container--grande">
 				<div class="row">
 					<div class="col-xs-offset-4 col-xs-4 col-md-5 col-md-offset-0">
 						<!-- footer item -->
@@ -416,12 +285,12 @@
 
 						<h4>La Isla</h4>
 						<ul class="nombres">
-							<li>Acapulco</li> <li>Cabo Norte</li>  <li>Cancún</li>  <li class="sin_separador">Mérida</li>  <li>Playa del Carmen</li>  <li class="sin_separador">Puerto Vallarta</li>
+							<li>Acapulco</li> <li>Cabo Norte</li>  <li class="sin_separador">Cancún</li>  <li >Mérida</li>  <li>Playa del Carmen</li>  <li class="sin_separador">Puerto Vallarta</li>
 						</ul>
 						
 						<h4>Plazas Outlet</h4>
 						<ul class="nombres">
-							<li>Cancún</li>  <li>Guadalajara</li>  <li>Lerma</li>  <li class="sin_separador">Monterrey</li>  <li>Norte</li>  <li>Riviera Maya 1</li>  <li class="sin_separador">Sur</li>
+							<li>Cancún</li>  <li>Guadalajara</li>  <li class="sin_separador">Lerma</li>  <li>Monterrey</li>  <li>Norte</li>  <li class="sin_separador">Riviera Maya 1</li>  <li>Sur</li>
 						</ul>
 
 						<h4>Explanada</h4>
@@ -434,6 +303,7 @@
 		</div>
 	</div>
 </footer>
+<!-- /Footer -->
 
 <script
   src="https://code.jquery.com/jquery-3.1.1.js"
