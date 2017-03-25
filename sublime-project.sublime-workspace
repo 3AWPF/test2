@@ -4,16 +4,32 @@
 		"selected_items":
 		[
 			[
-				"pa",
-				"padding-left"
-			],
-			[
-				"pad",
-				"padding-left"
+				"background",
+				"background-color"
 			],
 			[
 				"margin",
-				"margin-top"
+				"margin-bottom"
+			],
+			[
+				"font",
+				"font-size"
+			],
+			[
+				"d",
+				"display"
+			],
+			[
+				"pad",
+				"padding"
+			],
+			[
+				"magin",
+				"margin-bottom"
+			],
+			[
+				"pa",
+				"padding-left"
 			],
 			[
 				"paddin",
@@ -28,10 +44,6 @@
 				"margin-top"
 			],
 			[
-				"font",
-				"font-size"
-			],
-			[
 				"tex",
 				"text-align"
 			],
@@ -42,10 +54,6 @@
 			[
 				"margni",
 				"margin-bottom"
-			],
-			[
-				"magin",
-				"margin-top"
 			],
 			[
 				"padd",
@@ -90,10 +98,6 @@
 			[
 				"re",
 				"relative"
-			],
-			[
-				"background",
-				"background-image"
 			],
 			[
 				"over",
@@ -183,16 +187,16 @@
 			"file": "css/style.css",
 			"settings":
 			{
-				"buffer_size": 23411,
+				"buffer_size": 26656,
 				"encoding": "UTF-8",
 				"line_ending": "Windows"
 			}
 		},
 		{
-			"file": "novedades.html",
+			"file": "contacto.html",
 			"settings":
 			{
-				"buffer_size": 15998,
+				"buffer_size": 11991,
 				"encoding": "UTF-8",
 				"line_ending": "Windows"
 			}
@@ -276,15 +280,16 @@
 	],
 	"file_history":
 	[
-		"/E/Dropbox/MIS DESARROLLOS/forum/index.html",
-		"/E/Dropbox/MIS DESARROLLOS/forum/tienda.html",
-		"/E/Dropbox/MIS DESARROLLOS/forum/tienda2.html",
 		"/E/Dropbox/MIS DESARROLLOS/forum/directorio.html",
-		"/E/Dropbox/MIS DESARROLLOS/forum/novedades.html",
-		"/E/Dropbox/MIS DESARROLLOS/forum/css/style.css",
+		"/E/Dropbox/MIS DESARROLLOS/forum/tienda.html",
+		"/E/Dropbox/MIS DESARROLLOS/forum/eventos__detalle.html",
 		"/E/Dropbox/MIS DESARROLLOS/forum/copia.html",
 		"/E/Dropbox/MIS DESARROLLOS/forum/eventos__lista.html",
 		"/E/Dropbox/MIS DESARROLLOS/forum/novedades__detalle.html",
+		"/E/Dropbox/MIS DESARROLLOS/forum/novedades.html",
+		"/E/Dropbox/MIS DESARROLLOS/forum/index.html",
+		"/E/Dropbox/MIS DESARROLLOS/forum/tienda2.html",
+		"/E/Dropbox/MIS DESARROLLOS/forum/css/style.css",
 		"/E/Dropbox/MIS DESARROLLOS/forum/nosotros.html",
 		"/E/Dropbox/MIS DESARROLLOS/Forum/directorio.html",
 		"/E/Dropbox/MIS DESARROLLOS/Forum/tienda.html",
@@ -402,8 +407,7 @@
 		"/C/Users/pcGrande/Desktop/HTML para banners nuevos/listo sin imagenes/1275 10 de mayo.html",
 		"/C/Users/pcGrande/Desktop/HTML para banners nuevos/listo sin imagenes/6120 24 de mayo.html",
 		"/C/Users/pcGrande/Desktop/HTML para banners nuevos/listo sin imagenes/12120 24 de mayo.html",
-		"/C/Users/pcGrande/Desktop/HTML para banners nuevos/faltan por revisar/12350 24 de mayo.html",
-		"/C/Users/pcGrande/Desktop/HTML para banners nuevos/faltan por revisar/ultimo12400.html"
+		"/C/Users/pcGrande/Desktop/HTML para banners nuevos/faltan por revisar/12350 24 de mayo.html"
 	],
 	"find":
 	{
@@ -425,6 +429,9 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			".detalle",
+			"detalle",
+			"btn_",
 			"col-xs-1",
 			"col-xs",
 			"nombre",
@@ -519,15 +526,15 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 23411,
+						"buffer_size": 26656,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								22769,
-								22769
+								13565,
+								13565
 							]
 						],
 						"settings":
@@ -539,8 +546,8 @@
 								{
 									"1":
 									[
-										22771,
-										22772
+										13567,
+										13568
 									]
 								},
 								"icon":
@@ -555,8 +562,8 @@
 								{
 									"1":
 									[
-										22745,
-										22746
+										13549,
+										13550
 									]
 								},
 								"unmatched":
@@ -570,63 +577,63 @@
 								"bh_angle_open",
 								"bh_angle_close",
 								"bh_angle_content",
-								"bh_c_define",
-								"bh_c_define_center",
-								"bh_c_define_open",
-								"bh_c_define_close",
-								"bh_c_define_content",
-								"bh_curly",
-								"bh_curly_center",
-								"bh_curly_open",
-								"bh_curly_close",
-								"bh_curly_content",
-								"bh_regex",
-								"bh_regex_center",
-								"bh_regex_open",
-								"bh_regex_close",
-								"bh_regex_content",
-								"bh_tag",
-								"bh_tag_center",
-								"bh_tag_open",
-								"bh_tag_close",
-								"bh_tag_content",
-								"bh_double_quote",
-								"bh_double_quote_center",
-								"bh_double_quote_open",
-								"bh_double_quote_close",
-								"bh_double_quote_content",
 								"bh_single_quote",
 								"bh_single_quote_center",
 								"bh_single_quote_open",
 								"bh_single_quote_close",
 								"bh_single_quote_content",
-								"bh_unmatched",
-								"bh_unmatched_center",
-								"bh_unmatched_open",
-								"bh_unmatched_close",
-								"bh_unmatched_content",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content",
 								"bh_default",
 								"bh_default_center",
 								"bh_default_open",
 								"bh_default_close",
 								"bh_default_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content",
 								"bh_square",
 								"bh_square_center",
 								"bh_square_open",
 								"bh_square_close",
 								"bh_square_content",
-								"bh_round",
-								"bh_round_center",
-								"bh_round_open",
-								"bh_round_close",
-								"bh_round_content"
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content"
 							],
 							"color_scheme": "Packages/User/Color Highlighter/themes/Boxy Tomorrow.tmTheme",
 							"syntax": "Packages/CSS/CSS.sublime-syntax",
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 31187.0,
+						"translation.y": 17311.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 0,
@@ -634,19 +641,19 @@
 				},
 				{
 					"buffer": 1,
-					"file": "novedades.html",
+					"file": "contacto.html",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 15998,
+						"buffer_size": 11991,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								5257,
-								5266
+								6633,
+								6633
 							]
 						],
 						"settings":
@@ -658,15 +665,15 @@
 								{
 									"1":
 									[
-										5266,
-										5267
+										6635,
+										6641
 									]
 								},
 								"icon":
 								{
 									"1":
 									[
-										"Packages/BracketHighlighter/icons/double_quote.png",
+										"Packages/BracketHighlighter/icons/tag.png",
 										"brackethighlighter.default"
 									]
 								},
@@ -674,8 +681,8 @@
 								{
 									"1":
 									[
-										5256,
-										5257
+										6606,
+										6612
 									]
 								},
 								"unmatched":
@@ -689,63 +696,63 @@
 								"bh_angle_open",
 								"bh_angle_close",
 								"bh_angle_content",
-								"bh_c_define",
-								"bh_c_define_center",
-								"bh_c_define_open",
-								"bh_c_define_close",
-								"bh_c_define_content",
-								"bh_curly",
-								"bh_curly_center",
-								"bh_curly_open",
-								"bh_curly_close",
-								"bh_curly_content",
-								"bh_regex",
-								"bh_regex_center",
-								"bh_regex_open",
-								"bh_regex_close",
-								"bh_regex_content",
-								"bh_tag",
-								"bh_tag_center",
-								"bh_tag_open",
-								"bh_tag_close",
-								"bh_tag_content",
-								"bh_double_quote",
-								"bh_double_quote_center",
-								"bh_double_quote_open",
-								"bh_double_quote_close",
-								"bh_double_quote_content",
 								"bh_single_quote",
 								"bh_single_quote_center",
 								"bh_single_quote_open",
 								"bh_single_quote_close",
 								"bh_single_quote_content",
-								"bh_unmatched",
-								"bh_unmatched_center",
-								"bh_unmatched_open",
-								"bh_unmatched_close",
-								"bh_unmatched_content",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content",
 								"bh_default",
 								"bh_default_center",
 								"bh_default_open",
 								"bh_default_close",
 								"bh_default_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content",
 								"bh_square",
 								"bh_square_center",
 								"bh_square_open",
 								"bh_square_close",
 								"bh_square_content",
-								"bh_round",
-								"bh_round_center",
-								"bh_round_open",
-								"bh_round_close",
-								"bh_round_content"
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content"
 							],
-							"color_scheme": "Packages/User/Color Highlighter/themes/Boxy Tomorrow.tmTheme",
+							"open_with_edit": true,
 							"syntax": "Packages/HTML/HTML.sublime-syntax",
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 0.0,
+						"translation.y": 3000.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 1,
@@ -834,7 +841,7 @@
 	"show_minimap": true,
 	"show_open_files": false,
 	"show_tabs": true,
-	"side_bar_visible": false,
+	"side_bar_visible": true,
 	"side_bar_width": 270.0,
 	"status_bar_visible": true,
 	"template_settings":

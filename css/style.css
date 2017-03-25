@@ -753,7 +753,7 @@ nav ul li:last-child{
 
 
 /********************************
-------------EVENTOS LISTA-----------
+------------EVENTOS LISTA---------
 *********************************/
 
 .evento__lista{
@@ -806,6 +806,103 @@ nav ul li:last-child{
 	margin-bottom: 4em;
 }
 
+/********************************
+------------EVENTOS DETALLE---------
+*********************************/
+
+.fechas__evento ul{
+	margin-left: 2.6em;
+	margin-top: 0.5em;
+}
+
+.fechas__evento ul li{
+	font-weight: 600;
+	list-style: none;
+}
+
+.fechas__evento ul li span{
+	color:#1a1a1a;
+}
+
+.btn__eventos__detalles{
+    padding: 0.2em 1em;
+    margin-top: 3em;
+}
+
+.btn__eventos__detalles a{
+	color:#fff!important;
+}
+
+.eventos__detalle__imagen{
+	margin-top: 1em;
+	text-align: center;
+}
+
+.compartir__eventos__detalle{
+	margin-top: 7em;
+	text-align: center;
+}
+
+.compartir__eventos__detalle img:first-child{
+	margin-left: 1.5em;
+}
+
+.btn__calendars{
+	margin-top: 6em;
+}
+
+.btn__calendars .btn__eventos__detalles {
+ 	margin-top: 1em;
+}
+
+.btn__calendars .btn__rojo{
+	margin-left: 10%;
+	width: 80%;
+}
+
+
+/********************************
+-------------CONTACTO------------
+*********************************/
+
+.contacto{
+	margin-top: 7em;
+}
+
+.contacto p{
+	text-align: justify;
+}
+
+.formulario{
+	background-color: #9A9A9A;
+	padding: 3em 0;
+	margin: 3em 0;
+	text-align: center;
+}
+
+.formulario form{
+	margin-left: 5%;
+	width: 90%;
+}
+
+.formulario form input, .formulario form select, .formulario form textarea{
+	background-color: #C0C0C0;
+	border: 0px;
+	margin-bottom: 10px;
+	padding: 0.2em 0.5em;
+	width: 70%;
+}
+
+.formulario form button{
+	background-color: #A03021;
+	border: 0px;
+	color:#fff;
+	width: 30%;
+}
+
+.formulario form select{
+	color:#75758C;
+}
 
 /********************************
 -----------MEDIA QUERIES---------
@@ -977,6 +1074,17 @@ nav ul li:last-child{
     	font-size: 0.8em;
 	}
 
+	.evento__lista .btn__rojo a {
+    	font-size: 0.8em;
+   	}
+	
+	.selector__categoria select {
+    	font-size: 0.8em;
+	}
+
+	.eventos__anteriores a {
+        font-size: 0.8em;
+	}
 
 }
 
@@ -1340,6 +1448,107 @@ nav ul li:last-child{
     	margin-bottom: 1em;
 	}
 
+	/*Novedades detalle*/
+
+	.novedades__detalle {
+    	padding-top: 2em;
+	}
+
+	.detalle img{
+		width: 600px;
+	}
+	
+	.info__detalle p{
+    	margin-left: 8%;
+		width: 84%;
+	}
+
+	/*Novedades Eventos*/
+	.eventos__anteriores, .filtro__mes{
+		display: none;
+	}
+
+	.eventos__lista__detalle__title {
+    	margin-left: 0em;
+	}
+	
+	.novedades__info{
+		text-align: center;
+	}
+	
+	.novedades__imagen{
+		text-align: center;
+	}
+
+	.novedades__imagen img{
+		margin-left: 0.5em;
+	}
+
+	.novedades__info h4 {
+    	font-size: 1.1em;
+    	margin-bottom: 1px;
+	}
+
+	.evento__lista__item p {
+	    margin-bottom: 1em;
+	}
+
+	.btn__rojo__eventos {
+	   padding: 0.4em 3em;
+	}
+
+	.evento__lista {
+    	margin-top: 2em;
+    }
+
+    /*Evento detalle*/
+
+    .eventos__detalle__imagen img{
+    	width: 600px;
+    }
+
+    .novedades__detalle__title{
+    	margin-top: 1em;
+    }
+
+    .compartir__eventos__detalle img:first-child {
+   		margin-left: 12.5em;
+	}
+	
+	.indoor__map {
+		margin-left: 10em;
+	}
+
+	/*Contacto*/
+
+	.contacto__mapa{
+		text-align: center;
+	}
+
+	.contacto__mapa img{
+		margin-top: 1em;
+		margin-bottom: 3em;
+		width: 600px;
+	}
+
+	.formulario {
+    	background-color: #ffffff;
+	    padding: 2em 0px;
+    	margin: 0em 0px;
+	}
+
+	.formulario form {
+    	margin-left: -15%;
+    	width: 130%;
+	}
+
+	.formulario form textarea{
+		background-color: #F2F2F2;;
+	}
+
+	.formulario form input, .formulario form select, .formulario form textarea {
+   	   padding: 0.5em 0.5em;
+    }
 
 }
 
@@ -1598,6 +1807,87 @@ nav ul li:last-child{
     	padding-top: 0em;
     	margin-bottom: 1em;
 	}
+
+	/*Novedades detalle*/
+
+	.novedades__detalle__title span {
+	    font-size: 0.9em;
+	}
+
+	.detalle{
+		margin-top: 1em;
+	}
+
+	.detalle img{
+		width: 350px;
+	}
+
+	.info__detalle p{
+		padding: 0 0.5em;
+	}
+
+	.compartir__detalle{
+		margin-bottom: 1em;
+	}
+
+	.info__detalle p {
+    	margin-left: 2%;
+    	width: 96%;
+	}
+
+	/*evento detalle*/
+
+	.novedades__detalle__title span{
+		font-size: 0.7em;
+	}
+
+	.novedades__detalle__title{
+		margin: 1.5em 0;
+	}
+
+	.btn__eventos__detalles {
+    	margin-top: 0em;
+	}
+
+	.eventos__detalle__imagen img{
+		width: 350px;
+	}
+
+	.indoor__map {
+		margin-left: 0em;
+	}
+
+	.compartir__eventos__detalle img:first-child {
+   		margin-left: 5em;
+	}
+	
+	/*Contacto*/
+	
+	.contacto p{
+		margin-top: 1em;
+	}
+
+	.contacto__mapa img{
+		margin-top: 1em;
+		margin-bottom: 3em;
+		width: 330px;
+	}
+
+	.formulario {
+    	background-color: #ffffff;
+	    padding: 2em 0px;
+    	margin: 0em 0px;
+	}
+
+	.formulario form {
+    	margin-left: -25%;
+    	width: 150%;
+	}
+
+	.formulario form textarea{
+		background-color: #F2F2F2;
+	}
+
 	
 }
 
@@ -1638,6 +1928,8 @@ nav ul li:last-child{
     	width: 280px;
 	}
 
-	
+	.detalle img{
+		width: 300px;
+	}
 
 }
