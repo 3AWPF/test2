@@ -921,7 +921,7 @@ nav ul li:last-child{
 -----------PROMOCIONES---------
 *********************************/
 .promociones{
-	padding-top: 7em;
+	padding-top: 5em;
 }
 
 .filtro__promociones{
@@ -961,12 +961,12 @@ nav ul li:last-child{
 
 .promo__item__botones{
 	margin-top: 10px;
-	margin-left: 2.2em;
+	margin-left: 1em;
 }
 
 .promo__item__botones .btn__rojo {
     font-size: 0.9em;
-    padding: 0.3em 3em
+    padding: 0.3em 2.2em
 }
 
 .promo__item--tipo{
@@ -980,7 +980,7 @@ nav ul li:last-child{
 }
 
 .promo__item__descripcion{
-	font-size: 1.9em;
+	font-size: 1.5em;
 }
 
 .promo__item__descripcionb{
@@ -995,18 +995,29 @@ nav ul li:last-child{
 /*Tipo B*/
 .promo__item--B{
 	background-size: cover;
-	height: 260px;	
+	height: 255px;	
 }
 
 /*Tipo C*/
 .promo__item--C{
 	background-size: cover;
-	height: 260px;	
+	height: 255px;	
+}
+
+.promo__item--C .promo__item__descripcion{
+	background-color: rgba(0,0,0,0.8);
+	color:#fff;
+	padding: 0.5em 0.1em;
 }
 
 .promo__item--C .promo__item__descripcionb{
-	margin-top: 8em;
+	background-color: rgba(0,0,0,0.8);
+	color:#fff;
+	margin-top: 5em;
+	padding: 0.5em 0.1em;
 }
+
+
 
 
 /********************************
@@ -1673,6 +1684,43 @@ nav ul li:last-child{
     	margin-bottom: 6em;
     }
 
+	/*Promociones*/
+
+	.promociones{
+		padding-top: 2em;
+	}
+
+	.promociones .nombre__seccion__movil {
+    	margin-bottom: 1em;
+    	width: 115%;
+	}
+
+	.promociones .selector__categoria {
+    	background-color: transparent;
+	    margin-top: 1.5em;
+	}	
+
+	.filtro__promociones select{
+		padding: 1.2em 0;
+		margin-left: -5%;
+		padding-left: 30%;
+		text-align: center;
+		width: 80%;
+	}
+
+	.promociones .novedades__detalle__title {
+		margin-top: 5em;
+	}
+	
+	.promo__item{
+		margin-bottom: 3em;
+	}
+
+	.promo__item__botones .btn__rojo {
+    	font-size: 0.9em;
+    	padding: 0.3em 8em;
+	}
+
 }
 
 @media screen and (max-width:480px) {
@@ -2019,6 +2067,32 @@ nav ul li:last-child{
 		background-color: #F2F2F2;
 	}
 
+	/*Promociones*/
+
+	.promociones .nombre__seccion__movil {
+    	margin-bottom: 1em;
+    	width: 100%;
+	}
+
+	.filtro__promociones select {
+	    padding: 0.8em 0;
+	    margin-left: -10%;
+	    padding-left: 30%;
+	    width: 100%;
+	}
+
+	.promociones .novedades__detalle__title {
+    	margin-top: 2em;
+	}
+	
+	.compartir__promo{
+		margin-left: -4em;
+	}
+
+	.promo__item__botones .btn__rojo {
+    	font-size: 0.9em;
+    	padding: 0.3em 2.5em;
+	}
 	
 }
 
