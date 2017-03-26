@@ -1017,7 +1017,37 @@ nav ul li:last-child{
 	padding: 0.5em 0.1em;
 }
 
+/********************************
+-------PROMOCIONES DETALLE-------
+*********************************/
 
+.promociones__detalle .btn__rojo a{
+	color:#fff;
+}
+
+.promociones__detalle .promo__item{
+	margin-top: 2em;
+	margin-left: 5em;
+}
+
+.restricciones{
+	padding-top: 3em;
+}
+
+.restricciones h3{
+	color:#A03021;
+	font-size: 1em;
+	font-weight: 600;
+}
+
+.restricciones p{
+	line-height: 1.5em;
+	text-align: justify;
+}
+
+.otras__promociones{
+	margin-top: 5em;
+}
 
 
 /********************************
@@ -1719,6 +1749,18 @@ nav ul li:last-child{
 	.promo__item__botones .btn__rojo {
     	font-size: 0.9em;
     	padding: 0.3em 8em;
+	}
+
+	/*Promociones detalle*/
+
+	.promociones__detalle .promo__item{
+		margin-left: 0;
+	}
+
+	.promociones__detalle .btn__rojo{
+	    margin-top: 2em;
+    	width: 90%;
+   		margin-left: 5%;
 	}
 
 }
