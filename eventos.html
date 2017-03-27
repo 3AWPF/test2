@@ -150,9 +150,128 @@
 <section class="calendario">
 	<div class="container">
 		<div class="row">
-			<div class="col-md-12">
+			<div class="col-md-10 col-md-offset-1">
 				<div class="calendario__item">
-					Lorem ipsum dolor sit amet, consectetur adipisicing elit. Modi iste, porro voluptate itaque consectetur, vitae et saepe facilis quidem quas ducimus reiciendis at repudiandae aut impedit vero dolorum ipsum officia!
+					<div class="wrapper">
+					  
+					  <table id="day-names">
+					    <tbody>
+					      <tr>
+					        <td>LUN</td>
+					        <td>MAR</td>
+					        <td>MIE</td>
+					        <td>JUE</td>
+					        <td>VIE</td>
+					        <td>SAB</td>
+					        <td>DOM</td>
+					      </tr>
+					    </tbody>
+					  </table>
+					  <table class="week">
+					    <tr>
+					      <td>30</td>
+					      <td>1</td>
+					      <td>2</td>
+					      <td>3</td>
+					      <td>4</td>
+					      <td class="event holiday">5</td>
+					      <td>6</td>
+					    </tr>
+					    <tr>
+					      <td>&nbsp;</td>
+					      <td>&nbsp;</td>
+					      <td>&nbsp;</td>
+					      <td>&nbsp;</td>
+					      <td>&nbsp;</td>
+					      <td><img src="https://imgholder.ru/125x60/2196F3/ECEFF1.jpg&text=imgHolder&font=bebas&fz=36" alt=""></td>
+					      <td>&nbsp;</td>
+					    </tr>
+					  </table>
+					  <table class="week">
+					    <tr>
+					      <td class="today date">7</td>
+					      <td class="event important">8</td>
+					      <td>9</td>
+					      <td>10</td>
+					      <td>11</td>
+					      <td>12</td>
+					      <td>13</td>
+					    </tr>
+					    <tr>
+					      <td class="today">&nbsp;</td>
+					      <td class="description">Date with Cold Beer</td>
+					      <td>&nbsp;</td>
+					      <td>&nbsp;</td>
+					      <td>&nbsp;</td>
+					      <td>&nbsp;</td>
+					      <td>&nbsp;</td>
+					    </tr>
+					  </table>
+					  <table class="week">
+					    <tr>
+					      <td class="event holiday">14</td>
+					      <td>15</td>
+					      <td>16</td>
+					      <td>17</td>
+					      <td>18</td>
+					      <td>19</td>
+					      <td>20</td>
+					    </tr>
+					    <tr>
+					      <td class="description">Bastille Day (France)</td>
+					      <td>
+					       <div>
+					        <img src="http://placehold.it/150x150">
+					       </div>
+					      </td>
+					      <td>&nbsp;</td>
+					      <td>&nbsp;</td>
+					      <td>&nbsp;</td>
+					      <td>&nbsp;</td>
+					      <td>&nbsp;</td>
+					    </tr>
+					  </table>
+					  <table class="week">
+					    <tr>
+					      <td>21</td>
+					      <td>22</td>
+					      <td class="event appointment">23</td>
+					      <td>24</td>
+					      <td>25</td>
+					      <td>26</td>
+					      <td>27</td>
+					    </tr>
+					    <tr>
+					      <td>&nbsp;</td>
+					      <td>&nbsp;</td>
+					      <td>Doctor's Appointment</td>
+					      <td>&nbsp;</td>
+					      <td>&nbsp;</td>
+					      <td>Work Picnic</td>
+					      <td>&nbsp;</td>
+					    </tr>
+					  </table>
+					  <table class="week">
+					    <tr>
+					      <td>28</td>
+					      <td>29</td>
+					      <td>30</td>
+					      <td>31</td>
+					      <td>1</td>
+					      <td>2</td>
+					      <td>3</td>
+					    </tr>
+					    <tr>
+					      <td>&nbsp;</td>
+					      <td>&nbsp;</td>
+					      <td>&nbsp;</td>
+					      <td>&nbsp;</td>
+					      <td>&nbsp;</td>
+					      <td>&nbsp;</td>
+					      <td>&nbsp;</td>
+					    </tr>
+					  </table>
+					</div>		               
 				</div>
 			</div>	
 		</div>
@@ -331,6 +450,12 @@
 		      }
     	}]
 	});
+
+
+  	$('[data-toggle="popover"]').popover();
+
+  	$('#example').popover('show');
+
 });</script>
 </body>
 </html>

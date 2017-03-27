@@ -913,15 +913,17 @@ nav ul li:last-child{
 	padding-bottom: 2em;
 }
 
-.calendario__item{
-	border:1px solid #ccc;
-}
+
 
 /********************************
 -----------PROMOCIONES---------
 *********************************/
 .promociones{
 	padding-top: 5em;
+}
+
+.promo__container{
+	padding:0 4.5em;
 }
 
 .filtro__promociones{
@@ -961,7 +963,7 @@ nav ul li:last-child{
 
 .promo__item__botones{
 	margin-top: 10px;
-	margin-left: 1em;
+	margin-left: 2.5em;
 }
 
 .promo__item__botones .btn__rojo {
@@ -970,13 +972,14 @@ nav ul li:last-child{
 }
 
 .promo__item--tipo{
-	padding: 1.5em 1em;
 	text-align: center;
 }
 
 /*Tipo A*/
 .promo__item--A{
 	border:1px solid #959595;
+	width: 320px;
+	height: 250px;
 }
 
 .promo__item__descripcion{
@@ -989,31 +992,33 @@ nav ul li:last-child{
 }
 
 .promo__item__logo{
-	padding-bottom: 1em;
+	padding-top: 1em;
 }
 
 /*Tipo B*/
 .promo__item--B{
 	background-size: cover;
-	height: 255px;	
+	width: 320px;
+	height: 250px;	
 }
 
 /*Tipo C*/
 .promo__item--C{
 	background-size: cover;
-	height: 255px;	
+	width: 320px;
+	height: 250px;	
 }
 
 .promo__item--C .promo__item__descripcion{
-	background-color: rgba(0,0,0,0.8);
+	background-color: rgba(0,0,0,0.5);
 	color:#fff;
-	padding: 0.5em 0.1em;
+	padding: 0.5em 0em;
 }
 
 .promo__item--C .promo__item__descripcionb{
-	background-color: rgba(0,0,0,0.8);
+	background-color: rgba(0,0,0,0.5);
 	color:#fff;
-	margin-top: 5em;
+	margin-top: 8.5em;
 	padding: 0.5em 0.1em;
 }
 
@@ -1032,6 +1037,7 @@ nav ul li:last-child{
 
 .restricciones{
 	padding-top: 3em;
+	padding-left: 3em;
 }
 
 .restricciones h3{
@@ -1043,6 +1049,7 @@ nav ul li:last-child{
 .restricciones p{
 	line-height: 1.5em;
 	text-align: justify;
+	padding-right: 2em;
 }
 
 .otras__promociones{
@@ -1751,6 +1758,10 @@ nav ul li:last-child{
     	padding: 0.3em 8em;
 	}
 
+	.promo__item--tipo{
+		margin-left: 23%;
+	}
+
 	/*Promociones detalle*/
 
 	.promociones__detalle .promo__item{
@@ -2059,7 +2070,7 @@ nav ul li:last-child{
 	/*evento detalle*/
 
 	.novedades__detalle__title span{
-		font-size: 0.7em;
+		font-size: 0.6em;
 	}
 
 	.novedades__detalle__title{
@@ -2128,13 +2139,38 @@ nav ul li:last-child{
 	}
 	
 	.compartir__promo{
-		margin-left: -4em;
+		margin-left: -3em!important;
 	}
 
 	.promo__item__botones .btn__rojo {
     	font-size: 0.9em;
     	padding: 0.3em 2.5em;
 	}
+
+	.promo__item--tipo{
+		margin-left: 0%;
+	}
+
+	.promo__container{
+	    padding: 0 1.5em;
+	}
+
+	.promo__item__botones {
+	    margin-left: 1em;
+	}
+
+	.promociones__detalle span{
+		font-size: 1em;
+	}
+	
+	.restricciones{
+		padding: 0;
+	}
+
+	.restricciones p {
+    	padding-right: 0em;
+	}
+
 	
 }
 
@@ -2179,4 +2215,123 @@ nav ul li:last-child{
 		width: 300px;
 	}
 
+	.promo__container{
+	    padding: 0 0em;
+	}
+
 } 
+
+
+
+.wrapper {
+  width: 1000px;
+  padding: 4px;
+}
+
+table {
+  width: 100%;
+  font-size: 14px;
+  border-left: 1px solid #d6d6d6;
+}
+
+td {
+  border-right: 1px solid #d6d6d6;
+ 
+}
+
+#header-table tr:first-child {
+  text-align: center;
+  color: #0055ff;
+  border-top: 1px solid #d6d6d6;
+  text-shadow: 1px 1px 3px rgba(0, 85, 255, 0.3);
+}
+
+#header-table tr:nth-child(2) {
+  background-color: #A4C739;
+  color: white;
+  border: 1px solid #d6c1d6;
+  text-shadow: 1px 1px 2px rgba(255, 255, 255, 0.3);
+}
+
+#header-table td {
+  padding: 4px
+     height:20px;
+}
+
+#day-names {
+  text-align: center;
+  border-bottom: 1px solid #d6d6d6;
+}
+
+#day-names td {
+  border-right: 0px;
+  width: 14.2857%;
+  height: 22px;
+}
+
+
+
+table.week {
+  font-size: 75%;
+}
+
+table.week {
+  height: 80px;
+  border-bottom: 1px solid #d6d6d6;
+}
+
+table.week td {
+  width: 14.2857%;
+  padding: 20px 3px;
+}
+
+td.today {
+  font-weight: bold;
+  background-color: rgba(181, 228, 206, .4);
+}
+
+td.today.date {
+  font-size: 110%;
+  text-shadow: 1px 1px 3px rgba(25,25,25, 0.3);
+}
+
+table.week tr:first-child {
+  height: 25%;
+}
+
+table.week tr:nth-child(2) {
+  height: 75%;
+}
+
+.event.holiday {
+  background-color: #c5c5ee;
+}
+
+td.event.important {
+  background-color: #A4C739;
+  font-weight: bold;
+  color: #fff;
+  text-shadow: 1px 1px 2px rgba(255, 255, 255, 0.3);
+}
+
+@media 
+only screen and (max-width: 760px),
+(min-device-width: 768px) and (max-device-width: 1024px) {
+  .wrapper {
+    width: inherit;
+    min-width: 220px;
+  }
+  #day-names {
+    display: none;
+  }
+  table.week{
+    height: 30px;
+  }
+  .week td {
+    padding: auto;
+    text-align: center;
+  }
+  .week tr:nth-child(2) {
+    display: none;
+  }
+}
