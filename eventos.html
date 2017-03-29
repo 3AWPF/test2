@@ -150,127 +150,575 @@
 <section class="calendario">
 	<div class="container">
 		<div class="row">
+
+			<!-- Nombre seccion movil -->
+			<div class="nombre__seccion__movil visible-xs">
+				<div class="col-xs-11">
+					<div class="directorio--search">
+						<div class="search">
+							<div class="search__contenido">
+								<div class="row">
+									<div class="col-xs-12 col-md-4">
+										<h3>EVENTOS</h3>
+									</div>
+									
+								</div>
+							</div>	
+						</div>
+					</div>
+				</div>
+			</div>
+			<!-- /Nombre seccion movil -->
+
+			<div class="col-md-offset-7 col-md-5">
+				<div class="row">
+					<div class="col-xs-offset-1 col-xs-11 col-md-8 col-md-offset-0">
+						<div class="btn__rojo">
+							<a href="eventos__lista.html">CAMBIAR A VISTA DE LISTA</a>
+						</div>
+					</div>
+					<div class="col-md-4">
+						<div class="selector__categoria filtro__mes">
+							<select>
+							  <option value="volvo">FILTRO DE MES</option>
+							  <option value="saab">Saab</option>
+							  <option value="mercedes">Mercedes</option>
+							  <option value="audi">Audi</option>
+							</select>
+						</div>
+					</div>
+				</div>				
+			</div>
+		</div>
+
+		<div class="row">
 			<div class="col-md-10 col-md-offset-1">
+
+				<div class="row">
+					<div class="col-xs-12 col-md-11 col-md-offset-1">
+						<div class="calendario__mes">
+							<div class="col-md-1 col-xs-4">
+								<img class="hidden-xs" src="/img/left-calendario.png" alt="">
+								<h3 class="visible-xs">DICIEMBRE</h3>
+							</div>
+
+							<div class="col-xs-4 col-md-10 text-center">
+								<h3 class="mes__actual">ENERO 2017</h3>
+							</div>
+
+							<div class="col-xs-4 col-md-1">
+								<img class="hidden-xs" src="/img/right-calendario.png" alt="">
+								<h3 class="visible-xs text-right">FEBRERO</h3>
+							</div>
+						</div>
+					</div>
+				</div>
+
 				<div class="calendario__item">
 					<div class="wrapper">
+						<table id="day-names">
+						    <tbody>
+					        	<tr>
+							        <td><h4>LUN</h4></td>
+							        <td><h4>MAR</h4></td>
+							        <td><h4>MIE</h4></td>
+							        <td><h4>JUE</h4></td>
+							        <td><h4>VIE</h4></td>
+							        <td><h4>SAB</h4></td>
+							        <td><h4>DOM</h4></td>
+						      	</tr>
+						    </tbody>
+						</table>
+
+						<table id="day-names--movil" class="visible-xs">
+						    <tbody>
+					        	<tr>
+							        <td><h4>L</h4></td>
+							        <td><h4>M</h4></td>
+							        <td><h4>M</h4></td>
+							        <td><h4>J</h4></td>
+							        <td><h4>V</h4></td>
+							        <td><h4>S</h4></td>
+							        <td><h4>D</h4></td>
+						      	</tr>
+						    </tbody>
+						</table>
+
+						<!-- Semana 1 -->
+						<table class="week">
+						    <tr>
+						    	<td class="pasados">
+						      		<div class="row">
+						      			<div class="col-md-2 col-xs-12">
+				      						<div class="numero__day">
+				      							<h3>29</h3>
+				      						</div>					      
+				      					</div>
+				      				</div>
+						      	</td>
+						      	<td class="pasados">
+						      		<div class="row">
+						      			<div class="col-md-2 col-xs-12">
+				      						<div class="numero__day">
+				      							<h3>30</h3>
+				      						</div>					      
+				      					</div>
+				      				</div>
+						      	</td>
+						      	<td class="pasados">
+						      		<div class="row">
+						      			<div class="col-md-2 col-xs-12">
+				      						<div class="numero__day">
+				      							<h3>31</h3>
+				      						</div>					      
+				      					</div>
+				      				</div>
+						      	</td>
+						      	<td>
+						      		<div class="row">
+						      			<div class="col-md-2 col-xs-12">
+				      						<div class="numero__day">
+				      							<h3>1</h3>
+				      						</div>					      
+				      					</div>
+				      				</div>
+						      	</td>
+						      	<td>
+						      		<div class="row">
+						      			<div class="col-md-2 col-xs-12">
+				      						<div class="numero__day">
+				      							<h3>2</h3>
+				      						</div>					      
+				      					</div>
+				      				</div>
+						      	</td>
+
+						       <td>
+						      		<div class="row">
+						      			<div class="col-md-3 col-xs-12">
+							      			<div class="numero__day">
+									      	 	<h3>3</h3>
+									      	 </div>					      
+							      		</div>						      		
+						      		</div>
+						      	</td>
+						      	
+						        <td class="domingo">
+						      		<div class="row">
+						      			<div class="col-md-2 col-xs-12">
+							      			<div class="numero__day">
+									      	 	<h3>4</h3>
+									      	 </div>					      
+							      		</div>							      		
+						      		</div>					      	 
+						        </td>
+						    
+						    </tr>
+						    <tr>
+						      <td>&nbsp;</td>
+						      <td>&nbsp;</td>
+						      <td>&nbsp;</td>
+						      <td>&nbsp;</td>
+						      <td>&nbsp;</td>
+						      <td>&nbsp;</td>
+						      <td class="domingo domingo__down">&nbsp;</td>
+						    </tr>
+						</table>
+						<!-- /Semana 1 -->
+						<!-- Semana 2 -->
+						<table class="week">
+						    <tr>
+						    	<td>
+						      		<div class="row">
+						      			<div class="col-md-2 col-xs-12">
+				      						<div class="numero__day">
+				      							<h3>5</h3>
+				      						</div>					      
+				      					</div>
+				      				</div>
+						      	</td>
+						      	<td>
+						      		<div class="row">
+						      			<div class="col-md-2 col-xs-12">
+				      						<div class="numero__day">
+				      							<h3>6</h3>
+				      						</div>					      
+				      					</div>
+				      				</div>
+						      	</td>
+						      	<td>
+						      		<div class="row">
+						      			<div class="col-md-2 col-xs-12">
+				      						<div class="numero__day">
+				      							<h3>7</h3>
+				      						</div>					      
+				      					</div>
+				      				</div>
+						      	</td>
+						      	<td class="event holiday ">
+						      		<div class="row">
+						      			<div class="col-md-2 col-xs-12">
+				      						<div class="numero__day">
+				      							<h3>8</h3>
+				      						</div>					      
+				      					</div>
+				      					<div class="col-md-9 hidden-xs nopadding">
+							      			<div class="evento__day">
+								      			<h4>8:00 PM FIRMA DE AUTOGRAFOS</h4>
+								      		</div>
+							      		</div>
+
+							      		<div class="col-xs-12 evento__movil">
+							      			<div class="row">
+							      				<div class="col-xs-7">
+							      					<div class="evento__movil__info">
+							      						<h4>FIRMA DE AUTOGRAFOS</h4>
+							      						<h5>FORUM BUENAVISTA</h5>
+							      						<p>17/03/17</p>
+							      					</div>
+							      				</div>
+							      				<div class="col-xs-5 nopadding">
+							      					<div class="evento__movil__imagen" style="background-image: url('../img/eventos/evento__movil.jpg');">
+							      						
+							      					</div>
+							      				</div>
+							      			</div>
+							      		</div>
+				      				</div>
+						      	</td>
+						      	<td>
+						      		<div class="row">
+						      			<div class="col-md-2 col-xs-12">
+				      						<div class="numero__day">
+				      							<h3>9</h3>
+				      						</div>					      
+				      					</div>
+				      				</div>
+						      	</td>
+
+						       <td class=" ">
+						      		<div class="row">
+						      			<div class="col-md-3 col-xs-12">
+							      			<div class="numero__day">
+									      	 	<h3>10</h3>
+									      	 </div>					      
+							      		</div>							      		
+						      		</div>
+						      	</td>
+						      	
+						        <td class="domingo">
+						      		<div class="row">
+						      			<div class="col-md-2 col-xs-12">
+							      			<div class="numero__day">
+									      	 	<h3>11</h3>
+									      	 </div>					      
+							      		</div>							      		
+						      		</div>					      	 
+						        </td>
+						    
+						    </tr>
+						    <tr>
+						      <td>&nbsp;</td>
+						      <td>&nbsp;</td>
+						      <td>&nbsp;</td>
+						      <td>
+						      	<div class="contenido__evento">
+						      		<img src="https://imgholder.ru/125x63/2196F3/ECEFF1.jpg&text=imgHolder&font=bebas&fz=36" alt="">
+						      	</div>
+						      </td>
+						      <td>&nbsp;</td>
+						      <td>&nbsp;</td>
+						      <td class="domingo domingo__down">&nbsp;</td>
+						    </tr>
+						</table>
+						<!-- /Semana2 -->
+						<!-- Semana 3 -->
+						<table class="week">
+						    <tr>
+						    	<td>
+						      		<div class="row">
+						      			<div class="col-md-2 col-xs-12">
+				      						<div class="numero__day">
+				      							<h3>12</h3>
+				      						</div>					      
+				      					</div>
+				      				</div>
+						      	</td>
+						      	<td>
+						      		<div class="row">
+						      			<div class="col-md-2 col-xs-12">
+				      						<div class="numero__day">
+				      							<h3>13</h3>
+				      						</div>					      
+				      					</div>
+				      				</div>
+						      	</td>
+						      	<td>
+						      		<div class="row">
+						      			<div class="col-md-2 col-xs-12">
+				      						<div class="numero__day">
+				      							<h3>14</h3>
+				      						</div>					      
+				      					</div>
+				      				</div>
+						      	</td>
+						      	<td>
+						      		<div class="row">
+						      			<div class="col-md-2 col-xs-12">
+				      						<div class="numero__day">
+				      							<h3>15</h3>
+				      						</div>					      
+				      					</div>
+				      					<div class="col-xs-12 evento__movil">
+							      			<div class="row">
+							      				<div class="col-xs-7">
+							      					<div class="evento__movil__info">
+							      						<h4>FIRMA DE AUTOGRAFOS</h4>
+							      						<h5>FORUM BUENAVISTA</h5>
+							      						<p>17/03/17</p>
+							      					</div>
+							      				</div>
+							      				<div class="col-xs-5 nopadding">
+							      					<div class="evento__movil__imagen" style="background-image: url('../img/eventos/evento__movil.jpg');">
+							      						
+							      					</div>
+							      				</div>
+							      			</div>
+							      		</div>				      					
+				      				</div>
+						      	</td>
+						      	<td>
+						      		<div class="row">
+						      			<div class="col-md-2 col-xs-12">
+				      						<div class="numero__day">
+				      							<h3>16</h3>
+				      						</div>					      
+				      					</div>
+				      					<div class="col-md-9 hidden-xs nopadding">
+							      			<div class="evento__day">
+								      			<h4></h4>
+								      		</div>
+							      		</div>
+				      				</div>
+						      	</td>
+
+						       <td class=" ">
+						      		<div class="row">
+						      			<div class="col-md-3 col-xs-12">
+							      			<div class="numero__day">
+									      	 	<h3>17</h3>
+									      	 </div>					      
+							      		</div>							      		
+						      		</div>
+						      	</td>
+						      	
+						        <td class="domingo">
+						      		<div class="row">
+						      			<div class="col-md-2 col-xs-12">
+							      			<div class="numero__day">
+									      	 	<h3>18</h3>
+									      	 </div>					      
+							      		</div>							      		
+						      		</div>					      	 
+						        </td>
+						    
+						    </tr>
+						    <tr>
+						      <td>&nbsp;</td>
+						      <td>&nbsp;</td>
+						      <td>&nbsp;</td>
+						      <td>&nbsp;</td>
+						      <td>&nbsp;</td>
+						      <td>&nbsp;</td>
+						      <td class="domingo domingo__down">&nbsp;</td>
+						    </tr>
+						</table>
+						<!-- /Semana3 -->
+						<!-- Semana 4 -->
+						<table class="week">
+						    <tr>
+						    	<td>
+						      		<div class="row">
+						      			<div class="col-md-2 col-xs-12">
+				      						<div class="numero__day">
+				      							<h3>19</h3>
+				      						</div>					      
+				      					</div>
+				      				</div>
+						      	</td>
+						      	<td>
+						      		<div class="row">
+						      			<div class="col-md-2 col-xs-12">
+				      						<div class="numero__day">
+				      							<h3>20</h3>
+				      						</div>					      
+				      					</div>
+				      				</div>
+						      	</td>
+						      	<td>
+						      		<div class="row">
+						      			<div class="col-md-2 col-xs-12">
+				      						<div class="numero__day">
+				      							<h3>21</h3>
+				      						</div>					      
+				      					</div>
+				      				</div>
+						      	</td>
+						      	<td>
+						      		<div class="row">
+						      			<div class="col-md-2 col-xs-12">
+				      						<div class="numero__day">
+				      							<h3>22</h3>
+				      						</div>					      
+				      					</div>				      					
+				      				</div>
+						      	</td>
+						      	<td>
+						      		<div class="row">
+						      			<div class="col-md-2 col-xs-12">
+				      						<div class="numero__day">
+				      							<h3>23</h3>
+				      						</div>					      
+				      					</div>				      					
+				      				</div>
+						      	</td>
+
+						       <td class=" ">
+						      		<div class="row">
+						      			<div class="col-md-3 col-xs-12">
+							      			<div class="numero__day">
+									      	 	<h3>24</h3>
+									      	 </div>					      
+							      		</div>							      		
+						      		</div>
+						      	</td>
+						      	
+						        <td class="domingo">
+						      		<div class="row">
+						      			<div class="col-md-2 col-xs-12">
+							      			<div class="numero__day">
+									      	 	<h3>25</h3>
+									      	 </div>					      
+							      		</div>							      		
+						      		</div>					      	 
+						        </td>
+						    
+						    </tr>
+						    <tr>
+						      <td>&nbsp;</td>
+						      <td>&nbsp;</td>
+						      <td>&nbsp;</td>
+						      <td>&nbsp;</td>
+						      <td>&nbsp;</td>
+						      <td>&nbsp;</td>
+						      <td class="domingo domingo__down">&nbsp;</td>
+						    </tr>
+						</table>
+						<!-- /Semana4 -->
+						<!-- Semana 5 -->
+						<table class="week">
+						    <tr>
+						    	<td>
+						      		<div class="row">
+						      			<div class="col-md-2 col-xs-12">
+				      						<div class="numero__day">
+				      							<h3>26</h3>
+				      						</div>					      
+				      					</div>
+				      				</div>
+						      	</td>
+						      	<td>
+						      		<div class="row">
+						      			<div class="col-md-2 col-xs-12">
+				      						<div class="numero__day">
+				      							<h3>27</h3>
+				      						</div>					      
+				      					</div>
+				      				</div>
+						      	</td>
+						      	<td>
+						      		<div class="row">
+						      			<div class="col-md-2 col-xs-12">
+				      						<div class="numero__day">
+				      							<h3>28</h3>
+				      						</div>					      
+				      					</div>				      					
+				      				</div>
+						      	</td>
+						      	<td>
+						      		<div class="row">
+						      			<div class="col-md-2 col-xs-12">
+				      						<div class="numero__day">
+				      							<h3>29</h3>
+				      						</div>					      
+				      					</div>				      					
+				      				</div>
+						      	</td>
+						      	<td>
+						      		<div class="row">
+						      			<div class="col-md-2 col-xs-12">
+				      						<div class="numero__day">
+				      							<h3>30</h3>
+				      						</div>					      
+				      					</div>				      					
+				      				</div>
+						      	</td>
+
+						       <td class="event holiday">
+						      		<div class="row">
+						      			<div class="col-md-3 col-xs-12">
+							      			<div class="numero__day">
+									      	 	<h3>31</h3>
+									      	 </div>					      
+							      		</div>
+							      		<div class="col-md-9 hidden-xs nopadding">
+							      			<div class="evento__day">
+								      			<h4></h4>
+								      		</div>
+							      		</div>
+
+							      		<div class="col-xs-12 evento__movil">
+							      			<div class="row">
+							      				<div class="col-xs-7">
+							      					<div class="evento__movil__info">
+							      						<h4>FIRMA DE AUTOGRAFOS</h4>
+							      						<h5>FORUM BUENAVISTA</h5>
+							      						<p>17/03/17</p>
+							      					</div>
+							      				</div>
+							      				<div class="col-xs-5 nopadding">
+							      					<div class="evento__movil__imagen" style="background-image: url('../img/eventos/evento__movil.jpg');">
+							      						
+							      					</div>
+							      				</div>
+							      			</div>
+							      		</div>						      		
+						      		</div>
+						      	</td>
+						      	
+						        <td class="domingo">
+						      		<div class="row">
+						      			<div class="col-md-2 col-xs-12">
+							      			<div class="numero__day">
+									      	 	<h3>1</h3>
+									      	 </div>					      
+							      		</div>							      		
+						      		</div>					      	 
+						        </td>
+						    
+						    </tr>
+						    <tr>
+						      <td>&nbsp;</td>
+						      <td>&nbsp;</td>
+						      <td>&nbsp;</td>
+						      <td>&nbsp;</td>
+						      <td>&nbsp;</td>
+						      <td>&nbsp;</td>
+						      <td class="domingo domingo__down">&nbsp;</td>
+						    </tr>
+						</table>
+						<!-- /Semana5 -->
 					  
-					  <table id="day-names">
-					    <tbody>
-					      <tr>
-					        <td>LUN</td>
-					        <td>MAR</td>
-					        <td>MIE</td>
-					        <td>JUE</td>
-					        <td>VIE</td>
-					        <td>SAB</td>
-					        <td>DOM</td>
-					      </tr>
-					    </tbody>
-					  </table>
-					  <table class="week">
-					    <tr>
-					      <td>30</td>
-					      <td>1</td>
-					      <td>2</td>
-					      <td>3</td>
-					      <td>4</td>
-					      <td class="event holiday">5</td>
-					      <td>6</td>
-					    </tr>
-					    <tr>
-					      <td>&nbsp;</td>
-					      <td>&nbsp;</td>
-					      <td>&nbsp;</td>
-					      <td>&nbsp;</td>
-					      <td>&nbsp;</td>
-					      <td><img src="https://imgholder.ru/125x60/2196F3/ECEFF1.jpg&text=imgHolder&font=bebas&fz=36" alt=""></td>
-					      <td>&nbsp;</td>
-					    </tr>
-					  </table>
-					  <table class="week">
-					    <tr>
-					      <td class="today date">7</td>
-					      <td class="event important">8</td>
-					      <td>9</td>
-					      <td>10</td>
-					      <td>11</td>
-					      <td>12</td>
-					      <td>13</td>
-					    </tr>
-					    <tr>
-					      <td class="today">&nbsp;</td>
-					      <td class="description">Date with Cold Beer</td>
-					      <td>&nbsp;</td>
-					      <td>&nbsp;</td>
-					      <td>&nbsp;</td>
-					      <td>&nbsp;</td>
-					      <td>&nbsp;</td>
-					    </tr>
-					  </table>
-					  <table class="week">
-					    <tr>
-					      <td class="event holiday">14</td>
-					      <td>15</td>
-					      <td>16</td>
-					      <td>17</td>
-					      <td>18</td>
-					      <td>19</td>
-					      <td>20</td>
-					    </tr>
-					    <tr>
-					      <td class="description">Bastille Day (France)</td>
-					      <td>
-					       <div>
-					        <img src="http://placehold.it/150x150">
-					       </div>
-					      </td>
-					      <td>&nbsp;</td>
-					      <td>&nbsp;</td>
-					      <td>&nbsp;</td>
-					      <td>&nbsp;</td>
-					      <td>&nbsp;</td>
-					    </tr>
-					  </table>
-					  <table class="week">
-					    <tr>
-					      <td>21</td>
-					      <td>22</td>
-					      <td class="event appointment">23</td>
-					      <td>24</td>
-					      <td>25</td>
-					      <td>26</td>
-					      <td>27</td>
-					    </tr>
-					    <tr>
-					      <td>&nbsp;</td>
-					      <td>&nbsp;</td>
-					      <td>Doctor's Appointment</td>
-					      <td>&nbsp;</td>
-					      <td>&nbsp;</td>
-					      <td>Work Picnic</td>
-					      <td>&nbsp;</td>
-					    </tr>
-					  </table>
-					  <table class="week">
-					    <tr>
-					      <td>28</td>
-					      <td>29</td>
-					      <td>30</td>
-					      <td>31</td>
-					      <td>1</td>
-					      <td>2</td>
-					      <td>3</td>
-					    </tr>
-					    <tr>
-					      <td>&nbsp;</td>
-					      <td>&nbsp;</td>
-					      <td>&nbsp;</td>
-					      <td>&nbsp;</td>
-					      <td>&nbsp;</td>
-					      <td>&nbsp;</td>
-					      <td>&nbsp;</td>
-					    </tr>
-					  </table>
 					</div>		               
 				</div>
 			</div>	
@@ -308,7 +756,7 @@
 							</div>
 							<div class="col-md-4 nopadding">								
 								<input type="text">
-								<a href="#">Enviar</a>																
+								<button value="Enviar">Enviar</button>														
 							</div>							
 						</div> 
 					</div>

@@ -159,6 +159,8 @@ nav ul li:last-child{
 .input__corto input{
 	border:0px;
 	background: #717171 url('../img/search.png')5% 50%  no-repeat;
+    color: #fff;
+	padding-left: 20px;
 	width: 100%;
 }
 
@@ -192,6 +194,10 @@ nav ul li:last-child{
 	height: 33px;
 }
 
+.newsOpcional{
+	margin-top: 0.3em;
+}
+
 .news__content{
 	color:#fff;
 }
@@ -203,21 +209,25 @@ nav ul li:last-child{
 }
 
 .news input{
-	border:0px;
-	background: #717171;
-	margin-left: -1em;
-	margin-top: 8px;
-	height: 20%;
-	width: 50%;
+	border: 0px;
+    background: #717171;
+    margin-left: -1em;
+    margin-top: -29px;
+    height: 22px;
+    width: 50%;
+    padding-top: 3px;
 }
 
-.news a{
+.news button{
 	background-color: #a03021;
-	border:1px solid #c53825;
-	color:#fff;
-	text-align: center;
-	padding: 1px 3em;
-	margin-left: 1em;
+    border: 1px solid #c53825;
+    color: #fff;
+    height: 20px;
+    margin-left: 1em;
+    margin-top: 6px;
+    text-align: center;
+    width: 130px;
+    padding-bottom: 20px;
 }
 
 .appsn{
@@ -630,7 +640,15 @@ nav ul li:last-child{
 }
 
 .novedades__item{
+	display: none;
 	margin-top: 1.5em;
+}
+
+#loadMore {
+	transition: all 10s linear;
+    -webkit-transition: all 10s linear;
+    -moz-transition: all 10s linear;
+    -o-transition: all 10s linear;
 }
 
 .novedades__info{
@@ -909,8 +927,172 @@ nav ul li:last-child{
 *********************************/
 
 .calendario{
-	padding-top: 7em;
-	padding-bottom: 2em;
+	padding-top: 4.5em;
+	padding-bottom: 7em;
+}
+
+.calendario__item{
+	margin-left: 10%;
+}
+
+.calendario__mes{
+	margin-bottom: 5em;
+	padding-left: 2em;
+}
+
+.calendario__mes h3{
+	color:#A03020;
+	font-size: 2em;
+	margin-top: 5px;
+}
+
+.domingo{
+	background-color: #D9D6D6;
+}
+
+.domingo__down{
+	border-bottom: 1px solid #C8C8C8;
+	border-left: 1px solid #C8C8C8;
+	border-right: 1px solid #C8C8C8;
+}
+
+.evento__movil{
+	display: none;
+}
+
+.calendario .btn__rojo {
+    padding: 0.35em 0em;
+    margin-bottom: 3em;
+    width: 90%;
+}
+
+.calendario .btn__rojo a{
+	color:#fff;
+}
+
+.wrapper {
+  width: 855px;
+  padding: 4px;
+}
+
+table {
+  width: 100%;
+  font-size: 14px;
+  border-left: 1px solid #d6d6d6;
+}
+
+td {
+  border-right: 1px solid #d6d6d6;
+}
+
+#header-table tr:first-child {
+  text-align: center;
+  color: #0055ff;
+  border-top: 1px solid #d6d6d6;
+  text-shadow: 1px 1px 3px rgba(0, 85, 255, 0.3);
+}
+
+#header-table tr:nth-child(2) {
+  background-color: #A4C739;
+  color: white;
+  border: 1px solid #d6c1d6;
+  text-shadow: 1px 1px 2px rgba(255, 255, 255, 0.3);
+}
+
+
+#day-names {
+  text-align: center;
+  border-bottom: 1px solid #d6d6d6;
+
+}
+
+#day-names td {
+  border-right: 0px;
+  border-left:1px solid #fff;
+  color:#A03020;
+  font-weight: 600;
+  width: 14.2857%;
+}
+
+#day-names > tbody > tr > td > h4{
+	font-size: 1.2em!important;
+}
+
+.pasados{
+	color:#C9C9C9;
+}
+
+table.week {
+  font-size: 75%;
+}
+
+table.week {
+  height: 122px;
+  border-bottom: 1px solid #d6d6d6;
+}
+
+table.week td {
+  width: 14.2857%;
+  font-size: 1.2em;
+}
+
+.week__head td{
+  padding-left: 1em;
+}
+
+td.today {
+  font-weight: bold;
+  background-color: rgba(181, 228, 206, .4);
+}
+
+td.today.date {
+  font-size: 110%;
+  text-shadow: 1px 1px 3px rgba(25,25,25, 0.3);
+}
+
+table.week tr:first-child {
+  height: 50%;
+}
+
+table.week tr:nth-child(2) {
+  height: 50%;
+}
+
+.event.holiday {
+  background-color: #fff;
+}
+
+.event.holiday:hover{
+	background-color: #A03020;
+	color:#fff;
+	cursor: pointer;
+}
+
+.contenido__evento{
+	height: 60px;
+}
+
+.contenido__evento img{
+	width: 100%;
+}
+
+td.event.important {
+  background-color: #A4C739;
+  font-weight: bold;
+  color: #fff;
+  text-shadow: 1px 1px 2px rgba(255, 255, 255, 0.3);
+}
+
+.numero__day h3{
+	font-size: 1.1em;
+	line-height: 1.5em;
+	margin-top:5px;
+	margin-left: 10px;
+}
+
+.evento__day h4{
+	font-size: 0.7em;
+	padding-left: 2em;
 }
 
 
@@ -1237,6 +1419,10 @@ nav ul li:last-child{
 
 	.eventos__anteriores a {
         font-size: 0.8em;
+	}
+
+	.news button {
+		margin-left: 0em;
 	}
 
 }
@@ -1773,6 +1959,145 @@ nav ul li:last-child{
     	width: 90%;
    		margin-left: 5%;
 	}
+	
+	/*Calendario*/
+
+	.directorio--search{
+		margin-left: 1em;
+	}
+
+	.calendario__mes{
+		padding-left: 1px;
+	}
+
+	.calendario__mes h3 {
+	    font-size: 1em;
+	}
+	
+	.calendario .btn__rojo {
+    	width: 100%!important;
+    	margin-left: -1.2em;
+	}
+
+	.calendario__item {
+    	margin-left: 1%;
+	}
+
+	#day-names--movil{
+		border:0px solid #fff!important;
+		margin-bottom: 1em;
+	}
+
+	#day-names--movil td{
+		border:0px solid #fff!important;
+		padding-left: 5px;
+		width: 20px;
+	}
+
+	#day-names--movil tr{
+		border:0px solid #fff;
+		text-align: center;
+	}
+
+	#day-names--movil td h4{
+		font-size: 1em;
+	}
+	
+	table.week {
+    	height: 122px;
+    	border:0px solid #fff;
+	}
+
+	.week tbody{
+		border:1px solid #fff;
+	}
+
+	.week td {
+        border: 0px solid #d6d6d6;
+	}
+
+	.calendario__mes h3 {
+    	color: #000000;    	
+    	opacity: 0.4;
+	}
+
+	.mes__actual{
+		opacity: 1!important;
+	}
+
+	.domingo {
+    	background-color: #fff;
+	}
+	
+	.event.holiday:hover{
+		background-color: #fff!important;
+	}
+	
+	.event.holiday h3{
+		background-color: #A03020;
+		border-radius: 50%;
+		color:#fff;
+		padding: 10px 5px;
+		margin-left: 2em!important;
+		height: 40px;
+		width: 40px;
+	}
+
+	.event.holiday h3:hover{
+		background-color: #A03020;
+		border-top-left-radius: 40px;
+		border-top-right-radius: 40px;
+		color:#fff;
+		cursor: pointer;
+		padding: 10px 5px;
+	} 
+
+	.week{
+		position: relative;
+	}
+
+	.event.holiday:hover .evento__movil{
+		background-color: #A03020;
+		display: block;
+		position: absolute;
+		left: 0%;
+		top:80%;
+		width: 100%;
+		z-index: 1;
+	}
+	
+	.evento__movil__imagen{
+		background-size: cover;
+		height: 120px;
+		width: 100%;
+	}
+	
+	.numero__day h3 {
+        margin-top: 0px!important;
+    	margin-left: 0px!important;
+    	margin-bottom: 0px;
+	}
+
+	.evento__movil__info h4{
+		color:#fff;
+		font-size: 1em;
+		font-weight: 600;
+		text-align: left;
+	}
+
+	.evento__movil__info h5{
+		color:#fff;
+		font-size: 1em;
+		font-weight: 400;
+		text-align: left;
+	}
+	
+	.evento__movil__info p{
+		color:#fff;
+		font-size: 1em;
+		letter-spacing: 1px;
+		text-align: left;
+	}
 
 }
 
@@ -2171,6 +2496,146 @@ nav ul li:last-child{
     	padding-right: 0em;
 	}
 
+	/*Calendario*/
+
+	.calendario__mes{
+		padding-left: 1px;
+	}
+
+	.calendario__mes h3 {
+	    font-size: 1em;
+	}
+	
+	.calendario .btn__rojo {
+    	width: 100%!important;
+    	margin-left: -1.2em;
+	}
+
+	.calendario__item {
+    	margin-left: 1%;
+	}
+
+	#day-names--movil{
+		border:0px solid #fff!important;
+		margin-bottom: 1em;
+	}
+
+	#day-names--movil td{
+		border:0px solid #fff!important;
+		padding-left: 5px;
+		width: 20px;
+	}
+
+	#day-names--movil tr{
+		border:0px solid #fff;
+		text-align: center;
+	}
+
+	#day-names--movil td h4{
+		font-size: 1em;
+	}
+	
+	table.week {
+    	height: 122px;
+    	border:0px solid #fff;
+	}
+
+	.week tbody{
+		border:1px solid #fff;
+	}
+
+	.week td {
+        border: 0px solid #d6d6d6;
+	}
+
+	.calendario__mes h3 {
+    	color: #000000;    	
+    	opacity: 0.4;
+	}
+
+	.mes__actual{
+		opacity: 1!important;
+	}
+
+	.domingo {
+    	background-color: #fff;
+	}
+
+	
+	.event.holiday:hover{
+		background-color: #fff!important;
+	}
+	
+	
+	.event.holiday h3{
+		background-color: #A03020;
+		border-radius: 50%;
+		color:#fff;
+		padding: 10px 5px;
+		margin-left: 0.4em!important;
+		height: 40px;
+		width: 40px;
+	}
+
+	.event.holiday h3:hover{
+		background-color: #A03020;
+		border-top-left-radius: 40px;
+		border-top-right-radius: 40px;
+		color:#fff;
+		cursor: pointer;
+		padding: 10px 5px;
+	} 
+
+	.week{
+		position: relative;
+	}
+
+	.event.holiday:hover .evento__movil{
+		background-color: #A03020;
+		display: block;
+		position: absolute;
+		left: 0%;
+		top:80%;
+		width: 100%;
+		z-index: 1;
+	}
+	
+	.evento__movil__imagen{
+		background-size: cover;
+		height: 120px;
+		width: 100%;
+	}
+	
+	.numero__day h3 {
+        margin-top: 0px!important;
+    	margin-left: 0px!important;
+    	margin-bottom: 0px;
+	}
+
+	.evento__movil__info h4{
+		color:#fff;
+		font-size: 1em;
+		font-weight: 600;
+		text-align: left;
+	}
+
+	.evento__movil__info h5{
+		color:#fff;
+		font-size: 1em;
+		font-weight: 400;
+		text-align: left;
+	}
+	
+	.evento__movil__info p{
+		color:#fff;
+		font-size: 1em;
+		letter-spacing: 1px;
+		text-align: left;
+	}
+	
+	.calendario .directorio--search{
+		margin-left: 0em;
+	}
 	
 }
 
@@ -2223,99 +2688,10 @@ nav ul li:last-child{
 
 
 
-.wrapper {
-  width: 1000px;
-  padding: 4px;
-}
 
-table {
-  width: 100%;
-  font-size: 14px;
-  border-left: 1px solid #d6d6d6;
-}
-
-td {
-  border-right: 1px solid #d6d6d6;
- 
-}
-
-#header-table tr:first-child {
-  text-align: center;
-  color: #0055ff;
-  border-top: 1px solid #d6d6d6;
-  text-shadow: 1px 1px 3px rgba(0, 85, 255, 0.3);
-}
-
-#header-table tr:nth-child(2) {
-  background-color: #A4C739;
-  color: white;
-  border: 1px solid #d6c1d6;
-  text-shadow: 1px 1px 2px rgba(255, 255, 255, 0.3);
-}
-
-#header-table td {
-  padding: 4px
-     height:20px;
-}
-
-#day-names {
-  text-align: center;
-  border-bottom: 1px solid #d6d6d6;
-}
-
-#day-names td {
-  border-right: 0px;
-  width: 14.2857%;
-  height: 22px;
-}
-
-
-
-table.week {
-  font-size: 75%;
-}
-
-table.week {
-  height: 80px;
-  border-bottom: 1px solid #d6d6d6;
-}
-
-table.week td {
-  width: 14.2857%;
-  padding: 20px 3px;
-}
-
-td.today {
-  font-weight: bold;
-  background-color: rgba(181, 228, 206, .4);
-}
-
-td.today.date {
-  font-size: 110%;
-  text-shadow: 1px 1px 3px rgba(25,25,25, 0.3);
-}
-
-table.week tr:first-child {
-  height: 25%;
-}
-
-table.week tr:nth-child(2) {
-  height: 75%;
-}
-
-.event.holiday {
-  background-color: #c5c5ee;
-}
-
-td.event.important {
-  background-color: #A4C739;
-  font-weight: bold;
-  color: #fff;
-  text-shadow: 1px 1px 2px rgba(255, 255, 255, 0.3);
-}
 
 @media 
-only screen and (max-width: 760px),
+only screen and (max-width: 768px),
 (min-device-width: 768px) and (max-device-width: 1024px) {
   .wrapper {
     width: inherit;
@@ -2325,7 +2701,7 @@ only screen and (max-width: 760px),
     display: none;
   }
   table.week{
-    height: 30px;
+    height: 45px;
   }
   .week td {
     padding: auto;
