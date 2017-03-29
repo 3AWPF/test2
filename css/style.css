@@ -1239,6 +1239,54 @@ td.event.important {
 }
 
 
+
+/********************************
+-----------RESULTADOS---------
+*********************************/
+.resultados{
+	padding-top: 5em;
+}
+
+.resultados__container{
+	padding-left: 5em;
+}
+
+.resultados__container .categoria__item{
+	margin-left: 2.1em;
+	margin-top: 1em;
+}
+
+.resultados__container .categoria__item__title {
+    margin-left: 0%;
+    width: 120%;
+}
+
+.resultados__container .novedades__detalle__title{
+	margin-left: 2em;
+}
+
+.resultados__container .promo__item--C {
+    margin-top: -0.7em;
+}
+
+.resultados__container .promo__container{
+	margin-top: 1.2em;
+	padding-left: 2em;
+}
+
+.resultados__container .novedades__item{
+	display: block;
+}
+
+.resultados__container .novedades__imagen img{
+	margin-left: 2em;
+}
+
+.resultados__container .novedades__detalle__title {
+	margin-top: 0.5em;
+}
+
+
 /********************************
 -----------MEDIA QUERIES---------
 *********************************/
@@ -1424,6 +1472,20 @@ td.event.important {
 	.news button {
 		margin-left: 0em;
 	}
+
+	.promo__container {
+    	padding: 0 0em;
+	}
+
+	.resultados__container .promo__item--A, .resultados__container .promo__item--B, .resultados__container .promo__item--C {
+    	border: 1px solid #959595;
+    	width: 285px;
+	}
+
+	.resultados__container .promo__item--C, .promo__item__descripcion {
+    	margin-top: 0em;
+	}
+
 
 }
 
@@ -2099,6 +2161,41 @@ td.event.important {
 		text-align: left;
 	}
 
+	
+	/* Resultados*/
+	.resultados__container {
+    	padding-left: 0em;
+	}
+	
+	.resultados__container .categoria__item__title {
+    	margin-left: 0%;
+    	width: 100%;
+	}
+
+	.resultados__container .categoria__item img{
+    	margin-left: -5em;
+    }
+
+    .resultados__container .categoria__item p {
+	    margin-left: 0%;
+	}
+
+	.resultados__container .promo__item--tipo{
+		width: 50%;
+	}
+
+	.resultados__container .novedades__imagen img {
+    	width: 660px;
+	}
+
+	.resultados__container .novedades__info{
+		padding: 0 3em;
+	}
+
+	.promo__item__botones {
+	    margin-left: 0em;
+	}
+
 }
 
 @media screen and (max-width:480px) {
@@ -2560,12 +2657,10 @@ td.event.important {
 	.domingo {
     	background-color: #fff;
 	}
-
 	
 	.event.holiday:hover{
 		background-color: #fff!important;
-	}
-	
+	}	
 	
 	.event.holiday h3{
 		background-color: #A03020;
@@ -2636,6 +2731,37 @@ td.event.important {
 	.calendario .directorio--search{
 		margin-left: 0em;
 	}
+
+	/* Resultados*/
+	.resultados__container {
+    	padding-left: 0em;
+	}
+	
+	.resultados__container .categoria__item__title {
+    	margin-left: 0%;
+    	width: 90%;
+	}
+
+	.resultados__container .categoria__item img{
+    	margin-left: -5em;
+    }
+
+    .resultados__container .categoria__item p {
+	    margin-left: 0%;
+	}
+
+	.resultados__container .promo__item--tipo{
+		width: 100%;
+	}
+
+	.resultados__container .novedades__imagen img {
+    	width: 300px;
+	}
+
+	.resultados__container .novedades__info{
+		padding: 0 2em;
+	}
+
 	
 }
 
