@@ -2293,6 +2293,24 @@ td.event.important {
 	.newsletter-movil h4 {
         font-size: 1em;
 	}
+
+
+	/*Nosotros*/
+
+	.nosotros__header {
+    	padding-top: 2em;
+    	text-align: left;
+	}
+
+	.vista__aerea img{
+		width: 350px;
+	}
+
+	.nosotros__header p {
+    	padding: 2.5em 0.5em;
+    	text-align: justify;
+    	width: 100%;
+	}
 	
 	/*Directorio*/
 	.directorio{
@@ -2452,10 +2470,6 @@ td.event.important {
 	.novedades__compartir img {
     	padding-top: 0em;
     	margin-bottom: 1em;
-	}
-
-	.nombre__seccion__movil {
-	    margin-left: 1em;
 	}
 
 	.nombre__seccion__movil .search{
@@ -2762,6 +2776,10 @@ td.event.important {
 		padding: 0 2em;
 	}
 
+	body > footer > div > div > div > div > div.col-xs-12.nombres__movil > ul:nth-child(8) > li:nth-child(6):after{
+		
+	}
+
 	
 }
 
@@ -2809,6 +2827,31 @@ td.event.important {
 	.promo__container{
 	    padding: 0 0em;
 	}
+
+
+	.nombres li.sin_separador:after{
+		content:" "!important;
+	}
+
+	body > footer > div > div > div > div > div.col-xs-12.nombres__movil > ul:nth-child(2) > li:nth-child(2):after,
+	body > footer > div > div > div > div > div.col-xs-12.nombres__movil > ul:nth-child(6) > li:nth-child(3):after,
+	body > footer > div > div > div > div > div.col-xs-12.nombres__movil > ul:nth-child(6) > li:nth-child(5):after,
+	body > footer > div > div > div > div > div.col-xs-12.nombres__movil > ul:nth-child(8) > li:nth-child(7):after
+	{
+		display: none;
+	}
+
+	body > footer > div > div > div > div > div.col-xs-12.nombres__movil > ul:nth-child(2) > li:nth-child(3):after,
+	body > footer > div > div > div > div > div.col-xs-12.nombres__movil > ul:nth-child(6) > li:nth-child(4):after,
+	body > footer > div > div > div > div > div.col-xs-12.nombres__movil > ul:nth-child(10) > li:nth-child(4):after
+	{
+		content:"|"!important;
+	}
+
+	.contacto__mapa img{
+		width: 270px;
+	}
+
 
 } 
 
