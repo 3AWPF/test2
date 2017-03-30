@@ -2196,6 +2196,27 @@ td.event.important {
 	    margin-left: 0em;
 	}
 
+	.vista__aerea{
+		text-align: center;
+	}
+
+	.vista__aerea img{
+		width: 650px;
+	}
+
+	.nosotros__header p {
+	    text-align: justify;
+	    width:100%;
+	    padding: 2em 3em
+	}
+
+	.nosotros__header {
+	    padding-top: 2em;
+    	text-align: left;
+	}
+
+
+
 }
 
 @media screen and (max-width:480px) {
