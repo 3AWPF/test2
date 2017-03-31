@@ -12,6 +12,10 @@ body{
 	background-color: #fff;
 }
 
+select {
+    -webkit-appearance:none;
+}
+
 .nopadding {
    padding: 0 !important;
    margin: 0 !important;
@@ -181,6 +185,8 @@ nav ul li:last-child{
 
 .middle__right{
 	border:3px solid #053361;
+	margin-left: 1px;
+    margin-top: 0.5px;
 }
 
 .middle__right img{
@@ -1378,7 +1384,7 @@ td.event.important {
 	}
 
 	.news h4 {
-    	font-size: 0.64em;
+    	font-size: 0.6em;
     	margin: 3px;
     	padding-top: 10px;
 	}
@@ -1490,6 +1496,15 @@ td.event.important {
     	margin-top: 0em;
 	}
 
+	.middle__right {
+	    border: 3px solid #053361;
+	    margin-left: 1px;
+	    margin-top: 0px;
+	}
+
+	.middle__right img{
+		height: 100%;
+	}
 
 }
 
@@ -2209,12 +2224,12 @@ td.event.important {
 	}
 	
 	.nosotros__header p {
-    color: rgb(26, 26, 26);
-    font-size: 0.9em;
-    line-height: 1.8em;
-    text-align: justify;
-    width: 100%;
-    padding: 4.5em 3em;
+	    color: rgb(26, 26, 26);
+	    font-size: 0.9em;
+	    line-height: 1.8em;
+	    text-align: justify;
+	    width: 100%;
+	    padding: 4.5em 3em;
 	}
 
 
