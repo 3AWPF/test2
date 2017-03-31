@@ -1286,6 +1286,10 @@ td.event.important {
 	margin-top: 0.5em;
 }
 
+.resultados__container .categoria__item p {
+    margin-left: 0px;
+}
+
 
 /********************************
 -----------MEDIA QUERIES---------
@@ -2593,6 +2597,10 @@ td.event.important {
 
 	.formulario form textarea{
 		background-color: #F2F2F2;
+	}
+
+	.contacto .tienda__title img {
+    	margin-top: -3px;
 	}
 
 	/*Promociones*/
