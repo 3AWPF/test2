@@ -1690,10 +1690,8 @@ td.event.important {
 		padding-top: 1em;
 	}
 
-	.nombres{
-		margin-left: 22%;
-		text-align: center!important;
-		width: 56%;
+	.nombres {
+	    text-align: center!important;
 	}
 	
 	.nombres li{
@@ -1702,7 +1700,11 @@ td.event.important {
 		margin-right: 1em;
 	}
 
-	.nombres li.sin_separador:after{
+	body > footer > div > div > div > div > div.col-xs-12.nombres__movil > ul:nth-child(2) > li:nth-child(5):after,
+	body > footer > div > div > div > div > div.col-xs-12.nombres__movil > ul:nth-child(4) > li:nth-child(5):after,
+	body > footer > div > div > div > div > div.col-xs-12.nombres__movil > ul:nth-child(6) > li:nth-child(6):after,
+	body > footer > div > div > div > div > div.col-xs-12.nombres__movil > ul:nth-child(8) > li:nth-child(7):after,
+	body > footer > div > div > div > div > div.col-xs-12.nombres__movil > ul:nth-child(10) > li:nth-child(5):after{
 		content:" "!important;
 	}
 
