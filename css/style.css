@@ -10,6 +10,7 @@
 
 body{
 	background-color: #fff;
+	overflow-x: hidden;
 }
 
 select {
@@ -23,8 +24,12 @@ select {
 /*Header*********/
 
 header{
+	background-image: url('../img/fondo__menu2.png');
+	background-repeat: no-repeat;
 	margin-top: -1px;
 }
+
+
 
 .header__left{
 	overflow:hidden;
@@ -200,6 +205,13 @@ nav ul li:last-child{
 	height: 33px;
 }
 
+.news2{
+	background-image: url("../img/back2.png");
+	background-size: 100%;
+	height: 32px;
+	margin-top: -1px;
+}
+
 .newsOpcional{
 	margin-top: 0.3em;
 }
@@ -208,7 +220,7 @@ nav ul li:last-child{
 	color:#fff;
 }
 
-.news h4{
+.news h4, .news2 h4{
 	font-size: 0.73em;
 	margin: 3px;
 	padding-top: 10px;
@@ -224,7 +236,17 @@ nav ul li:last-child{
     padding-top: 3px;
 }
 
-.news button{
+.news2 input{
+	border: 0px;
+    background: #717171;
+    margin-left: -1em;
+    margin-top: -29px;
+    height: 22px;
+    width: 48%;
+    padding-top: 3px;
+}
+
+.news button, .news2 button{
 	background-color: #a03021;
     border: 1px solid #c53825;
     color: #fff;
@@ -239,6 +261,15 @@ nav ul li:last-child{
 .appsn{
 	margin-left: 2em;
 }
+
+.apps2{
+	margin-top: 2px;
+}
+
+body > section.apps2{
+	background-image: url('../img/appsback.jpg');
+}
+
 
 .appsn img{
 	width: 100px;
@@ -1308,6 +1339,18 @@ td.event.important {
 	.footer__container--grande{
 		height: 50vh!important;
 	}
+
+	body > section.apps2 {
+    	background-size: 100%!important;
+	}
+
+	
+	header {
+	    background-image: url(../img/fondo__menu2.png);
+	    background-repeat: no-repeat;
+	    margin-top: -1px;
+	    background-size: 100%;
+	}
 }
 
 @media screen and (min-width:1600px) {
@@ -1383,7 +1426,7 @@ td.event.important {
         padding: 1px 2em;
 	}
 
-	.news h4 {
+	.news h4, .news2 h4 {
     	font-size: 0.6em;
     	margin: 3px;
     	padding-top: 10px;
@@ -1479,7 +1522,7 @@ td.event.important {
         font-size: 0.8em;
 	}
 
-	.news button {
+	.news button, .news2 button {
 		margin-left: 0em;
 	}
 
@@ -1652,7 +1695,7 @@ td.event.important {
 	    text-align: center;
 	}
 
-	.news {
+	.news, .news2 {
     	background-image: url();
     	background-color: #fff;
     	background-size: cover;
@@ -1663,6 +1706,10 @@ td.event.important {
     	padding:1em 0;
     	text-align: center;
     }
+
+    body > section.apps2 {
+    	background-image: url();
+	}
 
     .appsn img{
     	padding: 1em 0;
