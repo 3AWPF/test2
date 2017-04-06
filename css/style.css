@@ -1361,7 +1361,7 @@ td.event.important {
 /********************************
 -----------MEDIA QUERIES---------
 *********************************/
-@media screen and (min-width:1920px) {
+@media screen and (min-width:1921px) {
 	.middle--bottom{
 		margin-top: 34vh;
 	}
@@ -1374,7 +1374,17 @@ td.event.important {
     	background-size: 100%!important;
 	}
 
+	.logoforum{
+		margin-left: -15em;
+	}
 
+	.nav__contenido{
+		margin-left: -9em;
+	}
+
+	.input__corto {
+        width: 28%;
+	}
 
 }
 
@@ -1422,6 +1432,14 @@ td.event.important {
     .navbar-nav>li>a {
         padding-top: 10px;
         padding-bottom: 10px;
+    }
+
+    .menu__principal2{
+    	background-image: none;
+    }
+
+    .menu__desktop{
+    	display: none;
     }
 }
 
@@ -1579,7 +1597,6 @@ td.event.important {
 
 }
 
-
 @media (max-width: 1199px) {
 
 	.menu__principal2 {
@@ -1631,10 +1648,10 @@ td.event.important {
 }
 
 
-@media screen and (max-width:999px) {
+@media screen and (max-width:800px) {
 	
-	.menu__principal{
-		display: none;
+	.menu__principal2 {
+	    background-image: url();
 	}
 	
 	.appsn{
@@ -1642,8 +1659,12 @@ td.event.important {
 	}
 
 	.logo{
-		left:-10%;
-		padding: 0.8em 3em;
+		margin-left: -1.5em;
+		padding: 0em;
+	}
+
+	.logo img{
+		width: 60%;
 	}
 	
 	.collapse.in{
@@ -1654,7 +1675,16 @@ td.event.important {
 		background-color: #333333;
 	}
 
+	body > header > div > div > nav > div > div > div.col-xs-4,
+	body > header > div > div > nav > div > div > div.col-xs-5,
+	body > header > div > div > nav > div > div > div:nth-child(3),
+	body > header > div > div > nav > div > div > div:nth-child(4),
+	body > header > div > div > nav > div > div > div:nth-child(6){
+		min-height: 0px;
+	}
+
 	.navbar {
+    	border:0px;
     	margin-bottom: 0px;
     }
 
@@ -2429,17 +2459,13 @@ td.event.important {
 
 @media screen and (max-width:480px) {
 	
-	.logo{
-		padding: 1.25em;
-	}
-
 	.logo img{
-		width: 60px;
-		margin-left: -50px;
+		height: 55px;
+		width: 100%;
 	}
 	
 	.navbar-header {
-    	margin-left: -4em;
+    	margin-left: -2em;
 	}
 
 	.search__movil{
@@ -3038,14 +3064,8 @@ td.event.important {
 
 @media screen and (max-width:380px) {
 	
-	.logo img{
-		width: 50px;
-		margin-left: -5px!important;
-		padding: 3px 0;
-	}
-
 	.stores__item {
-    	margin-left: 15%;
+    	margin-left: 22%;
 	}
 
 	.logogicsa {
