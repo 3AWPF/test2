@@ -3064,6 +3064,11 @@ td.event.important {
 
 @media screen and (max-width:380px) {
 	
+	.logo img{
+		height: 55px;
+		width: 107%;
+	}
+
 	.stores__item {
     	margin-left: 22%;
 	}
