@@ -3010,6 +3010,16 @@ td.event.important {
 
 @media screen and (max-width:380px) {
 	
+	.logo img{
+		width: 50px;
+		margin-left: -5px!important;
+		padding: 3px 0;
+	}
+
+	.stores__item {
+    	margin-left: 15%;
+	}
+
 	.logogicsa {
     	margin-left: -1em;
 	}
@@ -3018,8 +3028,13 @@ td.event.important {
     	margin-left: -1.5em;
 	}
 	
+	.middle__right img{
+		height: 150px;
+	}
+
 	.appsn img {
-    	width: 120px;
+    	height: 60px;
+    	width: 100px;
     	margin-bottom: 10px;
 	}
 
@@ -3037,7 +3052,6 @@ td.event.important {
 	}
 
 	.imagen__tienda img {
-    	
     	width: 280px;
 	}
 
@@ -3053,6 +3067,34 @@ td.event.important {
 	    padding: 0 0em;
 	}
 
+	.promo__item--tipo{
+		background-position: center;
+		width: 100%;
+	}
+
+	.promo__item__botones .btn__rojo{
+		padding: 0.3em 1.5em;
+	}
+
+	.promociones__detalle .btn__rojo{
+		font-size: 0.9em;
+	}
+	
+	.btn__calendars{
+		margin-left: 6.5em;
+	}
+
+	.promo__item--C .promo__item__descripcionb{
+		margin-top: 7.1em;
+	}
+
+	.compartir__detalle{
+		margin-left: -7em;
+	}
+
+	.indoor__map{
+		margin-left: 5.5em;
+	}
 
 	.nombres li.sin_separador:after{
 		content:" "!important;
