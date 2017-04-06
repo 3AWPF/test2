@@ -117,6 +117,11 @@ nav ul li:hover a{
 
 nav ul li:last-child{
 	margin-right: 0.1em;
+	margin-left: 7px;
+}
+
+nav ul li:last-child img{
+    padding: 6px 0px 0px 20px;
 }
 
 .navbar{
@@ -269,6 +274,10 @@ body > section.apps2{
 }
 
 /*Footer********/
+.footer{
+	background-color: #000;
+}
+
 .footer__container{
 	background-color: #000000;
 	color:#efefef;
@@ -280,8 +289,16 @@ body > section.apps2{
 }
 
 .footer__item2 img{
-	padding-left: 7em;
 	padding-top: 2em;
+}
+
+.aviso{
+	text-align: center;
+}
+
+.aviso a{
+	color:#cfcfcf;
+	font-size: 0.8em;
 }
 
 .nombres{
@@ -510,6 +527,8 @@ body > section.apps2{
 
 .tienda__title--derecha img{
 	margin-left: 2em;
+	width: 104px;
+    height: 50px;
 }
 
 .tienda__title--derecha h3{
@@ -631,7 +650,7 @@ body > section.apps2{
 *********************************/
 
 .nosotros__header{
-	padding-top: 7em;
+	padding-top: 2em;
 	padding-bottom: 2em;
 	text-align: right;
 }
@@ -703,7 +722,7 @@ body > section.apps2{
 *********************************/
 
 .novedades{
-	margin-top: 7em;
+	margin-top: 2em;
 }
 
 .novedades__item{
@@ -789,7 +808,8 @@ body > section.apps2{
 *********************************/
 
 .novedades__detalle{
-	padding-top: 5em;
+	padding-top: 2em;
+    margin-bottom: 2em;
 }
 
 .novedades__detalle__title span{
@@ -808,7 +828,7 @@ body > section.apps2{
 
 .detalle{
 	text-align: center;
-	margin-top: 4em;
+	margin-top: 2em;
 }
 
 .info__detalle{
@@ -842,7 +862,7 @@ body > section.apps2{
 *********************************/
 
 .evento__lista{
-	margin-top: 5em;
+	margin-top: 2em;
 	margin-bottom: 2em;
 }
 
@@ -858,7 +878,7 @@ body > section.apps2{
 }
 
 .eventos__lista__detalle__title{
-	margin-top: 3em;
+	margin-top: 1em;
 }
 
 .evento__lista .btn__rojo {
@@ -994,7 +1014,7 @@ body > section.apps2{
 *********************************/
 
 .calendario{
-	padding-top: 4.5em;
+	padding-top: 2em;
 	padding-bottom: 7em;
 }
 
@@ -1162,13 +1182,11 @@ td.event.important {
 	padding-left: 2em;
 }
 
-
-
 /********************************
 -----------PROMOCIONES---------
 *********************************/
 .promociones{
-	padding-top: 5em;
+	padding-top: 2em;
 }
 
 .promo__container{
@@ -1408,7 +1426,7 @@ td.event.important {
 
 
 
-@media (max-width: 990px) {
+@media (max-width: 1000px) {
     .navbar-header {
         float: none;
     }
@@ -1461,6 +1479,10 @@ td.event.important {
 	nav h4 {
 	    font-size: 0.7em;
 	    margin: 10px 0;
+	}
+
+	nav ul li:last-child img {
+    	padding: 6px 0px 0px 28px;
 	}
 
 	.header__left img{
@@ -1616,6 +1638,10 @@ td.event.important {
         font-size: 0.69em;
 	}
 
+	nav ul li:last-child img {
+    	padding: 6px 0px 0px 12px;
+	}
+
 	.header__right img{
 		height: auto;
 	}
@@ -1648,12 +1674,16 @@ td.event.important {
 }
 
 
-@media screen and (max-width:800px) {
+@media screen and (max-width:1000px) {
 	
 	.menu__principal2 {
 	    background-image: url();
 	}
 	
+	.aviso{
+		display: none;
+	}
+
 	.appsn{
 		display: block;
 	}
@@ -1959,7 +1989,8 @@ td.event.important {
 
 	.categoria__item img {
     	border: 0px solid #c1c1c1;
-    	width: 300px;
+    	width: 280px;
+    	height: 190px;
     }
 
     .categoria__item__title {
