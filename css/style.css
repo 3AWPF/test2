@@ -23,10 +23,10 @@ select {
 }
 /*Header*********/
 
-header{
-	background-image: url('../img/fondo__menu2.png');
-	background-repeat: no-repeat;
-	margin-top: -1px;
+.header__new{
+	background-image: url('../img/fondo__menu.png');
+    height: 48px;
+    background-size: contain auto;
 }
 
 .internas{
@@ -38,7 +38,6 @@ header{
 }
 
 .header__right img{
-	margin-top: 42px;
 	max-width: 100%;
 	height: auto;
 	padding: 0 1px;
@@ -51,36 +50,18 @@ nav{
 	width: 100%;
 }
 
-.logo{
-	background-color: #fff;
-	left:33%;
-	-moz-transform: skewX(-18deg);
- 	-ms-transform: skewX(-18deg);
-  	-webkit-transform: skewX(-18deg);
-  	transform: skewX(-18deg);
-  	padding: 0.5em 1em;
-  	padding-left: 12%;
-  	position: absolute;
-  	width: 70%;  	
-  	z-index: 10;
-  	-webkit-box-shadow: 12px 0px 3px -9px  #000;
-	-moz-box-shadow: 12px 0px 3px -9px  #000;
-	box-shadow: 12px 0px 3px -9px  #000;
+
+.menu__principal2{
+	background-image: url('../img/fondo__menu.png');
+	background-repeat: no-repeat;
+	margin-left:0%;
+	background-position: top center;
+	background-size: cover;
+	height: 48px;
 }
 
-.logo img{
-	 -moz-transform: skewX(18deg);
-	  -ms-transform: skewX(18deg);
-	  -webkit-transform: skewX(18deg);
-	  transform: skewX(18deg);
-	  margin-left: 1em;
-	  margin: 0px!important;
-	  text-align: center;
-}
-
-.nav__contenido{
-	background-color: #303030;
-	height: 42px;
+.logoforum{
+	margin-left: -2em;
 }
 
 nav h4{
@@ -89,7 +70,7 @@ nav h4{
 	font-family: 'Nexa bold';
 	font-weight: 300;
 	line-height: 1.2em;
-	margin-left: -2em;
+	
 	margin: 10px 0;
 	text-align: center;
 }
@@ -164,7 +145,7 @@ nav ul li:last-child{
 
 .input__corto{
 	padding-top: 10px;
-	width: 12%;
+	width: 20%;
 }
 
 .input__corto input{
@@ -173,6 +154,12 @@ nav ul li:last-child{
     color: #fff;
 	padding-left: 20px;
 	width: 100%;
+}
+
+/*******Banners**********/
+
+.banners{
+	margin-top: 0.5em;
 }
 
 /*Middle********/
@@ -253,7 +240,7 @@ nav ul li:last-child{
     color: #fff;
     height: 20px;
     margin-left: 1em;
-    margin-top: 6px;
+    margin-top: 5px;
     text-align: center;
     width: 130px;
     padding-bottom: 20px;
@@ -292,8 +279,8 @@ body > section.apps2{
 	text-align: right;
 }
 
-.footer__item img{
-	padding-left: 4em;
+.footer__item2 img{
+	padding-left: 7em;
 	padding-top: 2em;
 }
 
@@ -317,6 +304,10 @@ body > section.apps2{
 .footer__container ul li h4{
 	font-size: 0.8em;
 	line-height: 1em;
+}
+
+.footer__desktop{
+	
 }
 
 /********************************
@@ -1383,13 +1374,8 @@ td.event.important {
     	background-size: 100%!important;
 	}
 
-	
-	header {
-	    background-image: url(../img/fondo__menu2.png);
-	    background-repeat: no-repeat;
-	    margin-top: -1px;
-	    background-size: 100%;
-	}
+
+
 }
 
 @media screen and (min-width:1600px) {
@@ -1397,6 +1383,8 @@ td.event.important {
 	.middle--bottom{
 		margin-top: 0vh;
 	}
+
+	
 }
 
 @media screen and (min-width:1440px) {
@@ -1407,6 +1395,8 @@ td.event.important {
 		margin-top: 34vh;
 	}
 }
+
+
 
 @media (max-width: 990px) {
     .navbar-header {
@@ -1435,14 +1425,11 @@ td.event.important {
     }
 }
 
-
-
-
 @media (max-width: 1279px) {
-	
-	.logo {
-   		padding-left: 8%;
-   	}
+
+	.nav__contenido{
+		margin-left: 9em;
+	}
 
    	.menu__principal ul li a {
         font-size: 0.7em!important;
@@ -1454,9 +1441,8 @@ td.event.important {
 	}
 
 	nav h4 {
-	    font-size: 0.5em;
+	    font-size: 0.7em;
 	    margin: 10px 0;
-	    margin-top: 2em;
 	}
 
 	.header__left img{
@@ -1591,16 +1577,58 @@ td.event.important {
 	}
 
 
-
 }
 
 
 @media (max-width: 1199px) {
-.header__right img{
+
+	.menu__principal2 {
+	    background-image: url(../img/fondo__menu__movil.png);
+	    background-repeat: no-repeat;
+	    margin-left: 0%;
+	    background-position: top center;
+	    background-size: cover;
+	    height: 48px;
+	}
+	
+	.nav__contenido {
+    	margin-left: 3em;
+	}
+
+	nav ul li a {
+        font-size: 0.69em;
+	}
+
+	.header__right img{
 		height: auto;
 	}
-}
 
+	.header__left img {
+    	width: 105%;
+	}
+
+	body > section.apps2 {
+        background-size: 100%;
+	}
+
+	.news2 {
+    	height: 26px;
+	}
+
+	.news2 button {
+	    margin-top: 3px;
+	    padding-bottom: 17px;
+	}
+
+	.news2 input {
+    	height: 20px;
+	    padding-top: 5px;
+	    width: 100px;
+	}
+
+
+
+}
 
 
 @media screen and (max-width:999px) {
