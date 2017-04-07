@@ -178,9 +178,17 @@
 					<p>En el 2do piso este miércoles.</p>
 				</div>
 			</div>
-			<div class="col-md-12">
+			<div class="col-md-11 col-md-offset-1">
 				<div class="detalle">
-					<img src="img/novedades/detalle.jpg" alt="">
+					<div class="detalle__novedades__slide">
+						<div class="detalle__novedades__slide__item">
+							<img src="img/novedades/detalle.jpg" alt="">
+						</div>
+						<div class="detalle__novedades__slide__item">
+							<img src="img/novedades/detalle.jpg" alt="">
+						</div>
+					</div>
+					
 				</div>
 			</div>
 			<div class="col-md-offset-2 col-md-8">
@@ -376,20 +384,19 @@
 <script src="js/bootstrap.js"></script>
 <script type="text/javascript" src="js/slick.js"></script>
 <script>$(document).ready(function(){
-  $('.stores').slick({
+  $('.detalle__novedades__slide').slick({
 		autoplay: false,
 		dots: false,
 		infinite: true,
-  		slidesToShow: 4,
+  		slidesToShow: 1,
   		slidesToScroll: 1,
   		arrows:true,
-  		autoplay:true,
   		responsive: [
 		    {
 		      breakpoint: 768,
 		      settings: {
-		        slidesToShow: 2,
-		        slidesToScroll: 3,
+		        slidesToShow: 1,
+		        slidesToScroll: 1,
 		        infinite: true,
 		        
 		      }

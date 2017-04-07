@@ -91,7 +91,7 @@ nav ul{
 nav ul li{
 	display: inline-block;
 	font-size: 'Myriad Pro';
-	margin-right: 0.7em;
+	margin-right: 0.6em;
 	height: 42px;
 	padding: 11px 0.4em;
 	vertical-align: middle;
@@ -414,6 +414,15 @@ body > section.apps2{
 	text-align: center;
 }
 
+.directorio .selector__categoria select{
+	background-color: #A03021;
+	border:0px;
+	color:#fff;
+    padding-left: 25%;
+	text-align: center;
+	width: 100%;
+}
+
 .categoria__title{
 	padding-bottom:0.5em;
 	padding-left: 0.5em;
@@ -559,6 +568,14 @@ body > section.apps2{
 	margin-left: -1.5em;
 }
 
+.detalle__tienda--derecha ul li .lista__interna li{
+	font-size: 1em;
+	margin-left: 3.5em;
+    margin-top: -1.2em;
+    margin-bottom: 1.2em;
+}
+   
+
 .encuentras h3{
 	font-size: 0.9em;
 	font-weight: 600;
@@ -642,7 +659,8 @@ body > section.apps2{
 	line-height: 1.2em;
 	padding: 1em 0;
 	width: 80%;
-	margin-left: 1em;
+    margin-top: -5px;
+    margin-bottom: 1em;
 }
 
 /********************************
@@ -829,6 +847,11 @@ body > section.apps2{
 .detalle{
 	text-align: center;
 	margin-top: 2em;
+}
+
+.detalle__novedades__slide__item img{
+	width: 100%;
+	
 }
 
 .info__detalle{
@@ -1230,12 +1253,21 @@ td.event.important {
 
 .promo__item__botones{
 	margin-top: 10px;
-	margin-left: 2.5em;
 }
 
 .promo__item__botones .btn__rojo {
     font-size: 0.9em;
-    padding: 0.3em 2.2em
+    padding: 0.3em 4em
+}
+
+.compartir__nuevo{
+	margin-left: -2em;
+	text-align: right;
+}
+
+.compartir__nuevo li{
+	display: inline-block;
+	list-style: none;
 }
 
 .promo__item--tipo{
@@ -1300,6 +1332,12 @@ td.event.important {
 .promociones__detalle .promo__item{
 	margin-top: 2em;
 	margin-left: 5em;
+}
+
+.promociones__detalle .compartir__nuevo {
+    margin-left: -1em;
+    text-align: right;
+    margin-right: -1em;
 }
 
 .restricciones{
@@ -1462,7 +1500,12 @@ td.event.important {
 }
 
 @media (max-width: 1279px) {
-
+	
+	.promociones__detalle .compartir__nuevo {
+    	margin-left: -1em;
+    	text-align: right;
+    	margin-right: 2em;
+	}
 	.nav__contenido{
 		margin-left: 9em;
 	}
@@ -1620,6 +1663,12 @@ td.event.important {
 }
 
 @media (max-width: 1199px) {
+
+	.promociones__detalle .compartir__nuevo {
+	    margin-left: -1em;
+	    text-align: right;
+	    margin-right: -3em;
+	}
 
 	.menu__principal2 {
 	    background-image: url(../img/fondo__menu__movil.png);
@@ -2121,7 +2170,7 @@ td.event.important {
 	}
 
 	.detalle img{
-		width: 600px;
+		width: 100%;
 	}
 	
 	.info__detalle p{
@@ -2484,12 +2533,28 @@ td.event.important {
     	text-align: left;
 	}
 
+	.compartir__nuevo {
+        margin-right: 17em;
+	}
 
 
 }
 
 @media screen and (max-width:480px) {
 	
+	.promociones__detalle .compartir__nuevo {
+    	margin-right: 0em;
+	}
+
+	.detalle__tienda2 .compartir__nuevo {
+    	margin-right: 2em;
+	}
+
+
+	.compartir__nuevo {
+    	margin-right: 0em;
+	}
+
 	.logo img{
 		height: 55px;
 		width: 100%;
@@ -2793,8 +2858,9 @@ td.event.important {
 	}
 
 	.detalle img{
-		width: 350px;
+		width: 100%;
 	}
+
 
 	.info__detalle p{
 		padding: 0 0.5em;
