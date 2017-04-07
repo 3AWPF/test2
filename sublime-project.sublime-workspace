@@ -231,25 +231,19 @@
 			"file": "css/style.css",
 			"settings":
 			{
-				"buffer_size": 48774,
+				"buffer_size": 48900,
 				"encoding": "UTF-8",
 				"line_ending": "Windows"
 			}
 		},
 		{
-			"file": "novedades__detalle.html",
+			"contents": "<!DOCTYPE html>\n<html lang=\"es\">\n<head>\n\t<meta charset=\"UTF-8\">\n\t<meta name=\"viewport\" content=\"width=device-width, initial-scale=1\">\n\t<title>Forum</title>\n\t<link rel=\"stylesheet\" href=\"css/normalize.css\">\n\t<link rel=\"stylesheet\" href=\"css/bootstrap.css\">\n\t<link rel=\"stylesheet\" href=\"css/style.css\">\n\t<link rel=\"stylesheet\" type=\"text/css\" href=\"css/slick.css\"/>\n\t<link rel=\"stylesheet\" type=\"text/css\" href=\"css/slick-theme.css\"/>\n</head>\n<body>\n\n<!-- Header -->\n<header class=\"menu__principal2\">\n\t<div class=\"container\">\n\t\t<div class=\"row\">\n\t\t\t<!-- Menu Movil -->\n\t\t\t<nav class=\"navbar\">\n\t\t\t\t<div class=\"container-fluid\">\n\t\t\t\t\t<div class=\"row\">\n\t\t\t\t\t\t<!-- Brand and toggle get grouped for better mobile display -->\n\t\t\t\t\t    <div class=\"col-xs-4\">\n\t\t\t\t\t    \t<div class=\"logo\">\n\t\t\t\t\t\t\t\t<a href=\"index.html\"><img src=\"img/logo__movil.png\" alt=\"logo forum\"></a>\n\t\t\t\t\t\t\t</div>\n\t\t\t\t\t    </div>\n\t\t\t\t\t    <div class=\"col-xs-5\">\n\t\t\t\t\t    \t<div class=\"navbar-header\">\n\t\t\t\t\t    \t\t<button type=\"button\" class=\"navbar-toggle collapsed\" data-toggle=\"collapse\" data-target=\"#bs-example-navbar-collapse-1\" aria-expanded=\"false\">\n\t\t\t\t\t\t\t        <span class=\"sr-only\">Toggle navigation</span>\n\t\t\t\t\t\t\t        <span class=\"icon-bar\"></span>\n\t\t\t\t\t\t\t        <span class=\"icon-bar\"></span>\n\t\t\t\t\t\t\t        <span class=\"icon-bar\"></span>\n\t\t\t\t\t\t\t     </button>\t\t    \t\n\t\t\t\t\t\t    </div>\n\t\t\t\t\t    </div>\n\t\t\t\t\n\t\t\t\t\t\t<div class=\"col-xs-1\">\n\t\t\t\t\t\t\t<div class=\"search__movil\">\n\t\t\t\t\t\t\t\t<a href=\"#\" data-toggle=\"collapse\" data-target=\"#bs-example-navbar-collapse-2\" aria-expanded=\"false\"><img src=\"img/search-tablet.png\" alt=\"search\"></a>\n\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t</div>\n\t\t\t\t\t\t\n\t\t\t\t\t\t<div class=\"col-xs-1\">\n\t\t\t\t\t\t\t<div class=\"logogicsa\">\n\t\t\t\t\t\t\t\t<a href=\"#\"><img src=\"img/gicsalogo.png\" alt=\"Gicsa\"></a>\n\t\t\t\t\t\t\t</div>\t\t\t\t\t\t\t\n\t\t\t\t\t\t</div>\n\n\t\t\t\t\t    <!-- Collect the nav links, forms, and other content for toggling -->\n\t\t\t\t\t    <div class=\"col-xs-12\">\n\t\t\t\t\t    \t<div class=\"collapse navbar-collapse\" id=\"bs-example-navbar-collapse-1\">\n\t\t\t\t\t\t\t\t<ul>\n\t\t\t\t\t\t\t\t\t<li><a href=\"nosotros.html\">NOSOTROS</a></li>\n\t\t\t\t\t\t\t\t\t<li><a href=\"directorio.html\">DIRECTORIO</a></li>\n\t\t\t\t\t\t\t\t\t<li><a href=\"promociones.html\">PROMOCIONES</a></li>\n\t\t\t\t\t\t\t\t\t<li><a href=\"novedades.html\">NOVEDADES</a></li>\n\t\t\t\t\t\t\t\t\t<li><a href=\"eventos.html\">EVENTOS</a></li>\n\t\t\t\t\t\t\t\t\t<li><a href=\"contacto.html\">CONTACTO</a></li>\n\t\t\t\t\t\t\t\t\t<div class=\"icons\">\n\t\t\t\t\t\t\t\t\t\t<div class=\"row\">\n\t\t\t\t\t\t\t\t\t\t\t<div class=\"col-xs-offset-3 col-xs-2\">\n\t\t\t\t\t\t\t\t\t\t\t\t<img src=\"img/facebook-movil.png\" alt=\"\">\n\t\t\t\t\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t\t\t\t\t\t<div class=\"col-xs-2\">\n\t\t\t\t\t\t\t\t\t\t\t\t<img src=\"img/twitter-movil.png\" alt=\"\">\n\t\t\t\t\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t\t\t\t\t\t<div class=\"col-xs-2\">\n\t\t\t\t\t\t\t\t\t\t\t\t<img src=\"img/instagram-movil.png\" alt=\"\">\n\t\t\t\t\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t\t\t\t</div>\n\n\t\t\t\t\t\t\t\t\t<div class=\"newsletter-movil\">\n\t\t\t\t\t\t\t\t\t\t<h4>SUSCRIBETE A NUESTRO NEWSLETTER</h4>\n\t\t\t\t\t\t\t\t\t\t<input type=\"text\">\n\t\t\t\t\t\t\t\t\t\t<div class=\"col-xs-12\"><a href=\"#\">Enviar</a></div>\n\t\t\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t\t\t</ul>\n\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t    \t</div><!-- /.navbar-collapse -->\n\t\t\t\t\t    </div>\n\n\t\t\t\t\t    <!-- Search Movil -->\n\t\t\t\t\t    <div class=\"col-xs-12\">\n\t\t\t\t\t    \t<div class=\"collapse \" id=\"bs-example-navbar-collapse-2\">\n\t\t\t\t\t    \t\t<div class=\"row\">\n\t\t\t\t\t    \t\t\t<div class=\"col-xs-9 col-xs-offset-2\">\n\t\t\t\t\t    \t\t\t\t<div class=\"input__search__movil\">\n\t\t\t\t\t    \t\t\t\t\t<input type=\"text\">\n\t\t\t\t\t    \t\t\t\t</div>\n\t\t\t\t\t    \t\t\t</div>\n\t\t\t\t\t    \t\t\t<div class=\"col-xs-1\">\n\t\t\t\t\t    \t\t\t\t<div class=\"up__movil\">\n\t\t\t\t\t    \t\t\t\t\t<a href=\"#\" data-toggle=\"collapse\" data-target=\"#bs-example-navbar-collapse-2\" aria-expanded=\"false\"><img src=\"img/up.jpg\" alt=\"up\"></a>\n\t\t\t\t\t    \t\t\t\t</div>\n\t\t\t\t\t    \t\t\t</div>\n\t\t\t\t\t    \t\t</div>\n\t\t\t\t\t    \t</div>\n\t\t\t\t\t    </div>\n\t\t\t\t\t    <!-- /Search Movil -->\n\t\t\t\t\t</div>  \n\t\t\t\t</div><!-- /.container-fluid -->\n\t\t\t</nav>\n\t\t\t<!-- /Menu Movil -->\n\t\t\t\t\t\n\t\t\t<!-- nav -->\n\t\t\t<div class=\"col-md-12 nopadding hidden-xs\">\n\t\t\t\t<nav class=\"menu__desktop\">\t\t\t\t\n\t\t\t\t\t<div class=\"col-xs-4 col-md-1\">\n\t\t\t\t\t\t<div class=\"logoforum\">\n\t\t\t\t\t\t\t<a href=\"index.html\"><img src=\"img/logofinal.jpg\" alt=\"logo forum\"></a>\n\t\t\t\t\t\t</div>\n\t\t\t\t\t</div>\n\t\t\t\t\t<div class=\"hidden-xs col-md-11 nopadding\">\n\t\t\t\t\t\t<div class=\"nav__contenido \">\n\t\t\t\t\t\t\t<div class=\"row\">\n\t\t\t\t\t\t\t\t<div class=\"col-md-2\">\n\t\t\t\t\t\t\t\t\t<h4>GRANDES MOMENTOS<br> <span>Todos los días</span></h4>\n\t\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t\t\t<div class=\"col-md-10 \">\n\t\t\t\t\t\t\t\t\t<ul>\n\t\t\t\t\t\t\t\t\t\t<li><a href=\"nosotros.html\">NOSOTROS</a></li>\n\t\t\t\t\t\t\t\t\t\t<li><a href=\"directorio.html\">DIRECTORIO</a></li>\n\t\t\t\t\t\t\t\t\t\t<li><a href=\"promociones.html\">PROMOCIONES</a></li>\n\t\t\t\t\t\t\t\t\t\t<li><a href=\"novedades.html\">NOVEDADES</a></li>\n\t\t\t\t\t\t\t\t\t\t<li><a href=\"eventos.html\">EVENTOS</a></li>\n\t\t\t\t\t\t\t\t\t\t<li><a href=\"contacto.html\">CONTACTO</a></li>\n\t\t\t\t\t\t\t\t\t\t<li class=\"input__corto nohover\"><input type=\"text\"></li>\n\t\t\t\t\t\t\t\t\t\t<li class=\"nohover socialmedia\"><a href=\"\"><img src=\"img/facebook.png\" alt=\"Facebook\"></a></li>\n\t\t\t\t\t\t\t\t\t\t<li class=\"nohover socialmedia\"><a href=\"\"><img src=\"img/twitter.png\" alt=\"twitter\"></a></li>\n\t\t\t\t\t\t\t\t\t\t<li class=\"nohover socialmedia\"><a href=\"\"><img src=\"img/instagram.png\" alt=\"instagram\"></a></li>\n\t\t\t\t\t\t\t\t\t\t<li class=\"nohover nopadding\"><a href=\"\"><img src=\"img/gicsalogo.png\" alt=\"Gicsa\"></a></li>\n\t\t\t\t\t\t\t\t\t</ul>\n\t\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t\t</div>\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t</div>\t\t\t\t\t\n\t\t\t\t\t</div>\t\t\t\t\t\t\n\t\t\t\t</nav>\n\t\t\t</div>\t\t\n\t\t\t<!-- /nav -->\n\t\t\n\t\t</div>\t\n\t</div>\n</header>\n<!-- /Header -->\n\n<section class=\"nosotros__tabs\">\n\t<div class=\"container\">\n\t\t<div class=\"row\">\n\t\t    <div class=\"col-md-6\">\n                <!-- Nav tabs -->\n                <div class=\"card\">\n                    <ul class=\"nav nav-tabs\" role=\"tablist\">\n                        <li role=\"presentation\" class=\"active\"><a href=\"#home\" aria-controls=\"home\" role=\"tab\" data-toggle=\"tab\">Home</a></li>\n                        <li role=\"presentation\"><a href=\"#profile\" aria-controls=\"profile\" role=\"tab\" data-toggle=\"tab\">Profile</a></li>\n                        <li role=\"presentation\"><a href=\"#messages\" aria-controls=\"messages\" role=\"tab\" data-toggle=\"tab\">Messages</a></li>\n                        <li role=\"presentation\"><a href=\"#settings\" aria-controls=\"settings\" role=\"tab\" data-toggle=\"tab\">Settings</a></li>\n                    </ul>\n\n                        <!-- Tab panes -->\n                        <div class=\"tab-content\">\n                            <div role=\"tabpanel\" class=\"tab-pane active\" id=\"home\">\n                            \tLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.\n                            </div>\n                            <div role=\"tabpanel\" class=\"tab-pane\" id=\"profile\">\n                            \tLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.\n                            </div>\n                            <div role=\"tabpanel\" class=\"tab-pane\" id=\"messages\">\n                            \tLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.\n                            </div>\n                            <div role=\"tabpanel\" class=\"tab-pane\" id=\"settings\">\n                            \tLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passage..\n                            </div>\n                        </div>\n\t\t\t\t</div>\n       \t\t</div>\n\t\t</div>\n\t</div>\n</section>\n\n<!-- Nosotros header -->\n<section class=\"nosotros__header\">\n\t<div class=\"container\">\n\t\t<div class=\"row\">\n\t\t\t\n\t\t\t<!-- Nombre seccion movil -->\n\t\t\t<div class=\"nombre__seccion__movil visible-xs\">\n\t\t\t\t<div class=\"col-xs-10\">\n\t\t\t\t\t<div class=\"directorio--search\">\n\t\t\t\t\t\t<div class=\"search\">\n\t\t\t\t\t\t\t<div class=\"search__contenido\">\n\t\t\t\t\t\t\t\t<div class=\"row\">\n\t\t\t\t\t\t\t\t\t<div class=\"col-xs-12 col-md-4\">\n\t\t\t\t\t\t\t\t\t\t<h3>NOVEDADES</h3>\n\t\t\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t\t</div>\t\n\t\t\t\t\t\t</div>\n\t\t\t\t\t</div>\n\t\t\t\t</div>\n\t\t\t</div>\n\t\t\t<!-- /Nombre seccion movil -->\n\n\t\t\t<div class=\"col-xs-12 col-md-7 vista__aerea\">\n\t\t\t\t<img src=\"img/vista_aerea.jpg\" alt=\"\">\n\t\t\t</div>\n\n\t\t\t<div class=\"col-xs-12 col-md-5\">\n\t\t\t\t<p>¡Es una de las propiedades destinadas a proyecto\n\t\t\t\t\tde uso comercial. El proyecto cuenta con una GLA total\n\t\t\t\t\tde aproximadamente 55,450m2 ubicado en la ciudad\n\t\t\t\t\tde Cuernavaca, Morelos;<br> estratégicamente localizado\n\t\t\t\t\ten la zona comercial y residencial conocida\n\t\t\t\t\tcomo Jacarandas. Sus principales inquilinos serán\n\t\t\t\t\tmarcas renombradas nacionales e internaciones de ropa, \n\t\t\t\t\tcalzado, joyería y accesorios, y mueblerías.\n\t\t\t\t\tTambién contará con cines, gimnasio, restaurantes\n\t\t\t\t\ty una feria de para el entretenimiento familiar. </p>\n\t\t\t</div>\n\t\t</div>\n\t</div>\n</section>\n<!-- /Nosotros header -->\n\n<!-- Nuestros centros -->\n<section class=\"nuestros__centros\">\n\t<div class=\"container\">\n\t\t<div class=\"row\">\n\t\t\t<div class=\"col-xs-12 col-md-offset-1 col-md-11\">\n\t\t\t\t<div class=\"nuestros__centros__title\">\n\t\t\t\t\t<img src=\"img/logos/title_categoria.jpg\" alt=\"\">\n\t\t\t\t\t<span>NUESTROS CENTROS</span>\n\t\t\t\t</div>\n\t\t\t</div>\n\t\t</div>\n\n\t\t<div class=\"col-xs-11 col-md-12\">\n\t\t\t<div class=\"row\">\n\t\t\t\t<div class=\"col-md-2 ot\">\n\t\t\t\t\t<div class=\"nuestros__centros__item\">\n\t\t\t\t\t\t<h4>FORUM</h4>\n\t\t\t\t\t\t\n\t\t\t\t\t\t<ul>\n\t\t\t\t\t\t\t<li><a href=\"#\"><img src=\"img/logos/forum-item1.jpg\" alt=\"\"></a></li>\n\t\t\t\t\t\t\t<li><a href=\"#\"><img src=\"img/logos/forum-item2.jpg\" alt=\"\"></a></li>\n\t\t\t\t\t\t\t<li><a href=\"#\"><img src=\"img/logos/forum-item3.jpg\" alt=\"\"></a></li>\n\t\t\t\t\t\t\t<li><a href=\"#\"><img src=\"img/logos/forum-item4.jpg\" alt=\"\"></a></li>\n\t\t\t\t\t\t\t<li><a href=\"#\"><img src=\"img/logos/forum-item5.jpg\" alt=\"\"></a></li>\n\t\t\t\t\t\t\t<li><a href=\"#\"><img src=\"img/logos/forum-item6.jpg\" alt=\"\"></a></li>\t\t\t\t\t\t\t\n\t\t\t\t\t\t</ul>\n\n\t\t\t\t\t</div>\n\t\t\t\t</div>\n\t\t\t\t<div class=\"col-md-2 ot\">\n\t\t\t\t\t<div class=\"nuestros__centros__item\">\n\t\t\t\t\t\t<h4>ISLA</h4>\n\n\t\t\t\t\t\t<ul>\n\t\t\t\t\t\t\t<li><a href=\"#\"><img src=\"img/logos/isla-item1.jpg\" alt=\"\"></a></li>\n\t\t\t\t\t\t\t<li><a href=\"#\"><img src=\"img/logos/isla-item2.jpg\" alt=\"\"></a></li>\n\t\t\t\t\t\t\t<li><a href=\"#\"><img src=\"img/logos/isla-item3.jpg\" alt=\"\"></a></li>\n\t\t\t\t\t\t\t<li><a href=\"#\"><img src=\"img/logos/isla-item4.jpg\" alt=\"\"></a></li>\n\t\t\t\t\t\t</ul>\n\n\t\t\t\t\t</div>\n\t\t\t\t</div>\n\t\t\t\t<div class=\"col-md-2 ot\">\n\t\t\t\t\t<div class=\"nuestros__centros__item\">\n\t\t\t\t\t\t<h4>EXPLANADA</h4>\n\n\t\t\t\t\t\t<ul>\n\t\t\t\t\t\t\t<li><a href=\"#\"><img src=\"img/logos/explanada-item1.jpg\" alt=\"\"></a></li>\n\t\t\t\t\t\t\t<li><a href=\"#\"><img src=\"img/logos/explanada-item2.jpg\" alt=\"\"></a></li>\n\t\t\t\t\t\t\t<li><a href=\"#\"><img src=\"img/logos/explanada-item3.jpg\" alt=\"\"></a></li>\n\t\t\t\t\t\t\t<li><a href=\"#\"><img src=\"img/logos/explanada-item4.jpg\" alt=\"\"></a></li>\n\t\t\t\t\t\t\t<li><a href=\"#\"><img src=\"img/logos/explanada-item5.jpg\" alt=\"\"></a></li>\n\t\t\t\t\t\t\t<li><a href=\"#\"><img src=\"img/logos/explanada-item6.jpg\" alt=\"\"></a></li>\t\t\t\t\t\t\t\n\t\t\t\t\t\t</ul>\n\n\t\t\t\t\t</div>\n\t\t\t\t</div>\n\t\t\t\t<div class=\"col-md-2 ot\">\n\t\t\t\t\t<div class=\"nuestros__centros__item\">\n\t\t\t\t\t\t<h4>PASEO</h4>\n\t\t\t\t\t\t\n\t\t\t\t\t\t<ul class=\"paseo\">\n\t\t\t\t\t\t\t<li><a href=\"#\"><img src=\"img/logos/paseo-item1.jpg\" alt=\"\"></a></li>\n\t\t\t\t\t\t\t<li><a href=\"#\"><img src=\"img/logos/paseo-item2.jpg\" alt=\"\"></a></li>\n\t\t\t\t\t\t\t<li><a href=\"#\"><img src=\"img/logos/paseo-item3.jpg\" alt=\"\"></a></li>\n\t\t\t\t\t\t\t<li><a href=\"#\"><img src=\"img/logos/paseo-item4.jpg\" alt=\"\"></a></li>\n\t\t\t\t\t\t\t<li><a href=\"#\"><img src=\"img/logos/paseo-item5.jpg\" alt=\"\"></a></li>\n\t\t\t\t\t\t\t<li><a href=\"#\"><img src=\"img/logos/paseo-item6.jpg\" alt=\"\"></a></li>\t\t\t\t\t\t\t\n\t\t\t\t\t\t</ul>\n\n\t\t\t\t\t</div>\n\t\t\t\t</div>\n\t\t\t\t<div class=\"col-md-2 ot\">\n\t\t\t\t\t<div class=\"nuestros__centros__item\">\n\t\t\t\t\t\t<h4>OUTLET</h4>\n\n\t\t\t\t\t\t<ul>\n\t\t\t\t\t\t\t<li><a href=\"#\"><img src=\"img/logos/outlet-item1.jpg\" alt=\"\"></a></li>\n\t\t\t\t\t\t\t<li><a href=\"#\"><img src=\"img/logos/outlet-item2.jpg\" alt=\"\"></a></li>\n\t\t\t\t\t\t\t<li><a href=\"#\"><img src=\"img/logos/outlet-item3.jpg\" alt=\"\"></a></li>\n\t\t\t\t\t\t\t<li><a href=\"#\"><img src=\"img/logos/outlet-item4.jpg\" alt=\"\"></a></li>\n\t\t\t\t\t\t\t<li><a href=\"#\"><img src=\"img/logos/outlet-item5.jpg\" alt=\"\"></a></li>\n\t\t\t\t\t\t\t<li><a href=\"#\"><img src=\"img/logos/outlet-item6.jpg\" alt=\"\"></a></li>\t\t\t\t\t\t\t\n\t\t\t\t\t\t</ul>\n\n\t\t\t\t\t</div>\n\t\t\t\t</div>\n\t\t\t\n\t\t\t</div>\n\t\t</div>\n\n\t\t<div class=\"col-md-offset-4 col-md-4\">\n\t\t\t<div class=\"contacto__comercial\">\n\t\t\t\t<a href=\"#\">CONTACTO COMERCIAL</a>\n\t\t\t</div>\n\t\t</div>\n\t</div>\n</section>\n<!-- /Nuestros centros -->\n\n<div class=\"container\">\n\t\t<div class=\"row\">\n\t\t\t<!-- Ajuste para resolución 1024px-1279px - Oculto para el resto de Resoluciones-->\n\t\t\t<div class=\"col-md-4 col-md-offset-4\">\n\t\t\t\t<div class=\"appsnmedio\">\n\t\t\t\t\t<div class=\"col-xs-6 col-md-6 nopadding\">\n\t\t\t\t\t\t<img src=\"img/appstore.png\" alt=\"\">\n\t\t\t\t\t</div>\n\t\t\t\t\t<div class=\"col-xs-6 col-md-6 nopadding\">\n\t\t\t\t\t\t<img src=\"img/googleplay.png\" alt=\"\">\n\t\t\t\t\t</div>\n\t\t\t\t</div>\n\t\t\t</div>\n\t\t\t<!-- /Ajuste para resolución 1024px-1279px -->\n\t\t</div>\n</div>\n\n<section class=\"apps2\">\n\t<div class=\"container\">\t\t\n\t\t<div class=\"row\">\n\t\t\t<!-- Newsletter -->\n\t\t\t<div class=\"news2\">\n\t\t\t\t<div class=\"col-md-9 hidden-xs\">\n\t\t\t\t\t<div class=\"news__content\">\n\t\t\t\t\t\t<div class=\"row\">\n\t\t\t\t\t\t\t<div class=\"col-md-offset-2 col-md-6\">\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t<h4>SUSCRIBETE A NUESTRO NEWSLETTER <span>¡Y recibe todas nuestras promociones!</span></h4>\n\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t\t<div class=\"col-md-4 nopadding\">\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t<input type=\"text\">\n\t\t\t\t\t\t\t\t<button value=\"Enviar\">Enviar</button>\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t</div>\t\t\t\t\t\t\t\n\t\t\t\t\t\t</div> \n\t\t\t\t\t</div>\n\t\t\t\t</div>\n\n\t\t\t\t<div class=\"col-xs-12 col-md-3\">\n\t\t\t\t\t<div class=\"appsn\">\n\t\t\t\t\t\t<div class=\"col-xs-6 col-md-6 nopadding\">\n\t\t\t\t\t\t\t<img src=\"img/appstore.png\" alt=\"\">\n\t\t\t\t\t\t</div>\n\t\t\t\t\t\t<div class=\"col-xs-6 col-md-6 nopadding\">\n\t\t\t\t\t\t\t<img src=\"img/googleplay.png\" alt=\"\">\n\t\t\t\t\t\t</div>\n\t\t\t\t\t</div>\n\t\t\t\t</div>\n\t\t\t\t\n\t\t\t</div>\n\t\t\t<!-- /Newsletter -->\n\t\t</div>\n\t</div>\n</section>\n<!-- /Middle -->\n\n<!-- Footer -->\n<footer class=\"footer\">\n\t<div class=\"container\">\n\t\t<div class=\"row\">\n\t\t\t<div class=\"footer__container footer__container--grande\">\n\t\t\t\t<div class=\"row\">\n\t\t\t\t\t<div class=\"col-md-12\">\n\t\t\t\t\t\t<div class=\"row\">\n\t\t\t\t\t\t\t<div class=\"col-xs-offset-4 col-xs-4 col-md-2 col-md-offset-0\">\n\t\t\t\t\t\t\t\t<!-- footer item -->\n\t\t\t\t\t\t\t\t<div class=\"footer__item2\">\n\t\t\t\t\t\t\t\t\t<img src=\"img/logo_footer.png\" alt=\"Gicsa\">\n\t\t\t\t\t\t\t\t</div><!-- footer item -->\n\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t\t<!-- footer item -->\n\t\t\t\t\t\t\t<div class=\"hidden-xs col-md-7 col-md-offset-3 footer__desktop\">\n\t\t\t\t\t\t\t\t<div class=\"footer__item\">\n\t\t\t\t\t\t\t\t\t<div class=\"row\">\n\t\t\t\t\t\t\t\t\t\t<div class=\"col-md-4 nopadding\">\n\t\t\t\t\t\t\t\t\t\t\t<ul>\n\t\t\t\t\t\t\t\t\t\t\t\t<li>\n\t\t\t\t\t\t\t\t\t\t\t\t\t<h4>FORUM</h4>\n\t\t\t\t\t\t\t\t\t\t\t\t</li>\n\t\t\t\t\t\t\t\t\t\t\t\t<li>\n\t\t\t\t\t\t\t\t\t\t\t\t\t<h4>PASEO</h4>\n\t\t\t\t\t\t\t\t\t\t\t\t</li>\n\t\t\t\t\t\t\t\t\t\t\t\t<li>\n\t\t\t\t\t\t\t\t\t\t\t\t\t<h4>LA ISLA</h4>\n\t\t\t\t\t\t\t\t\t\t\t\t</li>\n\t\t\t\t\t\t\t\t\t\t\t\t<li>\n\t\t\t\t\t\t\t\t\t\t\t\t\t<h4>PLAZA OUTLET</h4>\n\t\t\t\t\t\t\t\t\t\t\t\t</li>\n\t\t\t\t\t\t\t\t\t\t\t\t<li>\n\t\t\t\t\t\t\t\t\t\t\t\t\t<h4>EXPLANADA</h4>\n\t\t\t\t\t\t\t\t\t\t\t\t</li>\n\t\t\t\t\t\t\t\t\t\t\t</ul>\n\t\t\t\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t\t\t\t\t<div class=\"col-md-8 nopadding\">\n\t\t\t\t\t\t\t\t\t\t\t<ul class=\"nombres\">\n\t\t\t\t\t\t\t\t\t\t\t\t<li>\n\t\t\t\t\t\t\t\t\t\t\t\t\t<h4>Buenavista | Coatzacoalcos | Cuernavaca | Tepic | Tlaquepaque</h4>\n\t\t\t\t\t\t\t\t\t\t\t\t</li>\n\t\t\t\t\t\t\t\t\t\t\t\t<li>\n\t\t\t\t\t\t\t\t\t\t\t\t\t<h4>Arcos Bosques | Coapa | Querétano | Metepec | Xochimilco</h4>\n\t\t\t\t\t\t\t\t\t\t\t\t</li>\n\t\t\t\t\t\t\t\t\t\t\t\t<li>\n\t\t\t\t\t\t\t\t\t\t\t\t\t<h4>Acapulco | Cabo Norte | Cancún | Mérida | Playa del Carmen | Puerto Vallarta</h4>\n\t\t\t\t\t\t\t\t\t\t\t\t</li>\n\t\t\t\t\t\t\t\t\t\t\t\t<li>\n\t\t\t\t\t\t\t\t\t\t\t\t\t<h4>Cancún | Guadalajara | Lerma | Monterrey | Norte | Riviera Maya 1 | Sur</h4>\n\t\t\t\t\t\t\t\t\t\t\t\t</li>\n\t\t\t\t\t\t\t\t\t\t\t\t<li>\n\t\t\t\t\t\t\t\t\t\t\t\t\t<h4>Culiacán | Querétano | León | Pachuca | Puebla</h4>\n\t\t\t\t\t\t\t\t\t\t\t\t</li>\n\t\t\t\t\t\t\t\t\t\t\t</ul>\n\t\t\t\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t\t\t</div> \n\t\t\t\t\t\t\t</div><!-- /footer item -->\n\t\t\t\t\t\n\t\t\t\t\t\t\t<div class=\"col-md-12\">\n\t\t\t\t\t\t\t\t<div class=\"aviso hidden-xs\">\n\t\t\t\t\t\t\t\t\t<a href=\"#\">2017 - Aviso de Privacidad</a>\n\t\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t\t<div class=\"col-xs-12 nombres__movil\">\n\t\t\t\t\t\t\t\t<h4>Forum</h4>\n\t\t\t\t\t\t\t\t<ul class=\"nombres\">\n\t\t\t\t\t\t\t\t\t<li>Buenavista </li> <li>Coatzacoalcos </li> <li class=\"sin_separador\">Cuernavaca</li> <li>Tepic </li> <li class=\"sin_separador\">Tlaquepaque</li>\n\t\t\t\t\t\t\t\t</ul>\n\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t<h4>Paseo</h4>\n\t\t\t\t\t\t\t\t<ul class=\"nombres\">\n\t\t\t\t\t\t\t\t\t<li>Arcos Bosques</li> <li>Coapa</li> <li class=\"sin_separador\">Querétano</li> <li>Metepec</li> <li class=\"sin_separador\">Xochimilco</li>\n\t\t\t\t\t\t\t\t\t</li>\n\t\t\t\t\t\t\t\t</ul>\n\n\t\t\t\t\t\t\t\t<h4>La Isla</h4>\n\t\t\t\t\t\t\t\t<ul class=\"nombres\">\n\t\t\t\t\t\t\t\t\t<li>Acapulco</li> <li>Cabo Norte</li>  <li class=\"sin_separador\">Cancún</li>  <li >Mérida</li>  <li>Playa del Carmen</li>  <li class=\"sin_separador\">Puerto Vallarta</li>\n\t\t\t\t\t\t\t\t</ul>\n\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t<h4>Plazas Outlet</h4>\n\t\t\t\t\t\t\t\t<ul class=\"nombres\">\n\t\t\t\t\t\t\t\t\t<li>Cancún</li>  <li>Guadalajara</li>  <li class=\"sin_separador\">Lerma</li>  <li>Monterrey</li>  <li>Norte</li>  <li class=\"sin_separador\">Riviera Maya 1</li>  <li>Sur</li>\n\t\t\t\t\t\t\t\t</ul>\n\n\t\t\t\t\t\t\t\t<h4>Explanada</h4>\n\t\t\t\t\t\t\t\t<ul class=\"nombres\">\n\t\t\t\t\t\t\t\t\t<li>Culiacán</li>  <li>Querétano</li>  <li>León</li>  <li class=\"sin_separador\">Pachuca</li>  <li class=\"sin_separador\">Puebla</li>\n\t\t\t\t\t\t\t\t</ul>\n\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t</div>\n\t\t\t\t\t</div>\n\t\t\t\t\t\n\t\t\t\t</div>\n\t\t\t</div>\n\t\t</div>\n\t</div>\n</footer>\n<!-- /Footer -->\n\n<script\n  src=\"https://code.jquery.com/jquery-3.1.1.js\"\n  integrity=\"sha256-16cdPddA6VdVInumRGo6IbivbERE8p7CQR3HzTBuELA=\"\n  crossorigin=\"anonymous\"></script>\n<script src=\"js/bootstrap.js\"></script>\n<script type=\"text/javascript\" src=\"js/slick.js\"></script>\n<script>$(document).ready(function(){\n  $('.stores').slick({\n\t\tautoplay: false,\n\t\tdots: false,\n\t\tinfinite: true,\n  \t\tslidesToShow: 4,\n  \t\tslidesToScroll: 1,\n  \t\tarrows:true,\n  \t\tautoplay:true,\n  \t\tresponsive: [\n\t\t    {\n\t\t      breakpoint: 768,\n\t\t      settings: {\n\t\t        slidesToShow: 2,\n\t\t        slidesToScroll: 3,\n\t\t        infinite: true,\n\t\t        \n\t\t      }\n    \t}]\n\t});\n});</script>\n</body>\n</html>",
+			"file": "nosotros.html",
+			"file_size": 19411,
+			"file_write_time": 131360477183444014,
 			"settings":
 			{
-				"buffer_size": 13815,
-				"encoding": "UTF-8",
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "index.html",
-			"settings":
-			{
-				"buffer_size": 12861,
+				"buffer_size": 19118,
 				"encoding": "UTF-8",
 				"line_ending": "Windows"
 			}
@@ -332,17 +326,17 @@
 	],
 	"file_history":
 	[
+		"/E/Dropbox/MIS DESARROLLOS/forum/eventos__detalle.html",
+		"/E/Dropbox/MIS DESARROLLOS/forum/tienda.html",
+		"/E/Dropbox/MIS DESARROLLOS/forum/novedades__detalle.html",
+		"/E/Dropbox/MIS DESARROLLOS/forum/index.html",
 		"/E/Dropbox/MIS DESARROLLOS/forum/promociones.html",
 		"/E/Dropbox/MIS DESARROLLOS/forum/promociones__detalle.html",
-		"/E/Dropbox/MIS DESARROLLOS/forum/tienda.html",
 		"/E/Dropbox/MIS DESARROLLOS/forum/directorio.html",
 		"/E/Dropbox/MIS DESARROLLOS/forum/resultados.html",
-		"/E/Dropbox/MIS DESARROLLOS/forum/index.html",
 		"/E/Dropbox/MIS DESARROLLOS/forum/contacto.html",
-		"/E/Dropbox/MIS DESARROLLOS/forum/eventos__detalle.html",
 		"/E/Dropbox/MIS DESARROLLOS/forum/eventos__lista.html",
 		"/E/Dropbox/MIS DESARROLLOS/forum/eventos.html",
-		"/E/Dropbox/MIS DESARROLLOS/forum/novedades__detalle.html",
 		"/E/Dropbox/MIS DESARROLLOS/forum/novedades.html",
 		"/E/Dropbox/MIS DESARROLLOS/forum/nosotros.html",
 		"/E/Dropbox/GICSA maquetado/maqueta_forum_home/css/style.css",
@@ -481,6 +475,7 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"eventos__detalle__imagen",
 			"detalle",
 			"detalle__",
 			"promociones",
@@ -610,7 +605,7 @@
 	"groups":
 	[
 		{
-			"selected": 0,
+			"selected": 1,
 			"sheets":
 			[
 				{
@@ -619,119 +614,15 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 48774,
+						"buffer_size": 48900,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								42049,
-								42050
-							]
-						],
-						"settings":
-						{
-							"bracket_highlighter.busy": false,
-							"bracket_highlighter.locations":
-							{
-								"close":
-								{
-								},
-								"icon":
-								{
-								},
-								"open":
-								{
-								},
-								"unmatched":
-								{
-								}
-							},
-							"bracket_highlighter.regions":
-							[
-								"bh_square",
-								"bh_square_center",
-								"bh_square_open",
-								"bh_square_close",
-								"bh_square_content",
-								"bh_default",
-								"bh_default_center",
-								"bh_default_open",
-								"bh_default_close",
-								"bh_default_content",
-								"bh_c_define",
-								"bh_c_define_center",
-								"bh_c_define_open",
-								"bh_c_define_close",
-								"bh_c_define_content",
-								"bh_single_quote",
-								"bh_single_quote_center",
-								"bh_single_quote_open",
-								"bh_single_quote_close",
-								"bh_single_quote_content",
-								"bh_angle",
-								"bh_angle_center",
-								"bh_angle_open",
-								"bh_angle_close",
-								"bh_angle_content",
-								"bh_double_quote",
-								"bh_double_quote_center",
-								"bh_double_quote_open",
-								"bh_double_quote_close",
-								"bh_double_quote_content",
-								"bh_tag",
-								"bh_tag_center",
-								"bh_tag_open",
-								"bh_tag_close",
-								"bh_tag_content",
-								"bh_curly",
-								"bh_curly_center",
-								"bh_curly_open",
-								"bh_curly_close",
-								"bh_curly_content",
-								"bh_regex",
-								"bh_regex_center",
-								"bh_regex_open",
-								"bh_regex_close",
-								"bh_regex_content",
-								"bh_round",
-								"bh_round_center",
-								"bh_round_open",
-								"bh_round_close",
-								"bh_round_content",
-								"bh_unmatched",
-								"bh_unmatched_center",
-								"bh_unmatched_open",
-								"bh_unmatched_close",
-								"bh_unmatched_content"
-							],
-							"color_scheme": "Packages/User/Color Highlighter/themes/Boxy Tomorrow.tmTheme",
-							"syntax": "Packages/CSS/CSS.sublime-syntax",
-							"translate_tabs_to_spaces": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 56668.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 0,
-					"type": "text"
-				},
-				{
-					"buffer": 1,
-					"file": "novedades__detalle.html",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 13815,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								13605,
-								13605
+								42562,
+								42562
 							]
 						],
 						"settings":
@@ -743,8 +634,8 @@
 								{
 									"1":
 									[
-										13783,
-										13784
+										42564,
+										42565
 									]
 								},
 								"icon":
@@ -759,8 +650,8 @@
 								{
 									"1":
 									[
-										13485,
-										13486
+										42546,
+										42547
 									]
 								},
 								"unmatched":
@@ -769,31 +660,51 @@
 							},
 							"bracket_highlighter.regions":
 							[
-								"bh_square",
-								"bh_square_center",
-								"bh_square_open",
-								"bh_square_close",
-								"bh_square_content",
-								"bh_default",
-								"bh_default_center",
-								"bh_default_open",
-								"bh_default_close",
-								"bh_default_content",
-								"bh_c_define",
-								"bh_c_define_center",
-								"bh_c_define_open",
-								"bh_c_define_close",
-								"bh_c_define_content",
 								"bh_single_quote",
 								"bh_single_quote_center",
 								"bh_single_quote_open",
 								"bh_single_quote_close",
 								"bh_single_quote_content",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content",
 								"bh_angle",
 								"bh_angle_center",
 								"bh_angle_open",
 								"bh_angle_close",
 								"bh_angle_content",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content",
 								"bh_double_quote",
 								"bh_double_quote_center",
 								"bh_double_quote_open",
@@ -803,53 +714,34 @@
 								"bh_tag_center",
 								"bh_tag_open",
 								"bh_tag_close",
-								"bh_tag_content",
-								"bh_curly",
-								"bh_curly_center",
-								"bh_curly_open",
-								"bh_curly_close",
-								"bh_curly_content",
-								"bh_regex",
-								"bh_regex_center",
-								"bh_regex_open",
-								"bh_regex_close",
-								"bh_regex_content",
-								"bh_round",
-								"bh_round_center",
-								"bh_round_open",
-								"bh_round_close",
-								"bh_round_content",
-								"bh_unmatched",
-								"bh_unmatched_center",
-								"bh_unmatched_open",
-								"bh_unmatched_close",
-								"bh_unmatched_content"
+								"bh_tag_content"
 							],
-							"syntax": "Packages/HTML/HTML.sublime-syntax",
+							"color_scheme": "Packages/User/Color Highlighter/themes/Boxy Tomorrow.tmTheme",
+							"syntax": "Packages/CSS/CSS.sublime-syntax",
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 1532.0,
+						"translation.y": 52597.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 1,
 					"type": "text"
 				},
 				{
-					"buffer": 2,
-					"file": "index.html",
+					"buffer": 1,
+					"file": "nosotros.html",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 12861,
+						"buffer_size": 19118,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								7229,
-								7231
+								1650,
+								1650
 							]
 						],
 						"settings":
@@ -859,12 +751,27 @@
 							{
 								"close":
 								{
+									"1":
+									[
+										1797,
+										1800
+									]
 								},
 								"icon":
 								{
+									"1":
+									[
+										"Packages/BracketHighlighter/icons/tag.png",
+										"brackethighlighter.default"
+									]
 								},
 								"open":
 								{
+									"1":
+									[
+										1649,
+										1652
+									]
 								},
 								"unmatched":
 								{
@@ -872,31 +779,51 @@
 							},
 							"bracket_highlighter.regions":
 							[
-								"bh_square",
-								"bh_square_center",
-								"bh_square_open",
-								"bh_square_close",
-								"bh_square_content",
-								"bh_default",
-								"bh_default_center",
-								"bh_default_open",
-								"bh_default_close",
-								"bh_default_content",
-								"bh_c_define",
-								"bh_c_define_center",
-								"bh_c_define_open",
-								"bh_c_define_close",
-								"bh_c_define_content",
 								"bh_single_quote",
 								"bh_single_quote_center",
 								"bh_single_quote_open",
 								"bh_single_quote_close",
 								"bh_single_quote_content",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content",
 								"bh_angle",
 								"bh_angle_center",
 								"bh_angle_open",
 								"bh_angle_close",
 								"bh_angle_content",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content",
 								"bh_double_quote",
 								"bh_double_quote_center",
 								"bh_double_quote_open",
@@ -906,36 +833,17 @@
 								"bh_tag_center",
 								"bh_tag_open",
 								"bh_tag_close",
-								"bh_tag_content",
-								"bh_curly",
-								"bh_curly_center",
-								"bh_curly_open",
-								"bh_curly_close",
-								"bh_curly_content",
-								"bh_regex",
-								"bh_regex_center",
-								"bh_regex_open",
-								"bh_regex_close",
-								"bh_regex_content",
-								"bh_round",
-								"bh_round_center",
-								"bh_round_open",
-								"bh_round_close",
-								"bh_round_content",
-								"bh_unmatched",
-								"bh_unmatched_center",
-								"bh_unmatched_open",
-								"bh_unmatched_close",
-								"bh_unmatched_content"
+								"bh_tag_content"
 							],
+							"color_scheme": "Packages/User/Color Highlighter/themes/Boxy Tomorrow.tmTheme",
 							"syntax": "Packages/HTML/HTML.sublime-syntax",
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 1106.0,
+						"translation.y": 524.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 2,
+					"stack_index": 0,
 					"type": "text"
 				}
 			]

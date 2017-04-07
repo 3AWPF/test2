@@ -1421,6 +1421,14 @@ td.event.important {
 /********************************
 -----------MEDIA QUERIES---------
 *********************************/
+@media screen and (min-width:2000px) {
+	.logoforum{
+		opacity: 0.2;
+	}
+
+}
+
+
 @media screen and (min-width:1921px) {
 	.middle--bottom{
 		margin-top: 34vh;
