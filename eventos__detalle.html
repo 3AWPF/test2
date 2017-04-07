@@ -179,12 +179,23 @@
 				</div>
 			</div>
 
-			<div class="col-md-12">
+			<div class="col-md-10 col-md-offset-1 col-xs-12">
 				<div class="eventos__detalle__imagen">
-					<img src="img/eventos/eventos__detalle1.jpg" alt="">
+					<div class="eventos__detalle__imagen__slide">
+						<div class="eventos__detalle__imagen__item">
+							<img src="img/eventos/eventos__detalle1.jpg" alt="">
+						</div>
+						<div class="eventos__detalle__imagen__item">
+							<img src="img/eventos/eventos__detalle1.jpg" alt="">
+						</div>
+					</div>
 				</div>
 			</div>
-			<div class="col-md-offset-2 col-md-8">
+
+		</div>
+		
+		<div class="row">	
+			<div class="col-md-offset-2 col-md-8 col-xs-12">
 				<div class="info__detalle">
 					<p>Vivamus suscipit tortor eget felis porttitor volutpat. Vivamus magna justo, lacinia eget consectetur sed, convallis at tellus. Vestibulum ac diam sit amet quam vehicula elementum sed sit amet dui. Mauris blandit aliquet elit, eget tincidunt nibh pulvinar a. Cras ultricies ligula sed magna dictum porta. Pellentesque in ipsum id orci porta dapibus. Quisque velit nisi, pretium ut lacinia in, elementum id enim. Quisque velit nisi, pretium ut lacinia in, elementum id enim. Donec rutrum congue leo eget malesuada. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Donec velit neque, auctor sit amet aliquam vel, ullamcorper sit amet ligula.</p>
 
@@ -391,20 +402,20 @@
 <script src="js/bootstrap.js"></script>
 <script type="text/javascript" src="js/slick.js"></script>
 <script>$(document).ready(function(){
-  $('.stores').slick({
-		autoplay: false,
+  $('.eventos__detalle__imagen__slide').slick({
 		dots: false,
 		infinite: true,
-  		slidesToShow: 4,
+  		slidesToShow: 1,
   		slidesToScroll: 1,
   		arrows:true,
-  		autoplay:true,
+  		autoplay:false,
+  		autoplaySpeed:4000,
   		responsive: [
 		    {
 		      breakpoint: 768,
 		      settings: {
-		        slidesToShow: 2,
-		        slidesToScroll: 3,
+		        slidesToShow: 1,
+		        slidesToScroll: 1,
 		        infinite: true,
 		        
 		      }

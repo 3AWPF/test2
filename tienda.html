@@ -154,7 +154,16 @@
 					<div class="col-md-12"><a href="directorio.html" class="back">Volver al directorio</a></div>
 					<div class="col-xs-12 col-xs-offset-0 col-md-5 col-md-offset-1">
 						<div class="detalle__tienda2i">
-							<img src="img/detalle__tienda.jpg" alt="">
+							<div class="detalle__tienda2i__slide">
+								<div class="detalle__tienda2i__slide__item">
+									<img src="img/detalle__tienda.jpg" alt="">
+								</div>
+
+								<div class="detalle__tienda2i__slide__item">
+									<img src="img/detalle__tienda.jpg" alt="">
+								</div>
+							</div>
+							
 						</div>
 						<p class="hidden-xs">adidas ofrece las equipaciones más innovadoras y de mejor calidad de adidas. Cuando compras en adidas, puedes estar seguro de que, durante más de siete décadas, adidas ha sido sinónimo de excelencia. Nuestros distintivos son lo mejor en cuanto a estándares de calidad, tecnología e innovación.</p>
 					</div>
@@ -546,6 +555,35 @@
         	  slidesToShow: 1,
         	  slidesToScroll: 1,
         	  arrows: false,
+      		}
+    },
+    	]
+	});
+
+  $('.detalle__tienda2i__slide').slick({
+		autoplay: false,
+		dots: false,
+		infinite: true,
+  		slidesToShow: 1,
+  		slidesToScroll: 1,
+  		arrows:true,
+  		
+  		responsive: [
+  			{
+		      breakpoint: 800,
+		      settings: {
+		        slidesToShow: 1,
+		        slidesToScroll: 1,
+		        infinite: true,
+		        
+		      }
+    		},    		
+    		{
+      		  breakpoint: 480,
+      		  settings: {
+        	  slidesToShow: 1,
+        	  slidesToScroll: 1,
+        	  arrows: true,
       		}
     },
     	]
