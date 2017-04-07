@@ -1423,7 +1423,6 @@ td.event.important {
 *********************************/
 @media screen and (min-width:2000px) {
 	.logoforum{
-		opacity: 0.2;
 		margin-left: -5em;
 	}
 
