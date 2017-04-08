@@ -682,9 +682,13 @@ body > section.apps2{
 	font-size: 0.8em;
 	line-height: 1.8em;
 	text-align: justify;
-	width: 93%;
-	padding-left: 2em;
-	padding-top: 4em;
+	padding: 0 2em;
+	padding-top: 3em;
+}
+
+.padding__nosotros{
+	padding-left: 0px;
+	padding-right: 0px;
 }
 
 .nav.nav-pills{
@@ -704,6 +708,7 @@ body > section.apps2{
 .nav.nav-pills > li > a {
     color:#fff;
     padding: 5px 15px;
+    font-size: 1em;
 }
 
 .nav-pills > li + li {
@@ -730,7 +735,7 @@ body > section.apps2{
 .nosotros__tabs .isla__slide__item, .nosotros__tabs .isla__slide__item2{
 	padding-left: 4em;
 	padding-top: 4em;
-	padding-bottom: 4em;
+	padding-bottom: 5em;
 }
 
 .nosotros__tabs .tab-content{
@@ -738,8 +743,6 @@ body > section.apps2{
 	border-right:2px solid #a03021;
 	border-bottom:2px solid #a03021;
 }
-
-
 
 .contacto__comercial{
 	text-align: center;
@@ -768,7 +771,7 @@ body > section.apps2{
 }
 
 .vista__aerea__info .categoria__title{
-	margin-top: 2em;
+	padding-top: 2em;
 	padding-left: 1.5em;
 }
 
@@ -1713,6 +1716,10 @@ td.event.important {
 
 @media (max-width: 1199px) {
 
+	.vista__aerea__info {
+    	height: 263px;	
+	}
+
 	.promociones__detalle .compartir__nuevo {
 	    margin-left: -1em;
 	    text-align: right;
@@ -1768,12 +1775,11 @@ td.event.important {
 	}
 
 
-
 }
 
 
 @media screen and (max-width:1000px) {
-	
+
 	.menu__principal2 {
 	    background-image: url();
 	}
@@ -2545,52 +2551,45 @@ td.event.important {
 	    margin-left: 0em;
 	}
 	
-	.vista__aerea{
-		margin-left: -3em;
+	.vista__aerea .slick-next {
+    	right: 14px;
 	}
 
-	.vista__aerea img{
-		width: 650px;
+	.padding__nosotros{
+		padding-left: 15px;
+		padding-right: 15px;
 	}
 	
-	.nosotros__header p {
-	    color: rgb(26, 26, 26);
-	    font-size: 0.9em;
-	    line-height: 1.8em;
-	    text-align: justify;
-	    width: 100%;
-	    padding: 4.5em 3em;
+	.vista__area__info{
+		width: 90%;
 	}
 
+	.vista__aerea__info .categoria__title {
+		padding-top: 4em;
+	}
 
+	.nosotros__tabs .categoria__title {
+    	padding-left: 1.5em;
+    }
+
+	
 	.vista__aerea{
 		text-align: center;
-	}
-
-	.vista__aerea img{
-		width: 650px;
-	}
-
-	.nosotros__header p {
-	    text-align: justify;
-	    width:100%;
-	    padding: 2em 3em
-	}
-
-	.nosotros__header {
-	    padding-top: 2em;
-    	text-align: left;
 	}
 
 	.compartir__nuevo {
         margin-right: 17em;
 	}
 
+	.nav.nav-pills > li > a {
+		font-size: 0.8em!important;
+	}
+
 
 }
 
 @media screen and (max-width:480px) {
-	
+
 	.promociones__detalle .compartir__nuevo {
     	margin-right: 0em;
 	}
@@ -2694,22 +2693,35 @@ td.event.important {
         font-size: 1em;
 	}
 
-
 	/*Nosotros*/
 
-	.nosotros__header {
-    	padding-top: 2em;
-    	text-align: left;
-	}
-
 	.vista__aerea img{
-		width: 350px;
+		width: 100%;
 	}
 
 	.nosotros__header p {
-    	padding: 2.5em 0.5em;
+    	padding: 1em 1em;
     	text-align: justify;
-    	width: 100%;
+    }
+
+    .nosotros__tabs .categoria__title {
+    	margin-top: 1em;
+	}
+
+	.nav.nav-pills > li {
+        width: 33%;
+    }
+
+	.nav.nav-pills > li:nth-child(3){
+		border-right: 0px;
+	}
+
+	.nav.nav-pills > li:nth-child(n+4){
+		border-top:1px solid #fff;
+	}
+
+	.vista__aerea__info {
+    	height: auto;
 	}
 	
 	/*Directorio*/
