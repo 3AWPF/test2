@@ -670,53 +670,76 @@ body > section.apps2{
 .nosotros__header{
 	padding-top: 2em;
 	padding-bottom: 2em;
-	text-align: right;
+}
+
+.nosotros__tabs .categoria__title {
+	padding-left: 0em;
+	margin-bottom: 1.5em;
 }
 
 .nosotros__header p{
 	color:#1A1A1A;
-	font-size: 0.9em;
+	font-size: 0.8em;
 	line-height: 1.8em;
-	padding: 4.5em 0;
 	text-align: justify;
-	width: 87%;
-}
-
-.nuestros__centros__title{
+	width: 93%;
 	padding-left: 2em;
+	padding-top: 4em;
 }
 
-.nuestros__centros__title span{
-	color:#A03021;
-	font-size: 1.1em;
-	font-weight: 500;
-	padding-top: 1px;
+.nav.nav-pills{
+	background-color: #BA2C1A
 }
 
-.nuestros__centros__item{
-	margin-top: 2em;
+.nav.nav-pills > li{
+	border-right: 1px solid #f9f9f9;
 	text-align: center;
+	width: 16.65%;
 }
 
-.nuestros__centros__item h4{
-	color:#A03021;
-	font-size: 0.9em;
-	font-weight: 700;
+.nav.nav-pills > li:last-child{
+	border-right: 0px;
 }
 
-.nuestros__centros__item ul{
-	margin-left: -2em;
+.nav.nav-pills > li > a {
+    color:#fff;
+    padding: 5px 15px;
 }
 
-.nuestros__centros__item ul li{
-	list-style: none;
-	margin-top: 5.5em;
-	margin-left: -1em;
+.nav-pills > li + li {
+    margin-left: 0px;
 }
 
-.nuestros__centros__item .paseo li{
-	margin-top: 1.7em;
+.nav-pills > li > a {
+    border-radius: 0px;
 }
+
+.nav.nav-pills > li > a:hover{
+	background-color:rgba(160,48,33,0.9); 
+}
+
+.nav.nav-pills > li.active a{
+	background-color: #AF7C4A;
+}
+
+.nosotros__tabs .slick-slide img {
+	width: 250px;
+	height: 130px;
+}
+
+.nosotros__tabs .isla__slide__item, .nosotros__tabs .isla__slide__item2{
+	padding-left: 4em;
+	padding-top: 4em;
+	padding-bottom: 4em;
+}
+
+.nosotros__tabs .tab-content{
+	border-left:2px solid #a03021;
+	border-right:2px solid #a03021;
+	border-bottom:2px solid #a03021;
+}
+
+
 
 .contacto__comercial{
 	text-align: center;
@@ -734,6 +757,22 @@ body > section.apps2{
 .ot{
 	margin-left: 2.7em;
 }
+
+.vista__aerea img{
+	width: 100%;
+}
+
+.vista__aerea__info{
+	background-color:rgba(160,48,33,0.2);
+	height: 317px;
+}
+
+.vista__aerea__info .categoria__title{
+	margin-top: 2em;
+	padding-left: 1.5em;
+}
+
+
 
 /********************************
 ------------NOVEDADES-----------
@@ -1421,22 +1460,6 @@ td.event.important {
 /********************************
 -----------MEDIA QUERIES---------
 *********************************/
-@media screen and (min-width:2000px) {
-	.logoforum{
-		margin-left: -5em!important;
-	}
-
-	.nav__contenido{
-		margin-left: -3em!important;
-		padding-left: 0!important;
-	}
-
-	nav ul li{
-		margin-right: 0.3em!important;
-	}
-
-}
-
 
 @media screen and (min-width:1921px) {
 	.middle--bottom{
@@ -2233,7 +2256,7 @@ td.event.important {
     /*Evento detalle*/
 
     .eventos__detalle__imagen img{
-    	width: 600px;
+    	width: 100%;
     }
 
     .novedades__detalle__title{
@@ -3298,7 +3321,12 @@ td.event.important {
 
 } 
 
-
+ .tab-content > .tab-pane:not(.active), 
+.pill-content > .pill-pane:not(.active) {
+    display: block;
+    height: 0;
+    overflow-y: hidden;
+}
 
 
 
@@ -3323,3 +3351,4 @@ only screen and (max-width: 768px),
     display: none;
   }
 }
+
