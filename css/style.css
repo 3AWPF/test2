@@ -724,7 +724,7 @@ body > section.apps2{
 }
 
 .nav.nav-pills > li.active a{
-	background-color: #AF7C4A;
+	background-color: #7f271b;
 }
 
 .nosotros__tabs .slick-slide img {
@@ -762,20 +762,20 @@ body > section.apps2{
 }
 
 .vista__aerea img{
-	width: 100%;
+	width: 585px;
+	height:350px;
 }
 
 .vista__aerea__info{
 	background-color:rgba(160,48,33,0.2);
-	height: 317px;
+	height: 350px;
+	overflow-y: scroll;
 }
 
 .vista__aerea__info .categoria__title{
 	padding-top: 2em;
 	padding-left: 1.5em;
 }
-
-
 
 /********************************
 ------------NOVEDADES-----------
@@ -788,6 +788,17 @@ body > section.apps2{
 .novedades__item{
 	display: none;
 	margin-top: 1.5em;
+}
+
+
+.categoria{
+	display: none;
+	margin-top: 1.5em;
+}
+
+.novedades__imagen img{
+	width: 545px;
+	height: 325px;
 }
 
 #loadMore {
@@ -2571,10 +2582,14 @@ td.event.important {
 	.nosotros__tabs .categoria__title {
     	padding-left: 1.5em;
     }
-
 	
 	.vista__aerea{
 		text-align: center;
+	}
+
+	.vista__aerea img{
+		width: 100%;
+		height:400px;
 	}
 
 	.compartir__nuevo {
@@ -2697,12 +2712,13 @@ td.event.important {
 
 	.vista__aerea img{
 		width: 100%;
+		height: 250px;
 	}
 
 	.nosotros__header p {
     	padding: 1em 1em;
     	text-align: justify;
-    }
+   	  }
 
     .nosotros__tabs .categoria__title {
     	margin-top: 1em;
@@ -2892,7 +2908,8 @@ td.event.important {
 	}
 
 	.novedades__imagen img{
-		width: 330px;
+		width: 350px;
+    	height: 220px;
 	}
 
 	.novedades__info{
