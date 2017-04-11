@@ -1285,6 +1285,11 @@ td.event.important {
 	margin-bottom: 2em;
 }
 
+.detalle__tienda2 .promo__item{
+	display: block;
+}
+
+
 .promo__item__title{
 	color:#A03022;
 	font-size: 1em;
