@@ -790,8 +790,12 @@ body > section.apps2{
 	margin-top: 1.5em;
 }
 
-
 .categoria{
+	display: none;
+	margin-top: 1.5em;
+}
+
+.promo__item{
 	display: none;
 	margin-top: 1.5em;
 }

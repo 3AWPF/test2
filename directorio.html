@@ -1143,10 +1143,10 @@
     	}]
 	});
 
-  $(".categoria").slice(0, 2).show();
+  $(".categoria").slice(0, 4).show();
     $("#loadMore").on('click', function (e) {
         e.preventDefault();
-        $(".categoria:hidden").slice(0, 2).slideDown();
+        $(".categoria:hidden").slice(0, 4).slideDown();
         if ($(".categoria:hidden").length == 0) {
             $("#load").fadeOut('slow');
         }
