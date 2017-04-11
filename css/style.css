@@ -1406,6 +1406,11 @@ td.event.important {
     margin-right: -1em;
 }
 
+.promociones__detalle .promo__item{
+	display: block;
+}
+
+
 .restricciones{
 	padding-top: 3em;
 	padding-left: 3em;
