@@ -4,75 +4,7 @@
 		"selected_items":
 		[
 			[
-				"lad",
-				"loadMore"
-			],
-			[
-				"load",
-				"loadMore"
-			],
-			[
-				"over",
-				"overflow-y"
-			],
-			[
 				"margin",
-				"margin-top"
-			],
-			[
-				"pad",
-				"padding-top"
-			],
-			[
-				"back",
-				"background-color"
-			],
-			[
-				"isla__slide",
-				"isla__slide2"
-			],
-			[
-				"pa",
-				"padding-top"
-			],
-			[
-				"margi",
-				"margin-top"
-			],
-			[
-				"ine",
-				"inline-block"
-			],
-			[
-				"di",
-				"display"
-			],
-			[
-				"mar",
-				"margin-bottom"
-			],
-			[
-				"bac",
-				"background-color"
-			],
-			[
-				"backgorund",
-				"background-image"
-			],
-			[
-				"magin",
-				"margin-left"
-			],
-			[
-				"marign",
-				"margin-left"
-			],
-			[
-				"margn",
-				"margin-top"
-			],
-			[
-				"margni",
 				"margin-left"
 			],
 			[
@@ -80,56 +12,8 @@
 				"font-size"
 			],
 			[
-				"c",
-				"cover"
-			],
-			[
-				"a3",
-				"A03020"
-			],
-			[
-				"padding",
-				"padding"
-			],
-			[
-				"paddin",
-				"padding"
-			],
-			[
-				"bacl",
-				"background-color"
-			],
-			[
-				"font-s",
-				"font-style"
-			],
-			[
-				"domingo",
-				"domingo__down"
-			],
-			[
-				"imo",
-				"imho, imgholder\tImgHolder image add"
-			],
-			[
-				"conta",
-				"contain"
-			],
-			[
-				"co",
-				"contain"
-			],
-			[
-				"background",
-				"background-color"
-			],
-			[
-				"d",
-				"display"
-			],
-			[
-				"ma",
-				"margin-top"
+				"pad",
+				"padding-left"
 			],
 			[
 				"tex",
@@ -140,12 +24,32 @@
 				"inline-block"
 			],
 			[
+				"margni",
+				"margin-bottom"
+			],
+			[
+				"magin",
+				"margin-top"
+			],
+			[
 				"padd",
 				"padding"
 			],
 			[
 				"background-c",
 				"background-color"
+			],
+			[
+				"back",
+				"background-color"
+			],
+			[
+				"padding",
+				"padding-top"
+			],
+			[
+				"pa",
+				"padding-bottom"
 			],
 			[
 				"le",
@@ -160,6 +64,14 @@
 				"font-weight"
 			],
 			[
+				"paddin",
+				"padding-top"
+			],
+			[
+				"font-s",
+				"font-size"
+			],
+			[
 				"pos",
 				"pos-r\tposition: relative;"
 			],
@@ -170,6 +82,14 @@
 			[
 				"re",
 				"relative"
+			],
+			[
+				"background",
+				"background-image"
+			],
+			[
+				"over",
+				"overflow-y"
 			],
 			[
 				"in",
@@ -202,6 +122,18 @@
 			[
 				"input",
 				"input--large"
+			],
+			[
+				"marign",
+				"margin-top"
+			],
+			[
+				"margn",
+				"margin-left"
+			],
+			[
+				"mar",
+				"margin-left"
 			],
 			[
 				"list",
@@ -247,43 +179,34 @@
 			"file": "css/style.css",
 			"settings":
 			{
-				"buffer_size": 50261,
+				"buffer_size": 50139,
 				"encoding": "UTF-8",
 				"line_ending": "Windows"
 			}
 		},
 		{
-			"file": "novedades.html",
+			"file": "novedades__detalle.html",
 			"settings":
 			{
-				"buffer_size": 25981,
+				"buffer_size": 13815,
 				"encoding": "UTF-8",
 				"line_ending": "Windows"
 			}
 		},
 		{
-			"file": "promociones.html",
+			"file": "promociones__detalle.html",
 			"settings":
 			{
-				"buffer_size": 24934,
+				"buffer_size": 16791,
 				"encoding": "UTF-8",
 				"line_ending": "Windows"
 			}
 		},
 		{
-			"file": "/E/desarrollo/forum__cuernavaca/css/style.css",
+			"file": "directorio.html",
 			"settings":
 			{
-				"buffer_size": 50392,
-				"encoding": "UTF-8",
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "/E/desarrollo/forum__cuernavaca/promociones.html",
-			"settings":
-			{
-				"buffer_size": 24946,
+				"buffer_size": 34690,
 				"encoding": "UTF-8",
 				"line_ending": "Windows"
 			}
@@ -362,71 +285,19 @@
 	},
 	"expanded_folders":
 	[
-		"/E/Dropbox/MIS DESARROLLOS/forum",
-		"/E/Dropbox/MIS DESARROLLOS/forum/js"
+		"/D/DESARROLLO/forum"
 	],
 	"file_history":
 	[
-		"/E/Dropbox/MIS DESARROLLOS/forum/directorio.html",
-		"/E/desarrollo/forum__cuernavaca/directorio.html",
-		"/E/desarrollo/forum__cuernavaca/nosotros.html",
-		"/E/Dropbox/MIS DESARROLLOS/forum/nosotros.html",
-		"/E/Dropbox/MIS DESARROLLOS/forum/novedades.html",
-		"/E/desarrollo/forum__cuernavaca/css/style.css",
-		"/C/Users/pcGrande/Desktop/lightslider-master/src/index.html",
 		"/E/Dropbox/MIS DESARROLLOS/forum/index.html",
-		"/C/Users/pcGrande/Desktop/test/index.html",
-		"/E/Dropbox/MIS DESARROLLOS/forum/prue.html",
-		"/C/Users/pcGrande/Desktop/test/s.js",
-		"/E/Dropbox/MIS DESARROLLOS/forum/js/slick.js",
-		"/C/Users/pcGrande/Desktop/test/s.css",
-		"/C/Users/pcGrande/Desktop/lightslider-master/demo/index.html",
-		"/E/Dropbox/MIS DESARROLLOS/forum/css/style.css",
-		"/E/Dropbox/MIS DESARROLLOS/forum/img/logos/title_categoria.jpg",
-		"/E/Dropbox/MIS DESARROLLOS/forum/eventos__lista.html",
-		"/E/desarrollo/forum__cuernavaca/index.html",
-		"/E/desarrollo/forum__cuernavaca/contacto.html",
-		"/E/Dropbox/MIS DESARROLLOS/forum/contacto.html",
-		"/E/desarrollo/forum__cuernavaca/eventos__detalle.html",
-		"/E/Dropbox/MIS DESARROLLOS/forum/eventos__detalle.html",
-		"/E/desarrollo/forum__cuernavaca/eventos__lista.html",
-		"/E/desarrollo/forum__cuernavaca/eventos.html",
-		"/E/desarrollo/forum__cuernavaca/calendario.html",
-		"/E/Dropbox/MIS DESARROLLOS/forum/eventos.html",
-		"/E/desarrollo/forum__cuernavaca/promociones__detalle.html",
-		"/E/Dropbox/MIS DESARROLLOS/forum/promociones__detalle.html",
-		"/E/desarrollo/forum__cuernavaca/promociones.html",
-		"/E/Dropbox/MIS DESARROLLOS/forum/promociones.html",
-		"/E/desarrollo/forum__cuernavaca/novedades.html",
-		"/E/desarrollo/forum__cuernavaca/novedades__detalle.html",
-		"/E/Dropbox/MIS DESARROLLOS/forum/novedades__detalle.html",
-		"/E/desarrollo/forum__cuernavaca/tienda.html",
-		"/E/Dropbox/MIS DESARROLLOS/forum/tienda.html",
-		"/E/Dropbox/MIS DESARROLLOS/forum/resultados.html",
-		"/E/Dropbox/GICSA maquetado/maqueta_forum_home/css/style.css",
-		"/E/Dropbox/MIS DESARROLLOS/forum/indexalterno.html",
-		"/E/Dropbox/MIS DESARROLLOS/Isla/index2.html",
-		"/E/Dropbox/MIS DESARROLLOS/Isla/css/style.css",
-		"/E/Dropbox/MIS DESARROLLOS/Isla/index.html",
-		"/E/Dropbox/MIS DESARROLLOS/forum/tiendalterna.html",
-		"/E/Dropbox/MIS DESARROLLOS/forum/tienda2.html",
-		"/C/Users/pcGrande/Desktop/1/footerlisto.html",
-		"/E/Dropbox/MIS DESARROLLOS/forum/index - copia.html",
-		"/E/Dropbox/MIS DESARROLLOS/forum/index2.html",
-		"/E/Dropbox/MIS DESARROLLOS/forum/1novedades.html",
 		"/E/Dropbox/MIS DESARROLLOS/forum/copia.html",
-		"/C/Users/pcGrande/AppData/Local/Temp/fz3temp-2/style.css",
-		"/C/Users/pcGrande/AppData/Local/Temp/fz3temp-2/styleA.css",
-		"/E/desarrollo/PTF/calendario.html",
-		"/C/Users/pcGrande/Desktop/Q4/index.html",
-		"/C/Users/pcGrande/Desktop/Q4/css/style.css",
-		"/E/Dropbox/MIS DESARROLLOS/Forum/promociones__detalle.html",
-		"/E/Dropbox/MIS DESARROLLOS/Forum/promociones.html",
-		"/E/Dropbox/MIS DESARROLLOS/Forum/eventos__lista.html",
+		"/E/Dropbox/MIS DESARROLLOS/forum/eventos__lista.html",
+		"/E/Dropbox/MIS DESARROLLOS/forum/novedades__detalle.html",
+		"/E/Dropbox/MIS DESARROLLOS/forum/directorio.html",
+		"/E/Dropbox/MIS DESARROLLOS/forum/novedades.html",
+		"/E/Dropbox/MIS DESARROLLOS/forum/tienda.html",
+		"/E/Dropbox/MIS DESARROLLOS/forum/nosotros.html",
 		"/E/Dropbox/MIS DESARROLLOS/Forum/directorio.html",
-		"/E/Dropbox/MIS DESARROLLOS/Forum/contacto.html",
-		"/E/Dropbox/MIS DESARROLLOS/Forum/novedades__detalle.html",
-		"/E/Dropbox/MIS DESARROLLOS/Forum/novedades.html",
 		"/E/Dropbox/MIS DESARROLLOS/Forum/tienda.html",
 		"/C/Users/pcGrande/Desktop/sc-4.4.5-win32/config_examples/upstart/sc.conf",
 		"/E/Dropbox/MIS DESARROLLOS/Forum/index.html",
@@ -494,7 +365,58 @@
 		"/I/Nos/.env",
 		"/C/php/php.ini-development",
 		"/I/xampp/htdocs/bugacity/wp-content/themes/tema-bugacity/inc/function-admin.php",
-		"/I/xampp/htdocs/bugacity/wp-content/themes/tema-bugacity/style.css"
+		"/I/xampp/htdocs/bugacity/wp-content/themes/tema-bugacity/style.css",
+		"/I/xampp/htdocs/bugacity/wp-content/themes/tema-bugacity/404.php",
+		"/I/tcaster/archive.php",
+		"/I/xampp/htdocs/portafolio/Movefile",
+		"/C/Users/pcGrande/Desktop/tp4.m3u",
+		"/I/xampp/htdocs/bugacity/wp-content/themes/tema-bugacity/inc/templates/theme-admin.php",
+		"/E/desarrollo/tema_portafolio/inc/function_admin.php",
+		"/E/desarrollo/tema_portafolio/inc/templates/theme-admin.php",
+		"/E/desarrollo/tema_portafolio/header.php",
+		"/I/xampp/htdocs/bugacity/wp-content/themes/tema-bugacity/header.php",
+		"/C/Users/pcGrande/Desktop/example/tabbed-panels.css",
+		"/C/Users/pcGrande/Desktop/example/tabbed-panels.html",
+		"/I/xampp/htdocs/bugacity/wp-content/themes/tema-bugacity/footer.php",
+		"/I/xampp/htdocs/bugacity/wp-content/themes/twentyseventeen/index.php",
+		"/I/xampp/htdocs/bugacity/wp-content/themes/tema-bugacity/template-parts/content-none.php",
+		"/I/xampp/htdocs/bugacity/wp-content/themes/tema-bugacity/template-parts/content-page.php",
+		"/I/xampp/htdocs/bugacity/wp-content/themes/theme-bugacity/template-parts/content-page.php",
+		"/I/xampp/htdocs/bugacity/wp-content/themes/theme-bugacity/index.php",
+		"/I/xampp/htdocs/bugacity/wp-content/themes/tcaster/index.php",
+		"/I/xampp/htdocs/bugacity/wp-content/themes/theme-bugacity/template-parts/content-none.php",
+		"/I/xampp/htdocs/bugacity/wp-content/themes/theme-bugacity/footer.php",
+		"/I/xampp/htdocs/bugacity/wp-content/themes/theme-bugacity/style.css",
+		"/I/xampp/htdocs/bugacity/wp-content/themes/theme-bugacity/header.php",
+		"/I/xampp/htdocs/bugacity/wp-content/themes/theme-bugacity/template-parts/content.php",
+		"/I/xampp/htdocs/pruebas/wp-content/themes/tcaster/template-parts/nav-social.php",
+		"/I/xampp/htdocs/pruebas/wp-content/themes/tcaster/header.php",
+		"/I/xampp/htdocs/bugacity/wp-content/themes/theme-bugacity/functions.php",
+		"/I/xampp/htdocs/pruebas/wp-content/themes/tcaster/functions.php",
+		"/I/xampp/htdocs/bugacity/wp-content/themes/theme_bugacity/index.php",
+		"/I/xampp/htdocs/bugacity/wp-content/themes/theme_bugacity/functions.php",
+		"/I/xampp/htdocs/bugacity/wp-content/themes/theme_bugacity/header.php",
+		"/I/xampp/htdocs/portafolio/wp-config.php",
+		"/C/Users/pcGrande/Desktop/prue.m3u",
+		"/C/Users/pcGrande/Desktop/sgeo.m3u",
+		"/I/xampp/htdocs/pruebas/wp-content/themes/tcaster/style.css",
+		"/C/Users/pcGrande/Desktop/enlighten/inc/customizer.php",
+		"/I/xampp/htdocs/pruebas/wp-content/themes/tcaster/index.php",
+		"/C/Users/pcGrande/Desktop/enlighten/template-parts/section-client.php",
+		"/C/Users/pcGrande/Desktop/enlighten/index.php",
+		"/I/xampp/htdocs/pruebas/wp-content/themes/tcaster/inc/customizer.php",
+		"/C/Users/pcGrande/Desktop/HTML para banners nuevos/listo sin imagenes/445 24 de mayo.html",
+		"/C/Users/pcGrande/Desktop/HTML para banners nuevos/listo sin imagenes/660 24 de mayo.html",
+		"/C/Users/pcGrande/Desktop/HTML para banners nuevos/listo sin imagenes/670 24 de mayo.html",
+		"/C/Users/pcGrande/Desktop/HTML para banners nuevos/listo sin imagenes/1213 24 de mayo.html",
+		"/C/Users/pcGrande/Desktop/HTML para banners nuevos/listo sin imagenes/1245 24 de mayo.html",
+		"/C/Users/pcGrande/Desktop/HTML para banners nuevos/listo sin imagenes/1275 10 de mayo.html",
+		"/C/Users/pcGrande/Desktop/HTML para banners nuevos/listo sin imagenes/6120 24 de mayo.html",
+		"/C/Users/pcGrande/Desktop/HTML para banners nuevos/listo sin imagenes/12120 24 de mayo.html",
+		"/C/Users/pcGrande/Desktop/HTML para banners nuevos/faltan por revisar/12350 24 de mayo.html",
+		"/C/Users/pcGrande/Desktop/HTML para banners nuevos/faltan por revisar/ultimo12400.html",
+		"/C/Users/pcGrande/Desktop/HTML para banners nuevos/faltan por revisar/ultimo 12170.html",
+		"/C/Users/pcGrande/Desktop/HTML para banners nuevos/faltan por revisar/121000 24 de mayo.html"
 	],
 	"find":
 	{
@@ -516,83 +438,7 @@
 		"case_sensitive": false,
 		"find_history":
 		[
-			"545px",
-			"width: 545px",
-			"width: 545px;",
-			"height: 325px;",
-			"novedades__imagen",
-			".vista__area__info",
-			"1000",
-			"a03021",
-			"active",
-			"nosotros__header",
-			".nav.nav-pills > li > a ",
-			".nav.nav-pills",
-			".nav.nav-pills > li a",
-			".nav.nav-pills > li",
-			".nav.nav-pills",
-			"1000",
-			"1000px",
-			"padding",
-			"vista__aerea img",
-			"vista__aerea",
-			"250x130",
-			"recomendation",
-			"<img src=\"https://imgholder.ru/300x300/2196F3/ECEFF1.jpg&text=imgHolder&font=bebas&fz=36\" alt=\"\">",
-			"nosotros",
-			"eventos__detalle__imagen img",
-			"twit",
-			"calendario",
-			"twitter",
-			"-->\n",
-			"tabs",
-			"tab",
-			" nav-tabs",
-			"settings",
-			"eventos__detalle__imagen",
-			"detalle",
-			"detalle__",
-			"promociones",
-			"p",
-			"footer",
-			"1279",
-			"logo",
-			".detalle__tienda2",
-			"detalle__tienda2",
-			"detalle__tienda--derecha",
-			".promo__tienda .promo__item ",
-			"tipo--C",
-			".appsn img",
-			"appsn img",
-			"tienda",
-			"categoria__item",
-			"categoria",
-			"apps2",
-			"303030",
-			"footer",
-			"logo",
-			"news",
-			"load",
-			"novedades",
-			"middle--bottom",
-			"novedad",
-			"div",
-			"calendario",
-			" class=\"\"",
-			"pasados",
-			"hidden-xs nopadding",
-			"col-xs-12",
-			"14",
-			"span",
-			"promo__item--tipo",
-			"promo_item",
-			"A",
-			";\n",
-			"promociones",
-			"contacto",
-			".detalle",
-			"detalle",
-			"btn_",
+			"compartir__detalle",
 			"col-xs-1",
 			"col-xs",
 			"nombre",
@@ -643,7 +489,24 @@
 			"<label for=\"idrisk\" ",
 			"title",
 			"ing__cards",
-			"<div id=\"divUser3\" class=\"col-md-6\" style=\"border: 1px solid;\">"
+			"<div id=\"divUser3\" class=\"col-md-6\" style=\"border: 1px solid;\">",
+			"fff",
+			"loading__loader",
+			".modal-content ",
+			".loading-bar",
+			".loading_content",
+			"notes",
+			"card members",
+			"members",
+			"ssl",
+			"intro_slide",
+			"settings",
+			"temasectionuno",
+			"temasectiondos",
+			"ddd",
+			"margin-right",
+			"espn",
+			"fOX"
 		],
 		"highlight": true,
 		"in_selection": false,
@@ -651,7 +514,6 @@
 		"regex": false,
 		"replace_history":
 		[
-			"promo"
 		],
 		"reverse": false,
 		"show_context": true,
@@ -662,7 +524,7 @@
 	"groups":
 	[
 		{
-			"selected": 0,
+			"selected": 2,
 			"sheets":
 			[
 				{
@@ -671,15 +533,123 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 50261,
+						"buffer_size": 50139,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								11906,
-								11911
+								13771,
+								13771
+							]
+						],
+						"settings":
+						{
+							"bracket_highlighter.busy": false,
+							"bracket_highlighter.locations":
+							{
+								"close":
+								{
+								},
+								"icon":
+								{
+								},
+								"open":
+								{
+								},
+								"unmatched":
+								{
+								}
+							},
+							"bracket_highlighter.regions":
+							[
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content"
+							],
+							"color_scheme": "Packages/User/Color Highlighter/themes/Boxy Tomorrow.tmTheme",
+							"syntax": "Packages/CSS/CSS.sublime-syntax",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 18247.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "novedades__detalle.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 13815,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								8072,
+								8072
+							],
+							[
+								8199,
+								8199
 							]
 						],
 						"settings":
@@ -691,15 +661,25 @@
 								{
 									"1":
 									[
-										11933,
-										11934
+										8073,
+										8076
+									],
+									"2":
+									[
+										8200,
+										8203
 									]
 								},
 								"icon":
 								{
 									"1":
 									[
-										"Packages/BracketHighlighter/icons/curly_bracket.png",
+										"Packages/BracketHighlighter/icons/tag.png",
+										"brackethighlighter.default"
+									],
+									"2":
+									[
+										"Packages/BracketHighlighter/icons/tag.png",
 										"brackethighlighter.default"
 									]
 								},
@@ -707,8 +687,13 @@
 								{
 									"1":
 									[
-										11896,
-										11897
+										8073,
+										8076
+									],
+									"2":
+									[
+										8200,
+										8203
 									]
 								},
 								"unmatched":
@@ -717,36 +702,31 @@
 							},
 							"bracket_highlighter.regions":
 							[
-								"bh_default",
-								"bh_default_center",
-								"bh_default_open",
-								"bh_default_close",
-								"bh_default_content",
-								"bh_square",
-								"bh_square_center",
-								"bh_square_open",
-								"bh_square_close",
-								"bh_square_content",
-								"bh_angle",
-								"bh_angle_center",
-								"bh_angle_open",
-								"bh_angle_close",
-								"bh_angle_content",
 								"bh_c_define",
 								"bh_c_define_center",
 								"bh_c_define_open",
 								"bh_c_define_close",
 								"bh_c_define_content",
-								"bh_curly",
-								"bh_curly_center",
-								"bh_curly_open",
-								"bh_curly_close",
-								"bh_curly_content",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content",
 								"bh_single_quote",
 								"bh_single_quote_center",
 								"bh_single_quote_open",
 								"bh_single_quote_close",
 								"bh_single_quote_content",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content",
 								"bh_double_quote",
 								"bh_double_quote_center",
 								"bh_double_quote_open",
@@ -757,110 +737,16 @@
 								"bh_tag_open",
 								"bh_tag_close",
 								"bh_tag_content",
-								"bh_regex",
-								"bh_regex_center",
-								"bh_regex_open",
-								"bh_regex_close",
-								"bh_regex_content",
-								"bh_unmatched",
-								"bh_unmatched_center",
-								"bh_unmatched_open",
-								"bh_unmatched_close",
-								"bh_unmatched_content",
-								"bh_round",
-								"bh_round_center",
-								"bh_round_open",
-								"bh_round_close",
-								"bh_round_content"
-							],
-							"color_scheme": "Packages/User/Color Highlighter/themes/Boxy Tomorrow.tmTheme",
-							"syntax": "Packages/CSS/CSS.sublime-syntax",
-							"translate_tabs_to_spaces": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 15631.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 0,
-					"type": "text"
-				},
-				{
-					"buffer": 1,
-					"file": "novedades.html",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 25981,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								449,
-								449
-							]
-						],
-						"settings":
-						{
-							"bracket_highlighter.busy": false,
-							"bracket_highlighter.locations":
-							{
-								"close":
-								{
-								},
-								"icon":
-								{
-								},
-								"open":
-								{
-								},
-								"unmatched":
-								{
-								}
-							},
-							"bracket_highlighter.regions":
-							[
 								"bh_default",
 								"bh_default_center",
 								"bh_default_open",
 								"bh_default_close",
 								"bh_default_content",
-								"bh_square",
-								"bh_square_center",
-								"bh_square_open",
-								"bh_square_close",
-								"bh_square_content",
-								"bh_angle",
-								"bh_angle_center",
-								"bh_angle_open",
-								"bh_angle_close",
-								"bh_angle_content",
-								"bh_c_define",
-								"bh_c_define_center",
-								"bh_c_define_open",
-								"bh_c_define_close",
-								"bh_c_define_content",
-								"bh_curly",
-								"bh_curly_center",
-								"bh_curly_open",
-								"bh_curly_close",
-								"bh_curly_content",
-								"bh_single_quote",
-								"bh_single_quote_center",
-								"bh_single_quote_open",
-								"bh_single_quote_close",
-								"bh_single_quote_content",
-								"bh_double_quote",
-								"bh_double_quote_center",
-								"bh_double_quote_open",
-								"bh_double_quote_close",
-								"bh_double_quote_content",
-								"bh_tag",
-								"bh_tag_center",
-								"bh_tag_open",
-								"bh_tag_close",
-								"bh_tag_content",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content",
 								"bh_regex",
 								"bh_regex_center",
 								"bh_regex_open",
@@ -870,19 +756,13 @@
 								"bh_unmatched_center",
 								"bh_unmatched_open",
 								"bh_unmatched_close",
-								"bh_unmatched_content",
-								"bh_round",
-								"bh_round_center",
-								"bh_round_open",
-								"bh_round_close",
-								"bh_round_content"
+								"bh_unmatched_content"
 							],
-							"color_scheme": "Packages/User/Color Highlighter/themes/Boxy Tomorrow.tmTheme",
 							"syntax": "Packages/HTML/HTML.sublime-syntax",
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 260.0,
+						"translation.y": 1560.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 1,
@@ -890,19 +770,19 @@
 				},
 				{
 					"buffer": 2,
-					"file": "promociones.html",
+					"file": "promociones__detalle.html",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 24934,
+						"buffer_size": 16791,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								18971,
-								19029
+								7593,
+								7593
 							]
 						],
 						"settings":
@@ -914,15 +794,15 @@
 								{
 									"1":
 									[
-										19027,
-										19028
+										7593,
+										7594
 									]
 								},
 								"icon":
 								{
 									"1":
 									[
-										"Packages/BracketHighlighter/icons/tag.png",
+										"Packages/BracketHighlighter/icons/double_quote.png",
 										"brackethighlighter.default"
 									]
 								},
@@ -930,8 +810,8 @@
 								{
 									"1":
 									[
-										18972,
-										18973
+										7591,
+										7592
 									]
 								},
 								"unmatched":
@@ -940,192 +820,87 @@
 							},
 							"bracket_highlighter.regions":
 							[
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content",
 								"bh_round",
 								"bh_round_center",
 								"bh_round_open",
 								"bh_round_close",
 								"bh_round_content",
-								"bh_single_quote",
-								"bh_single_quote_center",
-								"bh_single_quote_open",
-								"bh_single_quote_close",
-								"bh_single_quote_content",
-								"bh_unmatched",
-								"bh_unmatched_center",
-								"bh_unmatched_open",
-								"bh_unmatched_close",
-								"bh_unmatched_content",
-								"bh_default",
-								"bh_default_center",
-								"bh_default_open",
-								"bh_default_close",
-								"bh_default_content",
-								"bh_square",
-								"bh_square_center",
-								"bh_square_open",
-								"bh_square_close",
-								"bh_square_content",
-								"bh_angle",
-								"bh_angle_center",
-								"bh_angle_open",
-								"bh_angle_close",
-								"bh_angle_content",
-								"bh_c_define",
-								"bh_c_define_center",
-								"bh_c_define_open",
-								"bh_c_define_close",
-								"bh_c_define_content",
-								"bh_curly",
-								"bh_curly_center",
-								"bh_curly_open",
-								"bh_curly_close",
-								"bh_curly_content",
 								"bh_regex",
 								"bh_regex_center",
 								"bh_regex_open",
 								"bh_regex_close",
 								"bh_regex_content",
-								"bh_tag",
-								"bh_tag_center",
-								"bh_tag_open",
-								"bh_tag_close",
-								"bh_tag_content",
-								"bh_double_quote",
-								"bh_double_quote_center",
-								"bh_double_quote_open",
-								"bh_double_quote_close",
-								"bh_double_quote_content"
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content"
 							],
-							"color_scheme": "Packages/User/Color Highlighter/themes/Boxy Tomorrow.tmTheme",
 							"syntax": "Packages/HTML/HTML.sublime-syntax",
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 10472.0,
+						"translation.y": 1500.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 3,
+					"stack_index": 0,
 					"type": "text"
 				},
 				{
 					"buffer": 3,
-					"file": "/E/desarrollo/forum__cuernavaca/css/style.css",
+					"file": "directorio.html",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 50392,
+						"buffer_size": 34690,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								0,
-								0
-							]
-						],
-						"settings":
-						{
-							"bracket_highlighter.busy": false,
-							"bracket_highlighter.locations":
-							{
-								"close":
-								{
-								},
-								"icon":
-								{
-								},
-								"open":
-								{
-								},
-								"unmatched":
-								{
-								}
-							},
-							"bracket_highlighter.regions":
-							[
-								"bh_default",
-								"bh_default_center",
-								"bh_default_open",
-								"bh_default_close",
-								"bh_default_content",
-								"bh_square",
-								"bh_square_center",
-								"bh_square_open",
-								"bh_square_close",
-								"bh_square_content",
-								"bh_angle",
-								"bh_angle_center",
-								"bh_angle_open",
-								"bh_angle_close",
-								"bh_angle_content",
-								"bh_c_define",
-								"bh_c_define_center",
-								"bh_c_define_open",
-								"bh_c_define_close",
-								"bh_c_define_content",
-								"bh_curly",
-								"bh_curly_center",
-								"bh_curly_open",
-								"bh_curly_close",
-								"bh_curly_content",
-								"bh_single_quote",
-								"bh_single_quote_center",
-								"bh_single_quote_open",
-								"bh_single_quote_close",
-								"bh_single_quote_content",
-								"bh_double_quote",
-								"bh_double_quote_center",
-								"bh_double_quote_open",
-								"bh_double_quote_close",
-								"bh_double_quote_content",
-								"bh_tag",
-								"bh_tag_center",
-								"bh_tag_open",
-								"bh_tag_close",
-								"bh_tag_content",
-								"bh_regex",
-								"bh_regex_center",
-								"bh_regex_open",
-								"bh_regex_close",
-								"bh_regex_content",
-								"bh_unmatched",
-								"bh_unmatched_center",
-								"bh_unmatched_open",
-								"bh_unmatched_close",
-								"bh_unmatched_content",
-								"bh_round",
-								"bh_round_center",
-								"bh_round_open",
-								"bh_round_close",
-								"bh_round_content"
-							],
-							"color_scheme": "Packages/User/Color Highlighter/themes/Boxy Tomorrow.tmTheme",
-							"syntax": "Packages/CSS/CSS.sublime-syntax",
-							"translate_tabs_to_spaces": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 15449.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 4,
-					"type": "text"
-				},
-				{
-					"buffer": 4,
-					"file": "/E/desarrollo/forum__cuernavaca/promociones.html",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 24946,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								19029,
-								19029
+								5750,
+								5734
 							]
 						],
 						"settings":
@@ -1137,15 +912,15 @@
 								{
 									"1":
 									[
-										19027,
-										19028
+										5749,
+										5750
 									]
 								},
 								"icon":
 								{
 									"1":
 									[
-										"Packages/BracketHighlighter/icons/tag.png",
+										"Packages/BracketHighlighter/icons/double_quote.png",
 										"brackethighlighter.default"
 									]
 								},
@@ -1153,8 +928,8 @@
 								{
 									"1":
 									[
-										18972,
-										18973
+										5730,
+										5731
 									]
 								},
 								"unmatched":
@@ -1163,36 +938,31 @@
 							},
 							"bracket_highlighter.regions":
 							[
-								"bh_default",
-								"bh_default_center",
-								"bh_default_open",
-								"bh_default_close",
-								"bh_default_content",
-								"bh_square",
-								"bh_square_center",
-								"bh_square_open",
-								"bh_square_close",
-								"bh_square_content",
-								"bh_angle",
-								"bh_angle_center",
-								"bh_angle_open",
-								"bh_angle_close",
-								"bh_angle_content",
 								"bh_c_define",
 								"bh_c_define_center",
 								"bh_c_define_open",
 								"bh_c_define_close",
 								"bh_c_define_content",
-								"bh_curly",
-								"bh_curly_center",
-								"bh_curly_open",
-								"bh_curly_close",
-								"bh_curly_content",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content",
 								"bh_single_quote",
 								"bh_single_quote_center",
 								"bh_single_quote_open",
 								"bh_single_quote_close",
 								"bh_single_quote_content",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content",
 								"bh_double_quote",
 								"bh_double_quote_center",
 								"bh_double_quote_open",
@@ -1203,6 +973,16 @@
 								"bh_tag_open",
 								"bh_tag_close",
 								"bh_tag_content",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content",
 								"bh_regex",
 								"bh_regex_center",
 								"bh_regex_open",
@@ -1212,22 +992,17 @@
 								"bh_unmatched_center",
 								"bh_unmatched_open",
 								"bh_unmatched_close",
-								"bh_unmatched_content",
-								"bh_round",
-								"bh_round_center",
-								"bh_round_open",
-								"bh_round_close",
-								"bh_round_content"
+								"bh_unmatched_content"
 							],
 							"color_scheme": "Packages/User/Color Highlighter/themes/Boxy Tomorrow.tmTheme",
 							"syntax": "Packages/HTML/HTML.sublime-syntax",
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 0.0,
+						"translation.y": 211.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 2,
+					"stack_index": 3,
 					"type": "text"
 				}
 			]
@@ -1235,7 +1010,7 @@
 	],
 	"incremental_find":
 	{
-		"height": 48.0
+		"height": 26.0
 	},
 	"input":
 	{
@@ -1272,7 +1047,7 @@
 	"project": "sublime-project.sublime-project",
 	"replace":
 	{
-		"height": 90.0
+		"height": 48.0
 	},
 	"save_all_on_build": true,
 	"select_file":
@@ -1311,10 +1086,10 @@
 	{
 	},
 	"show_minimap": true,
-	"show_open_files": true,
+	"show_open_files": false,
 	"show_tabs": true,
 	"side_bar_visible": true,
-	"side_bar_width": 247.0,
+	"side_bar_width": 270.0,
 	"status_bar_visible": true,
 	"template_settings":
 	{
