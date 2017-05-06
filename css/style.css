@@ -38,7 +38,6 @@ select {
 }
 
 .header__right img{
-	max-width: 100%;
 	height: auto;
 	padding: 0 1px;
 }
@@ -91,7 +90,7 @@ nav ul{
 nav ul li{
 	display: inline-block;
 	font-size: 'Myriad Pro';
-	margin-right: 0.7em;
+	margin-right: 0.6em;
 	height: 42px;
 	padding: 11px 0.4em;
 	vertical-align: middle;
@@ -117,6 +116,11 @@ nav ul li:hover a{
 
 nav ul li:last-child{
 	margin-right: 0.1em;
+	margin-left: 7px;
+}
+
+nav ul li:last-child img{
+    padding: 6px 0px 0px 20px;
 }
 
 .navbar{
@@ -180,12 +184,9 @@ nav ul li:last-child{
 .middle__right{
 	border:3px solid #053361;
 	margin-left: 1px;
-    margin-top: 0.5px;
-}
-
-.middle__right img{
-	max-width: 100%;
-	height: auto;
+	margin-top: 1px;
+	overflow:hidden;
+	height: 195px;
 }
 
 .news{
@@ -269,6 +270,10 @@ body > section.apps2{
 }
 
 /*Footer********/
+.footer{
+	background-color: #000;
+}
+
 .footer__container{
 	background-color: #000000;
 	color:#efefef;
@@ -280,8 +285,16 @@ body > section.apps2{
 }
 
 .footer__item2 img{
-	padding-left: 7em;
 	padding-top: 2em;
+}
+
+.aviso{
+	text-align: center;
+}
+
+.aviso a{
+	color:#cfcfcf;
+	font-size: 0.8em;
 }
 
 .nombres{
@@ -397,6 +410,15 @@ body > section.apps2{
 	text-align: center;
 }
 
+.directorio .selector__categoria select{
+	background-color: #A03021;
+	border:0px;
+	color:#fff;
+    padding-left: 25%;
+	text-align: center;
+	width: 100%;
+}
+
 .categoria__title{
 	padding-bottom:0.5em;
 	padding-left: 0.5em;
@@ -510,6 +532,8 @@ body > section.apps2{
 
 .tienda__title--derecha img{
 	margin-left: 2em;
+	width: 104px;
+    height: 50px;
 }
 
 .tienda__title--derecha h3{
@@ -539,6 +563,14 @@ body > section.apps2{
 	list-style: none;
 	margin-left: -1.5em;
 }
+
+.detalle__tienda--derecha ul li .lista__interna li{
+	font-size: 1em;
+	margin-left: 3.5em;
+    margin-top: -1.2em;
+    margin-bottom: 1.2em;
+}
+   
 
 .encuentras h3{
 	font-size: 0.9em;
@@ -623,7 +655,8 @@ body > section.apps2{
 	line-height: 1.2em;
 	padding: 1em 0;
 	width: 80%;
-	margin-left: 1em;
+    margin-top: -5px;
+    margin-bottom: 1em;
 }
 
 /********************************
@@ -631,54 +664,80 @@ body > section.apps2{
 *********************************/
 
 .nosotros__header{
-	padding-top: 7em;
+	padding-top: 2em;
 	padding-bottom: 2em;
-	text-align: right;
+}
+
+.nosotros__tabs .categoria__title {
+	padding-left: 0em;
+	margin-bottom: 1.5em;
 }
 
 .nosotros__header p{
 	color:#1A1A1A;
-	font-size: 0.9em;
-	line-height: 1.8em;
-	padding: 4.5em 0;
+	font-size: 1em;
+	line-height: 1.5em;
 	text-align: justify;
-	width: 87%;
+	padding: 0 2em;
+	padding-top: 3em;
 }
 
-.nuestros__centros__title{
-	padding-left: 2em;
+.padding__nosotros{
+	padding-left: 0px;
+	padding-right: 0px;
 }
 
-.nuestros__centros__title span{
-	color:#A03021;
-	font-size: 1.1em;
-	font-weight: 500;
-	padding-top: 1px;
+.nav.nav-pills{
+	background-color: #BA2C1A
 }
 
-.nuestros__centros__item{
-	margin-top: 2em;
+.nav.nav-pills > li{
+	border-right: 1px solid #f9f9f9;
 	text-align: center;
+	width: 16.65%;
 }
 
-.nuestros__centros__item h4{
-	color:#A03021;
-	font-size: 0.9em;
-	font-weight: 700;
+.nav.nav-pills > li:last-child{
+	border-right: 0px;
 }
 
-.nuestros__centros__item ul{
-	margin-left: -2em;
+.nav.nav-pills > li > a {
+    color:#fff;
+    padding: 5px 15px;
+    font-size: 1em;
 }
 
-.nuestros__centros__item ul li{
-	list-style: none;
-	margin-top: 5.5em;
-	margin-left: -1em;
+.nav-pills > li + li {
+    margin-left: 0px;
 }
 
-.nuestros__centros__item .paseo li{
-	margin-top: 1.7em;
+.nav-pills > li > a {
+    border-radius: 0px;
+}
+
+.nav.nav-pills > li > a:hover{
+	background-color:rgba(160,48,33,0.9); 
+}
+
+.nav.nav-pills > li.active a{
+	background-color: #7f271b;
+}
+
+.nosotros__tabs .slick-slide img {
+	width: 250px;
+	height: 130px;
+}
+
+.nosotros__tabs .isla__slide__item, .nosotros__tabs .isla__slide__item2{
+	padding-left: 4em;
+	padding-top: 4em;
+	padding-bottom: 5em;
+}
+
+.nosotros__tabs .tab-content{
+	border-left:2px solid #a03021;
+	border-right:2px solid #a03021;
+	border-bottom:2px solid #a03021;
 }
 
 .contacto__comercial{
@@ -698,17 +757,48 @@ body > section.apps2{
 	margin-left: 2.7em;
 }
 
+.vista__aerea img{
+	width: 585px;
+	height:350px;
+}
+
+.vista__aerea__info{
+	background-color:rgba(160,48,33,0.2);
+	height: 350px;
+	overflow-y: scroll;
+}
+
+.vista__aerea__info .categoria__title{
+	padding-top: 2em;
+	padding-left: 1.5em;
+}
+
 /********************************
 ------------NOVEDADES-----------
 *********************************/
 
 .novedades{
-	margin-top: 7em;
+	margin-top: 2em;
 }
 
 .novedades__item{
 	display: none;
 	margin-top: 1.5em;
+}
+
+.categoria{
+	display: none;
+	margin-top: 1.5em;
+}
+
+.promo__item{
+	display: none;
+	margin-top: 1.5em;
+}
+
+.novedades__imagen img{
+	width: 545px;
+	
 }
 
 #loadMore {
@@ -789,7 +879,8 @@ body > section.apps2{
 *********************************/
 
 .novedades__detalle{
-	padding-top: 5em;
+	padding-top: 2em;
+    margin-bottom: 2em;
 }
 
 .novedades__detalle__title span{
@@ -808,7 +899,12 @@ body > section.apps2{
 
 .detalle{
 	text-align: center;
-	margin-top: 4em;
+	margin-top: 2em;
+}
+
+.detalle__novedades__slide__item img{
+	width: 100%;
+	
 }
 
 .info__detalle{
@@ -832,17 +928,13 @@ body > section.apps2{
 	font-weight: 600;
 }
 
-.compartir__detalle img:first-child{
-	margin-left: 1em;
-}
-
 
 /********************************
 ------------EVENTOS LISTA---------
 *********************************/
 
 .evento__lista{
-	margin-top: 5em;
+	margin-top: 2em;
 	margin-bottom: 2em;
 }
 
@@ -858,7 +950,7 @@ body > section.apps2{
 }
 
 .eventos__lista__detalle__title{
-	margin-top: 3em;
+	margin-top: 1em;
 }
 
 .evento__lista .btn__rojo {
@@ -923,13 +1015,13 @@ body > section.apps2{
 	text-align: center;
 }
 
+.eventos__detalle__imagen img{
+	width: 100%;
+}
+
 .compartir__eventos__detalle{
 	margin-top: 7em;
 	text-align: center;
-}
-
-.compartir__eventos__detalle img:first-child{
-	margin-left: 1.5em;
 }
 
 .btn__calendars{
@@ -994,7 +1086,7 @@ body > section.apps2{
 *********************************/
 
 .calendario{
-	padding-top: 4.5em;
+	padding-top: 2em;
 	padding-bottom: 7em;
 }
 
@@ -1162,13 +1254,11 @@ td.event.important {
 	padding-left: 2em;
 }
 
-
-
 /********************************
 -----------PROMOCIONES---------
 *********************************/
 .promociones{
-	padding-top: 5em;
+	padding-top: 2em;
 }
 
 .promo__container{
@@ -1182,6 +1272,11 @@ td.event.important {
 .promo__item{
 	margin-bottom: 2em;
 }
+
+.detalle__tienda2 .promo__item{
+	display: block;
+}
+
 
 .promo__item__title{
 	color:#A03022;
@@ -1212,12 +1307,21 @@ td.event.important {
 
 .promo__item__botones{
 	margin-top: 10px;
-	margin-left: 2.5em;
 }
 
 .promo__item__botones .btn__rojo {
     font-size: 0.9em;
-    padding: 0.3em 2.2em
+    padding: 0.3em 4em
+}
+
+.compartir__nuevo{
+	margin-left: -2em;
+	text-align: right;
+}
+
+.compartir__nuevo li{
+	display: inline-block;
+	list-style: none;
 }
 
 .promo__item--tipo{
@@ -1283,6 +1387,17 @@ td.event.important {
 	margin-top: 2em;
 	margin-left: 5em;
 }
+
+.promociones__detalle .compartir__nuevo {
+    margin-left: -1em;
+    text-align: right;
+    margin-right: -1em;
+}
+
+.promociones__detalle .promo__item{
+	display: block;
+}
+
 
 .restricciones{
 	padding-top: 3em;
@@ -1361,7 +1476,8 @@ td.event.important {
 /********************************
 -----------MEDIA QUERIES---------
 *********************************/
-@media screen and (min-width:1920px) {
+
+@media screen and (min-width:1921px) {
 	.middle--bottom{
 		margin-top: 34vh;
 	}
@@ -1374,7 +1490,17 @@ td.event.important {
     	background-size: 100%!important;
 	}
 
+	.logoforum{
+		margin-left: -15em;
+	}
 
+	.nav__contenido{
+		margin-left: -9em;
+	}
+
+	.input__corto {
+        width: 28%;
+	}
 
 }
 
@@ -1398,7 +1524,12 @@ td.event.important {
 
 
 
-@media (max-width: 990px) {
+@media (max-width: 1000px) {
+    
+	.compartir__detalle {
+	    border-top: 0px solid rgb(223, 223, 223);
+	}
+
     .navbar-header {
         float: none;
     }
@@ -1423,10 +1554,23 @@ td.event.important {
         padding-top: 10px;
         padding-bottom: 10px;
     }
+
+    .menu__principal2{
+    	background-image: none;
+    }
+
+    .menu__desktop{
+    	display: none;
+    }
 }
 
 @media (max-width: 1279px) {
-
+	
+	.promociones__detalle .compartir__nuevo {
+    	margin-left: -1em;
+    	text-align: right;
+    	margin-right: 2em;
+	}
 	.nav__contenido{
 		margin-left: 9em;
 	}
@@ -1443,6 +1587,10 @@ td.event.important {
 	nav h4 {
 	    font-size: 0.7em;
 	    margin: 10px 0;
+	}
+
+	nav ul li:last-child img {
+    	padding: 6px 0px 0px 28px;
 	}
 
 	.header__left img{
@@ -1579,8 +1727,17 @@ td.event.important {
 
 }
 
-
 @media (max-width: 1199px) {
+
+	.vista__aerea__info {
+    	height: 263px;	
+	}
+
+	.promociones__detalle .compartir__nuevo {
+	    margin-left: -1em;
+	    text-align: right;
+	    margin-right: -3em;
+	}
 
 	.menu__principal2 {
 	    background-image: url(../img/fondo__menu__movil.png);
@@ -1597,6 +1754,10 @@ td.event.important {
 
 	nav ul li a {
         font-size: 0.69em;
+	}
+
+	nav ul li:last-child img {
+    	padding: 6px 0px 0px 12px;
 	}
 
 	.header__right img{
@@ -1627,23 +1788,30 @@ td.event.important {
 	}
 
 
-
 }
 
 
-@media screen and (max-width:999px) {
-	
-	.menu__principal{
-		display: none;
+@media screen and (max-width:1000px) {
+
+	.menu__principal2 {
+	    background-image: url();
 	}
 	
+	.aviso{
+		display: none;
+	}
+
 	.appsn{
 		display: block;
 	}
 
 	.logo{
-		left:-10%;
-		padding: 0.8em 3em;
+		margin-left: -1.5em;
+		padding: 0em;
+	}
+
+	.logo img{
+		width: 60%;
 	}
 	
 	.collapse.in{
@@ -1654,7 +1822,26 @@ td.event.important {
 		background-color: #333333;
 	}
 
+	body > header > div > div > nav > div > div > div.col-xs-4,
+	body > header > div > div > nav > div > div > div.col-xs-5,
+	body > header > div > div > nav > div > div > div:nth-child(3),
+	body > header > div > div > nav > div > div > div:nth-child(4),
+	body > header > div > div > nav > div > div > div:nth-child(6){
+		min-height: 0px;
+	}
+
+	.col-xs-1, .col-sm-1, .col-md-1, .col-lg-1, .col-xs-2, .col-sm-2, .col-md-2, 
+	.col-lg-2, .col-xs-3, .col-sm-3, .col-md-3, .col-lg-3, .col-xs-4, .col-sm-4, 
+	.col-md-4, .col-lg-4, .col-xs-5, .col-sm-5, .col-md-5, .col-lg-5, .col-xs-6, .col-sm-6, 
+	.col-md-6, .col-lg-6, .col-xs-7, .col-sm-7, .col-md-7, .col-lg-7, .col-xs-8, .col-sm-8, 
+	.col-md-8, .col-lg-8, .col-xs-9, .col-sm-9, .col-md-9, .col-lg-9, .col-xs-10, .col-sm-10, 
+	.col-md-10, .col-lg-10, .col-xs-11, .col-sm-11, .col-md-11, .col-lg-11, .col-xs-12, .col-sm-12, 
+	.col-md-12, .col-lg-12 {
+		min-height: 0px!important;
+	}
+
 	.navbar {
+    	border:0px;
     	margin-bottom: 0px;
     }
 
@@ -1680,6 +1867,10 @@ td.event.important {
 	
 	.search__movil{
 		padding-top: 1em;
+	}
+
+	.input__search__movil{
+		padding: 8px 0;
 	}
 
 	.navbar{
@@ -1843,6 +2034,7 @@ td.event.important {
 
 	.up__movil img{
 		margin-left: -1.5em;
+		margin-top: 8px;
 	}
 
 	.input__search__movil input{
@@ -1853,6 +2045,10 @@ td.event.important {
 
 	footer{
 		background-color: #000;
+	}
+
+	.footer__item2{
+		text-align: center;
 	}
 
 	.appsnmedio{
@@ -1929,7 +2125,8 @@ td.event.important {
 
 	.categoria__item img {
     	border: 0px solid #c1c1c1;
-    	width: 300px;
+    	width: 280px;
+    	height: 190px;
     }
 
     .categoria__item__title {
@@ -2060,7 +2257,7 @@ td.event.important {
 	}
 
 	.detalle img{
-		width: 600px;
+		width: 100%;
 	}
 	
 	.info__detalle p{
@@ -2097,7 +2294,7 @@ td.event.important {
     /*Evento detalle*/
 
     .eventos__detalle__imagen img{
-    	width: 600px;
+    	width: 100%;
     }
 
     .novedades__detalle__title{
@@ -2386,60 +2583,69 @@ td.event.important {
 	    margin-left: 0em;
 	}
 	
-	.vista__aerea{
-		margin-left: -3em;
+	.vista__aerea .slick-next {
+    	right: 14px;
 	}
 
-	.vista__aerea img{
-		width: 650px;
+	.padding__nosotros{
+		padding-left: 15px;
+		padding-right: 15px;
 	}
 	
-	.nosotros__header p {
-	    color: rgb(26, 26, 26);
-	    font-size: 0.9em;
-	    line-height: 1.8em;
-	    text-align: justify;
-	    width: 100%;
-	    padding: 4.5em 3em;
+	.vista__area__info{
+		width: 90%;
 	}
 
+	.vista__aerea__info .categoria__title {
+		padding-top: 4em;
+	}
 
+	.nosotros__tabs .categoria__title {
+    	padding-left: 1.5em;
+    }
+	
 	.vista__aerea{
 		text-align: center;
 	}
 
 	.vista__aerea img{
-		width: 650px;
+		width: 100%;
+		height:400px;
 	}
 
-	.nosotros__header p {
-	    text-align: justify;
-	    width:100%;
-	    padding: 2em 3em
+	.compartir__nuevo {
+        margin-right: 17em;
 	}
 
-	.nosotros__header {
-	    padding-top: 2em;
-    	text-align: left;
+	.nav.nav-pills > li > a {
+		font-size: 0.8em!important;
 	}
-
 
 
 }
 
 @media screen and (max-width:480px) {
-	
-	.logo{
-		padding: 1.25em;
+
+	.promociones__detalle .compartir__nuevo {
+    	margin-right: 0em;
+	}
+
+	.detalle__tienda2 .compartir__nuevo {
+    	margin-right: 2em;
+	}
+
+
+	.compartir__nuevo {
+    	margin-right: 0em;
 	}
 
 	.logo img{
-		width: 60px;
-		margin-left: -50px;
+		height: 56px;
+		width: 100%;
 	}
 	
 	.navbar-header {
-    	margin-left: -4em;
+    	margin-left: -2.5em;
 	}
 
 	.search__movil{
@@ -2523,22 +2729,36 @@ td.event.important {
         font-size: 1em;
 	}
 
-
 	/*Nosotros*/
 
-	.nosotros__header {
-    	padding-top: 2em;
-    	text-align: left;
-	}
-
 	.vista__aerea img{
-		width: 350px;
+		width: 100%;
+		height: 250px;
 	}
 
 	.nosotros__header p {
-    	padding: 2.5em 0.5em;
+    	padding: 1em 1em;
     	text-align: justify;
-    	width: 100%;
+   	  }
+
+    .nosotros__tabs .categoria__title {
+    	margin-top: 1em;
+	}
+
+	.nav.nav-pills > li {
+        width: 33%;
+    }
+
+	.nav.nav-pills > li:nth-child(3){
+		border-right: 0px;
+	}
+
+	.nav.nav-pills > li:nth-child(n+4){
+		border-top:1px solid #fff;
+	}
+
+	.vista__aerea__info {
+    	height: auto;
 	}
 	
 	/*Directorio*/
@@ -2709,7 +2929,8 @@ td.event.important {
 	}
 
 	.novedades__imagen img{
-		width: 330px;
+		width: 350px;
+    	height: 220px;
 	}
 
 	.novedades__info{
@@ -2736,8 +2957,9 @@ td.event.important {
 	}
 
 	.detalle img{
-		width: 350px;
+		width: 100%;
 	}
+
 
 	.info__detalle p{
 		padding: 0 0.5em;
@@ -2767,7 +2989,7 @@ td.event.important {
 	}
 
 	.eventos__detalle__imagen img{
-		width: 350px;
+		width: 100%;
 	}
 
 	.indoor__map {
@@ -3039,13 +3261,12 @@ td.event.important {
 @media screen and (max-width:380px) {
 	
 	.logo img{
-		width: 50px;
-		margin-left: -5px!important;
-		padding: 3px 0;
+		height: 55px;
+		width: 107%;
 	}
 
 	.stores__item {
-    	margin-left: 15%;
+    	margin-left: 22%;
 	}
 
 	.logogicsa {
@@ -3150,7 +3371,12 @@ td.event.important {
 
 } 
 
-
+ .tab-content > .tab-pane:not(.active), 
+.pill-content > .pill-pane:not(.active) {
+    display: block;
+    height: 0;
+    overflow-y: hidden;
+}
 
 
 
@@ -3175,3 +3401,4 @@ only screen and (max-width: 768px),
     display: none;
   }
 }
+
