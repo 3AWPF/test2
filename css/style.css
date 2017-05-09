@@ -2362,6 +2362,10 @@ td.event.important {
 		width: 600px;
 	}
 
+	.tienda__title{
+		margin-top: 3em;
+	}
+
 	.formulario {
     	background-color: #ffffff;
 	    padding: 2em 0px;
