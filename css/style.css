@@ -37,6 +37,16 @@ select {
 	overflow:hidden;
 }
 
+/*Header*/
+.header__left{
+	 background: url('../img/header__left__2.png') no-repeat,
+	 			url('../img/header__left__3.png') no-repeat,
+	 			url('../img/header__left__1.jpg') no-repeat;
+    background-size: 38%,60%,100%;
+    background-position: 15px top, 90% 20%,top;
+    height: 480px; 
+}
+
 .header__right img{
 	height: auto;
 	padding: 0 1px;
