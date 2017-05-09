@@ -1044,6 +1044,7 @@ body > section.apps2{
 
 .contacto{
 	margin-top: 7em;
+	padding-bottom: 2em;
 }
 
 .contacto p{
@@ -2361,6 +2362,10 @@ td.event.important {
 		width: 600px;
 	}
 
+	.tienda__title{
+		margin-top: 3em;
+	}
+
 	.formulario {
     	background-color: #ffffff;
 	    padding: 2em 0px;
@@ -2370,6 +2375,11 @@ td.event.important {
  	.contacto .nombre__seccion__movil{
     	margin-bottom: 6em;
     }
+
+    .formulario form button {
+    	margin-top: 1em;
+	    margin-left: 35%;
+	}
 
 	/*Promociones*/
 

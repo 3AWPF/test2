@@ -5,15 +5,15 @@
 		[
 			[
 				"margin",
-				"margin-top"
-			],
-			[
-				"font",
-				"font-weight"
+				"margin-left"
 			],
 			[
 				"pad",
 				"padding"
+			],
+			[
+				"font",
+				"font-family"
 			],
 			[
 				"back",
@@ -136,28 +136,20 @@
 	"buffers":
 	[
 		{
-			"file": "css/style.css",
+			"file": "novedades.html",
 			"settings":
 			{
-				"buffer_size": 50765,
+				"buffer_size": 31715,
 				"encoding": "UTF-8",
 				"line_ending": "Windows"
 			}
 		},
 		{
-			"file": "contacto.html",
+			"file": "promociones.html",
 			"settings":
 			{
-				"buffer_size": 12755,
+				"buffer_size": 48514,
 				"encoding": "UTF-8",
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"contents": "<div class=\"formulario\">\n\t\t\t\t\t\t<form action=\"#\">\n\t\t\t\t\t\t\t<input type=\"text\" placeholder=\"Nombre\">\n\t\t\t\t\t\t\t<input type=\"email\" placeholder=\"Email\">\n\t\t\t\t\t\t\t<input type=\"text\" placeholder=\"Teléfono\">\n\t\t\t\t\t\t\t<select>\n\t\t\t\t\t        \t<option value=\"volvo\">Estado</option>\n\t\t\t\t\t\t\t\t<option value=\"saab\">Saab</option>\n\t\t\t\t\t\t\t\t<option value=\"mercedes\">Mercedes</option>\n\t\t\t\t\t\t\t\t<option value=\"audi\">Audi</option>\n\t\t\t\t\t\t\t</select>\n\t\t\t\t\t\t\t<textarea name=\"mensaje\" id=\"\" cols=\"30\" rows=\"5\" placeholder=\"Mensaje\"></textarea>\n\t\t\t\t\t\t\t<button>ENVIAR</button>\n\t\t\t\t\t\t</form>\n\t\t\t\t\t</div>",
-			"settings":
-			{
-				"buffer_size": 564,
 				"line_ending": "Windows"
 			}
 		}
@@ -223,14 +215,14 @@
 	},
 	"expanded_folders":
 	[
-		"/E/Dropbox/MIS DESARROLLOS/Forum",
-		"/E/Dropbox/MIS DESARROLLOS/Forum/css"
+		"/E/Dropbox/MIS DESARROLLOS/Forum"
 	],
 	"file_history":
 	[
-		"/E/Dropbox/MIS DESARROLLOS/Forum/index.html",
+		"/E/desarrollo/forum__cuernavaca/promociones.html",
+		"/E/desarrollo/forum__cuernavaca/novedades.html",
 		"/E/Dropbox/MIS DESARROLLOS/Forum/css/style.css",
-		"/E/Dropbox/MIS DESARROLLOS/Forum/nosotros.html",
+		"/E/Dropbox/MIS DESARROLLOS/Forum/index.html",
 		"/E/desarrollo/theme-fundacion/parts/aliados-carrusel.php",
 		"/E/Dropbox/MIS DESARROLLOS/Forum/css/slick-theme.css",
 		"/E/desarrollo/theme-fundacion/js/funciones.js",
@@ -354,8 +346,7 @@
 		"/C/Users/pcGrande/Desktop/HTML para banners nuevos/12350 24 de mayo.html",
 		"/C/Users/pcGrande/Desktop/HTML para banners nuevos/ultimo1290.html",
 		"/C/Users/pcGrande/Desktop/HTML para banners nuevos/12180 24 de mayo.html",
-		"/C/Users/pcGrande/Desktop/HTML para banners nuevos/12120 24 de mayo.html",
-		"/C/Users/pcGrande/Desktop/HTML para banners nuevos/6120 24 de mayo.html"
+		"/C/Users/pcGrande/Desktop/HTML para banners nuevos/12120 24 de mayo.html"
 	],
 	"find":
 	{
@@ -377,9 +368,6 @@
 		"case_sensitive": false,
 		"find_history":
 		[
-			"1000px",
-			"formulario",
-			"1000px",
 			"1",
 			"-",
 			"60vh",
@@ -437,24 +425,24 @@
 	"groups":
 	[
 		{
-			"selected": 0,
+			"selected": 1,
 			"sheets":
 			[
 				{
 					"buffer": 0,
-					"file": "css/style.css",
+					"file": "novedades.html",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 50765,
+						"buffer_size": 31715,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								44799,
-								44799
+								25509,
+								25509
 							]
 						],
 						"settings":
@@ -466,244 +454,8 @@
 								{
 									"1":
 									[
-										44818,
-										44819
-									]
-								},
-								"icon":
-								{
-									"1":
-									[
-										"Packages/BracketHighlighter/icons/curly_bracket.png",
-										"brackethighlighter.default"
-									]
-								},
-								"open":
-								{
-									"1":
-									[
-										44793,
-										44794
-									]
-								},
-								"unmatched":
-								{
-								}
-							},
-							"bracket_highlighter.regions":
-							[
-								"bh_tag",
-								"bh_tag_center",
-								"bh_tag_open",
-								"bh_tag_close",
-								"bh_tag_content",
-								"bh_single_quote",
-								"bh_single_quote_center",
-								"bh_single_quote_open",
-								"bh_single_quote_close",
-								"bh_single_quote_content",
-								"bh_angle",
-								"bh_angle_center",
-								"bh_angle_open",
-								"bh_angle_close",
-								"bh_angle_content",
-								"bh_curly",
-								"bh_curly_center",
-								"bh_curly_open",
-								"bh_curly_close",
-								"bh_curly_content",
-								"bh_round",
-								"bh_round_center",
-								"bh_round_open",
-								"bh_round_close",
-								"bh_round_content",
-								"bh_default",
-								"bh_default_center",
-								"bh_default_open",
-								"bh_default_close",
-								"bh_default_content",
-								"bh_square",
-								"bh_square_center",
-								"bh_square_open",
-								"bh_square_close",
-								"bh_square_content",
-								"bh_double_quote",
-								"bh_double_quote_center",
-								"bh_double_quote_open",
-								"bh_double_quote_close",
-								"bh_double_quote_content",
-								"bh_regex",
-								"bh_regex_center",
-								"bh_regex_open",
-								"bh_regex_close",
-								"bh_regex_content",
-								"bh_unmatched",
-								"bh_unmatched_center",
-								"bh_unmatched_open",
-								"bh_unmatched_close",
-								"bh_unmatched_content",
-								"bh_c_define",
-								"bh_c_define_center",
-								"bh_c_define_open",
-								"bh_c_define_close",
-								"bh_c_define_content"
-							],
-							"color_scheme": "Packages/User/Color Highlighter/themes/Boxy Ocean.tmTheme",
-							"syntax": "Packages/CSS/CSS.sublime-syntax",
-							"translate_tabs_to_spaces": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 60422.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 0,
-					"type": "text"
-				},
-				{
-					"buffer": 1,
-					"file": "contacto.html",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 12755,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								6829,
-								6815
-							]
-						],
-						"settings":
-						{
-							"bracket_highlighter.busy": false,
-							"bracket_highlighter.locations":
-							{
-								"close":
-								{
-									"1":
-									[
-										6829,
-										6830
-									]
-								},
-								"icon":
-								{
-									"1":
-									[
-										"Packages/BracketHighlighter/icons/double_quote.png",
-										"brackethighlighter.default"
-									]
-								},
-								"open":
-								{
-									"1":
-									[
-										6814,
-										6815
-									]
-								},
-								"unmatched":
-								{
-								}
-							},
-							"bracket_highlighter.regions":
-							[
-								"bh_tag",
-								"bh_tag_center",
-								"bh_tag_open",
-								"bh_tag_close",
-								"bh_tag_content",
-								"bh_single_quote",
-								"bh_single_quote_center",
-								"bh_single_quote_open",
-								"bh_single_quote_close",
-								"bh_single_quote_content",
-								"bh_angle",
-								"bh_angle_center",
-								"bh_angle_open",
-								"bh_angle_close",
-								"bh_angle_content",
-								"bh_curly",
-								"bh_curly_center",
-								"bh_curly_open",
-								"bh_curly_close",
-								"bh_curly_content",
-								"bh_round",
-								"bh_round_center",
-								"bh_round_open",
-								"bh_round_close",
-								"bh_round_content",
-								"bh_default",
-								"bh_default_center",
-								"bh_default_open",
-								"bh_default_close",
-								"bh_default_content",
-								"bh_square",
-								"bh_square_center",
-								"bh_square_open",
-								"bh_square_close",
-								"bh_square_content",
-								"bh_double_quote",
-								"bh_double_quote_center",
-								"bh_double_quote_open",
-								"bh_double_quote_close",
-								"bh_double_quote_content",
-								"bh_regex",
-								"bh_regex_center",
-								"bh_regex_open",
-								"bh_regex_close",
-								"bh_regex_content",
-								"bh_unmatched",
-								"bh_unmatched_center",
-								"bh_unmatched_open",
-								"bh_unmatched_close",
-								"bh_unmatched_content",
-								"bh_c_define",
-								"bh_c_define_center",
-								"bh_c_define_open",
-								"bh_c_define_close",
-								"bh_c_define_content"
-							],
-							"syntax": "Packages/HTML/HTML.sublime-syntax",
-							"translate_tabs_to_spaces": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 3577.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 1,
-					"type": "text"
-				},
-				{
-					"buffer": 2,
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 564,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								564,
-								0
-							]
-						],
-						"settings":
-						{
-							"bracket_highlighter.busy": false,
-							"bracket_highlighter.locations":
-							{
-								"close":
-								{
-									"1":
-									[
-										560,
-										563
+										25505,
+										25508
 									]
 								},
 								"icon":
@@ -718,8 +470,8 @@
 								{
 									"1":
 									[
-										1,
-										4
+										24106,
+										24109
 									]
 								},
 								"unmatched":
@@ -728,26 +480,6 @@
 							},
 							"bracket_highlighter.regions":
 							[
-								"bh_tag",
-								"bh_tag_center",
-								"bh_tag_open",
-								"bh_tag_close",
-								"bh_tag_content",
-								"bh_single_quote",
-								"bh_single_quote_center",
-								"bh_single_quote_open",
-								"bh_single_quote_close",
-								"bh_single_quote_content",
-								"bh_angle",
-								"bh_angle_center",
-								"bh_angle_open",
-								"bh_angle_close",
-								"bh_angle_content",
-								"bh_curly",
-								"bh_curly_center",
-								"bh_curly_open",
-								"bh_curly_close",
-								"bh_curly_content",
 								"bh_round",
 								"bh_round_center",
 								"bh_round_open",
@@ -758,41 +490,165 @@
 								"bh_default_open",
 								"bh_default_close",
 								"bh_default_content",
-								"bh_square",
-								"bh_square_center",
-								"bh_square_open",
-								"bh_square_close",
-								"bh_square_content",
 								"bh_double_quote",
 								"bh_double_quote_center",
 								"bh_double_quote_open",
 								"bh_double_quote_close",
 								"bh_double_quote_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content",
 								"bh_regex",
 								"bh_regex_center",
 								"bh_regex_open",
 								"bh_regex_close",
 								"bh_regex_content",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content",
 								"bh_unmatched",
 								"bh_unmatched_center",
 								"bh_unmatched_open",
 								"bh_unmatched_close",
 								"bh_unmatched_content",
-								"bh_c_define",
-								"bh_c_define_center",
-								"bh_c_define_open",
-								"bh_c_define_close",
-								"bh_c_define_content"
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content"
 							],
-							"default_dir": "E:\\Dropbox\\MIS DESARROLLOS\\Forum",
+							"color_scheme": "Packages/User/Color Highlighter/themes/Boxy Ocean.tmTheme",
 							"syntax": "Packages/HTML/HTML.sublime-syntax",
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 0.0,
+						"translation.y": 3404.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 2,
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "promociones.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 48514,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								32129,
+								32129
+							]
+						],
+						"settings":
+						{
+							"bracket_highlighter.busy": false,
+							"bracket_highlighter.locations":
+							{
+								"close":
+								{
+								},
+								"icon":
+								{
+								},
+								"open":
+								{
+								},
+								"unmatched":
+								{
+								}
+							},
+							"bracket_highlighter.regions":
+							[
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content"
+							],
+							"color_scheme": "Packages/User/Color Highlighter/themes/Boxy Ocean.tmTheme",
+							"syntax": "Packages/HTML/HTML.sublime-syntax",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 4404.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
 					"type": "text"
 				}
 			]
@@ -874,7 +730,7 @@
 	"show_minimap": true,
 	"show_open_files": false,
 	"show_tabs": true,
-	"side_bar_visible": false,
+	"side_bar_visible": true,
 	"side_bar_width": 270.0,
 	"status_bar_visible": true,
 	"template_settings":
