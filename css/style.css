@@ -192,11 +192,11 @@ nav ul li:last-child img{
 }
 
 .middle__right{
-	border:3px solid #053361;
+	border:0px solid #053361;
 	margin-left: 1px;
 	margin-top: 1px;
-	overflow:hidden;
 	height: 195px;
+	min-height: 196px;
 }
 
 .news{
@@ -268,7 +268,6 @@ nav ul li:last-child img{
 body > section.apps2{
 	background-image: url('../img/appsback.jpg');
 }
-
 
 .appsn img{
 	width: 100px;
@@ -1754,7 +1753,7 @@ td.event.important {
 	}
 
 	.middle__right {
-	    border: 3px solid #053361;
+	    border: 0px solid #053361;
 	    margin-left: 1px;
 	    margin-top: 0px;
 	}
@@ -1803,8 +1802,8 @@ td.event.important {
 		height: auto;
 	}
 
-	.header__left img {
-    	width: 105%;
+	.header__left {
+    	background-size: 38%,60%,120.7%;
 	}
 
 	body > section.apps2 {
@@ -1826,11 +1825,17 @@ td.event.important {
 	    width: 100px;
 	}
 
-
 }
 
-
 @media screen and (max-width:1000px) {
+
+	.header__left{
+		background: url('../img/header__left__3.png') no-repeat,
+	 				url('../img/header__left__1.jpg') no-repeat;
+	    background-size:60%,132%;
+	    background-position:50% 4git0%,top;
+	    height: 600px; 
+	}	
 
 	.menu__principal2 {
 	    background-image: url();
@@ -2661,6 +2666,12 @@ td.event.important {
 
 @media screen and (max-width:480px) {
 
+	.header__left {
+    	background-size: 60%,167%;
+	    background-position: 50% 40%,top;
+	    height: 400px;
+	}
+
 	.promociones__detalle .compartir__nuevo {
     	margin-right: 0em;
 	}
@@ -3284,6 +3295,12 @@ td.event.important {
 
 @media screen and (max-width:380px) {
 	
+	.header__left {
+    	background-size: 60%,167%;
+	    background-position: 50% 40%,top;
+	    height: 380px;
+	}
+
 	.logo img{
 		height: 55px;
 		width: 107%;
