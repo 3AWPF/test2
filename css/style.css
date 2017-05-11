@@ -1075,7 +1075,7 @@ body > section.apps2{
 	margin-bottom: 1.5em;
 }
 
-.formulario form input{
+.formulario form input, .formulario form select{
 	border: 2px solid #959595;
 	float: left;
 	font-size: 0.7em;
@@ -1083,6 +1083,12 @@ body > section.apps2{
 	margin-bottom: 3em;
 	padding: 1em 1em;
 	width: 46%;
+}
+
+.formulario form select{
+	color:#333;
+	font-size: 0.7em;
+	 font-family: 'Helvetica';
 }
 
 .formulario form input:nth-child(3){
