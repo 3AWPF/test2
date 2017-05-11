@@ -80,7 +80,8 @@
 .slick-prev
 {
     left: 2px;
-    z-index: 5;
+    z-index: 2;
+    
 }
 [dir='rtl'] .slick-prev
 {
@@ -215,3 +216,13 @@
     opacity: .75;
     color: black;
 }
+
+
+.slick-slider {
+   
+   -webkit-user-select: none;
+   -moz-user-select: none;
+   -ms-user-select: none;
+   user-select: none;
+   
+}  
