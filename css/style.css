@@ -47,7 +47,7 @@ select {
     height: 480px; 
 }
 
-.header__left a{
+.header__left a, .header__right a{
 	height: 100%;
 	left: 0;
 	position: absolute;
